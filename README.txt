@@ -4,6 +4,8 @@ These solver clients require sign ups and tokens to use:
 1. Fixstar 
 2. D-Wave
 
+*Gurobi requires an application to be downloaded to your local machine.
+
 Py libraries required for D-wave:
 1. dwave-system
 2. minorminer
