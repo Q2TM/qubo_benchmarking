@@ -4,6 +4,7 @@ import os
 import networkx as nx
 
 from itertools import permutations
+from qiskit.result import QuasiDistribution
 from qiskit_optimization import QuadraticProgram
 from dotenv import load_dotenv
 
@@ -303,3 +304,25 @@ def make_tsp_qp(weights: np.ndarray) -> QuadraticProgram:
             linear={f'x_{i}_{p}': 1 for i in range(size)}, sense='==', rhs=1)
 
     return qp
+
+def bitfield(n, L):
+    result = np.binary_repr(n, L)
+    return [int(digit) for digit in result]  # [2:] to chop off the "0b" part
+
+def sample_most_likely(state_vector):
+    """Compute the most likely binary string from state vector.
+    Args:
+        state_vector: State vector or quasi-distribution.
+
+    Returns:
+        Binary string as an array of ints.
+    """
+    if isinstance(state_vector, QuasiDistribution):
+        values = list(state_vector.values())
+    else:
+        values = state_vector
+    n = int(np.log2(len(values)))
+    k = np.argmax(np.abs(values))
+    x = bitfield(k, n)
+    x.reverse()
+    return np.asarray(x)
