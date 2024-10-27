@@ -28,3 +28,26 @@ Note: We are assigning 4 facilities on 4 locations, in total there will be
 
 I found that any Annealing solvers : Qiskit (Local Simulation), Fixstars (Cloud GPU),
 D-Wave (QPU) cannot solve this problem at 4 facilities with big numbers.
+
+## Complexity
+
+Where $N$ = Number of Facilities = Number of Locations
+
+- Variables = $N^2$ = $\mathrm{O}(N^2)$
+- Objective Terms = $\frac{N^4 - 2N^3 + n^2}{2}$ = $\mathrm{O}(N^4)$
+- Constraints = $2N$ = $\mathrm{O}(N)$
+
+## Update 16 Oct 2024
+
+The problem likely occured by small penalty weight (λ), this can be modified by `c *= weight` when finalizing constraints
+
+The effects on `weight`
+
+Note: Gurobi is used as control for best solution
+
+|                                                                             | Fixstars            | DWave               |
+| --------------------------------------------------------------------------- | ------------------- | ------------------- |
+| Too small (Or default = 1)                                                  | Result not feasible | Result not feasible |
+| Little too small <td colspan="2">Either will give not optimal solution</td> |
+| Good Value                                                                  | Best Solution       | Best Solution       |
+| Too large                                                                   | Best Solution       | Not best Solution   |
