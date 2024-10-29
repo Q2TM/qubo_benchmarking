@@ -5,3 +5,12 @@ The TSP on the nodes of a graph asks for the shortest Hamiltonian cycle that can
 
 
 https://qiskit-community.github.io/qiskit-optimization/tutorials/06_examples_max_cut_and_tsp.html
+
+
+
+TSP benchmarking\
+4 cities: 
+- fixstar: 0.968 s
+- gurobi
+- d-wave: 0.21326 s
+- qiskit:
