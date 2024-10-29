@@ -2,10 +2,14 @@ import matplotlib.pyplot as plt
 import numpy as np
 import os
 import networkx as nx
+import numpy as np
 
+from amplify import VariableGenerator, ConstraintList, one_hot, Poly
+from typing import Literal, List
 from itertools import permutations
 from qiskit.result import QuasiDistribution
 from qiskit_optimization import QuadraticProgram
+from qiskit_optimization.converters import QuadraticProgramToQubo
 from dotenv import load_dotenv
 
 
@@ -14,7 +18,172 @@ load_dotenv()
 QISKIT_TOKEN = os.getenv("QISKIT_TOKEN")
 
 
-def randomize_cities(num_nodes: int) -> np.ndarray:
+
+class TSP:
+    """
+    traveling salesman problem (TSP) class
+    """
+    def __init__(self, num_cities: int = 4, initial_plot: bool = False):
+        self.__solver = "qiskit"
+        self.n = num_cities
+        self.distance_matrix = randomize_cities(num_cities, plot=initial_plot)
+        
+    def qubo(self, penalty: int = 10, format: Literal['amplify', 'ising'] = "ising"):
+        if format == 'amplify':
+            self.__solver = "amplify"
+            return create_tsp_qp_model(self.distance_matrix, weight=penalty)
+        else:
+             # converts the QUBO to an Ising Hamiltonian
+             # making quadratic program from TSP weights
+            self.__solver = "qiskit"
+            qp = make_tsp_qp(self.distance_matrix)
+            qp2qubo = QuadraticProgramToQubo(penalty=penalty)
+            qubo = qp2qubo.convert(qp)
+            qubitOp, offset = qubo.to_ising()
+            return {"model": qubitOp, "offset":  offset}
+        
+    def interpret(self, result, solver: Literal['qiskit', 'amplify'] = None) -> np.ndarray:
+        if solver:
+            assert solver in ['qiskit', 'amplify'], f"Invalid solver, {solver} not in ['qiskit', 'amplify']"
+            self.__solver = solver
+        
+        if self.__solver == "qiskit":
+            return reorder(result, self.n)
+        else:
+            return reorder(list(result.best.values.values()), self.n)
+        
+    def brute_force(self)-> tuple:
+        """
+        Brute force solution for the Traveling Salesman Problem (TSP).
+
+        This function evaluates all possible routes between cities and selects the one 
+        with the shortest total distance using a brute force method. The brute force method
+        checks every possible permutation of city visits.
+
+        Parameters
+        ----------
+        weights : np.ndarray
+            A 2D matrix where `weights[i, j]` represents the distance between city `i` 
+            and city `j`. The matrix should have shape `(n, n)`.
+
+        Returns
+        -------
+        min_path : tuple
+            The path (as a tuple of city indices) that results in the shortest tour.
+        min_cost : float
+            The total distance of the optimal tour.
+
+        Examples
+        --------
+        >>> weights = np.array([[0, 10, 15, 20],
+        ...                     [10, 0, 35, 25],
+        ...                     [15, 35, 0, 30],
+        ...                     [20, 25, 30, 0]])
+        >>> min_path, min_cost = brute_force_tsp(weights)
+        >>> print(min_path, min_cost)
+        (0, 1, 3, 2) 80
+
+        Notes
+        -----
+        This method may be computationally expensive for large numbers of cities 
+        due to the factorial growth of possible routes.
+        """
+
+        size = self.distance_matrix.shape[0]
+
+        min_cost = np.inf
+        min_path = None
+
+        for path in permutations(range(size)):
+            cost = 0
+            for i in range(size):
+                cost += self.distance_matrix[path[i], path[(i+1) % size]]
+
+            if cost < min_cost:
+                min_cost = cost
+                min_path = path
+
+        return min_path, min_cost   
+    
+    
+    def draw_cities(self) -> None:
+        """
+        Draw the graph representing the TSP problem.
+
+        This function creates a graph where the nodes represent cities and the edges 
+        represent the pairwise distances between them. The graph is visualized using 
+        the `networkx` library, with the distances shown on the edges.
+
+        Returns
+        -------
+        None
+            This function doesn't return anything. It directly visualizes the graph.
+
+        Examples
+        --------
+        >>> tsp = TSP(4)
+        >>> tsp.draw_cities()
+        """
+        n = self.distance_matrix.shape[0]
+
+        G = nx.Graph()
+        G.add_nodes_from(np.arange(n))
+        colors = ['r' for node in G.nodes()]
+        pos = nx.spring_layout(G)
+
+        for i in range(n):
+            for j in range(i):
+                G.add_edge(i, j, weight=self.distance_matrix[i, j])
+
+        default_axes = plt.axes(frameon=True)
+        nx.draw_networkx(G, node_color=colors, node_size=600,
+                        alpha=0.8, ax=default_axes, pos=pos)
+        edge_labels = nx.get_edge_attributes(G, "weight")
+        nx.draw_networkx_edge_labels(G, pos=pos, edge_labels=edge_labels)
+   
+    def draw_tour(self, path: list) -> None:
+        """
+        Draw the optimal tour for the TSP problem.
+
+        This function visualizes the optimal tour using the `networkx` library. The tour 
+        is shown as a directed graph, where each edge corresponds to a leg of the tour.
+
+        Parameters
+        ----------
+        path : list
+            A list of city indices representing the optimal tour (i.e., the sequence in 
+            which the cities are visited).
+
+        Returns
+        -------
+        None
+            This function doesn't return anything. It directly visualizes the tour.
+
+        Examples
+        --------
+        >>> tsp = TSP(4)
+        >>> path = [0, 1, 3, 2]
+        >>> tps.draw_tour(path)
+        """
+        
+        G = nx.DiGraph()
+        G.add_nodes_from(np.arange(self.distance_matrix.shape[0]))
+        pos = nx.spring_layout(G)
+        colors = ['r' for node in G.nodes()]
+        n = len(path)
+        for i in range(n):
+            j = (i + 1) % n
+            G.add_edge(path[i], path[j], weight=self.distance_matrix[path[i], path[j]])
+        default_axes = plt.axes(frameon=True)
+        nx.draw_networkx(
+            G, node_color=colors, edge_color="b", node_size=600, alpha=0.8, ax=default_axes, pos=pos
+        )
+        edge_labels = nx.get_edge_attributes(G, "weight")
+        nx.draw_networkx_edge_labels(
+            G, pos, font_color="b", edge_labels=edge_labels)
+
+ 
+def randomize_cities(num_nodes: int, plot: bool=True) -> np.ndarray:
     """
     Randomize the cities and return the pairwise distance matrix.
 
@@ -26,6 +195,8 @@ def randomize_cities(num_nodes: int) -> np.ndarray:
     ----------
     num_nodes : int
         The number of cities to randomize and include in the problem.
+    plot : bool
+        A flag to indicate whether to plot the cities on a 2D plane. The default is `True`.
 
     Returns
     -------
@@ -46,16 +217,16 @@ def randomize_cities(num_nodes: int) -> np.ndarray:
     """
 
     positions = np.random.rand(num_nodes, 2)
+    if plot:
+        fig, ax = plt.subplots()
+        ax.scatter(positions[:, 0], positions[:, 1], color='blue')
 
-    fig, ax = plt.subplots()
-    ax.scatter(positions[:, 0], positions[:, 1], color='blue')
+        for i, (x, y) in enumerate(positions):
+            ax.text(x, y, f'N{i}', fontsize=12, ha='right')
 
-    for i, (x, y) in enumerate(positions):
-        ax.text(x, y, f'N{i}', fontsize=12, ha='right')
-
-    plt.title("Randomized cities")
-    plt.grid(True)
-    plt.show()
+        plt.title("Randomized cities")
+        plt.grid(True)
+        plt.show()
 
     # pairwise distance using Euclidean distance
     dist = np.zeros((num_nodes, num_nodes))
@@ -64,153 +235,6 @@ def randomize_cities(num_nodes: int) -> np.ndarray:
             dist[i, j] = np.linalg.norm(positions[i] - positions[j])
 
     return (dist * 10).astype(int)
-
-
-def brute_force_tsp(weights: np.ndarray) -> tuple:
-    """
-    Brute force solution for the Traveling Salesman Problem (TSP).
-
-    This function evaluates all possible routes between cities and selects the one 
-    with the shortest total distance using a brute force method. The brute force method
-    checks every possible permutation of city visits.
-
-    Parameters
-    ----------
-    weights : np.ndarray
-        A 2D matrix where `weights[i, j]` represents the distance between city `i` 
-        and city `j`. The matrix should have shape `(n, n)`.
-
-    Returns
-    -------
-    min_path : tuple
-        The path (as a tuple of city indices) that results in the shortest tour.
-    min_cost : float
-        The total distance of the optimal tour.
-
-    Examples
-    --------
-    >>> weights = np.array([[0, 10, 15, 20],
-    ...                     [10, 0, 35, 25],
-    ...                     [15, 35, 0, 30],
-    ...                     [20, 25, 30, 0]])
-    >>> min_path, min_cost = brute_force_tsp(weights)
-    >>> print(min_path, min_cost)
-    (0, 1, 3, 2) 80
-
-    Notes
-    -----
-    This method may be computationally expensive for large numbers of cities 
-    due to the factorial growth of possible routes.
-    """
-
-    size = weights.shape[0]
-
-    min_cost = np.inf
-    min_path = None
-
-    for path in permutations(range(size)):
-        cost = 0
-        for i in range(size):
-            cost += weights[path[i], path[(i+1) % size]]
-
-        if cost < min_cost:
-            min_cost = cost
-            min_path = path
-
-    return min_path, min_cost
-
-
-def draw_graph(weights: np.ndarray) -> None:
-    """
-    Draw the graph representing the TSP problem.
-
-    This function creates a graph where the nodes represent cities and the edges 
-    represent the pairwise distances between them. The graph is visualized using 
-    the `networkx` library, with the distances shown on the edges.
-
-    Parameters
-    ----------
-    weights : np.ndarray
-        A 2D matrix where `weights[i, j]` represents the distance between city `i` 
-        and city `j`. The matrix should have shape `(n, n)`.
-
-    Returns
-    -------
-    None
-        This function doesn't return anything. It directly visualizes the graph.
-
-    Examples
-    --------
-    >>> weights = np.array([[0, 10, 15, 20],
-    ...                     [10, 0, 35, 25],
-    ...                     [15, 35, 0, 30],
-    ...                     [20, 25, 30, 0]])
-    >>> draw_graph(weights)
-    """
-    n = weights.shape[0]
-
-    G = nx.Graph()
-    G.add_nodes_from(np.arange(n))
-    colors = ['r' for node in G.nodes()]
-    pos = nx.spring_layout(G)
-
-    for i in range(n):
-        for j in range(i):
-            G.add_edge(i, j, weight=weights[i, j])
-
-    default_axes = plt.axes(frameon=True)
-    nx.draw_networkx(G, node_color=colors, node_size=600,
-                     alpha=0.8, ax=default_axes, pos=pos)
-    edge_labels = nx.get_edge_attributes(G, "weight")
-    nx.draw_networkx_edge_labels(G, pos=pos, edge_labels=edge_labels)
-
-
-def draw_tour(weights: np.ndarray, path: list) -> None:
-    """
-    Draw the optimal tour for the TSP problem.
-
-    This function visualizes the optimal tour using the `networkx` library. The tour 
-    is shown as a directed graph, where each edge corresponds to a leg of the tour.
-
-    Parameters
-    ----------
-    weights : np.ndarray
-        A 2D matrix where `weights[i, j]` represents the distance between city `i` 
-        and city `j`. The matrix should have shape `(n, n)`.
-    path : list
-        A list of city indices representing the optimal tour (i.e., the sequence in 
-        which the cities are visited).
-
-    Returns
-    -------
-    None
-        This function doesn't return anything. It directly visualizes the tour.
-
-    Examples
-    --------
-    >>> weights = np.array([[0, 10, 15, 20],
-    ...                     [10, 0, 35, 25],
-    ...                     [15, 35, 0, 30],
-    ...                     [20, 25, 30, 0]])
-    >>> path = [0, 1, 3, 2]
-    >>> draw_tour(weights, path)
-    """
-    
-    G = nx.DiGraph()
-    G.add_nodes_from(np.arange(weights.shape[0]))
-    pos = nx.spring_layout(G)
-    colors = ['r' for node in G.nodes()]
-    n = len(path)
-    for i in range(n):
-        j = (i + 1) % n
-        G.add_edge(path[i], path[j], weight=weights[path[i], path[j]])
-    default_axes = plt.axes(frameon=True)
-    nx.draw_networkx(
-        G, node_color=colors, edge_color="b", node_size=600, alpha=0.8, ax=default_axes, pos=pos
-    )
-    edge_labels = nx.get_edge_attributes(G, "weight")
-    nx.draw_networkx_edge_labels(
-        G, pos, font_color="b", edge_labels=edge_labels)
 
 
 def reorder(x: list, size: int):
@@ -326,3 +350,30 @@ def sample_most_likely(state_vector):
     x = bitfield(k, n)
     x.reverse()
     return np.asarray(x)
+
+def create_tsp_qp_model(distance_matrix: np.ndarray, weight=1):
+    size = distance_matrix.shape[0]
+
+    gen = VariableGenerator()
+    # Facility i on Site j
+    q = gen.array(type="Binary", shape=(size, size), name="q")
+
+    obj = Poly()
+
+    for i in range(size):
+        for j in range(size):
+            if i != j:
+                for p in range(size):
+                    obj += q[i, p] * q[j, (p+1) % size] * distance_matrix[i, j]
+              
+    c = ConstraintList()
+
+    for i in range(size):
+        c += one_hot(q[i])
+        c += one_hot(q[:, i].sum())
+
+    c *= weight
+
+    model = obj + c
+
+    return {"model": model, "obj": obj, "c": c, "q": q}
