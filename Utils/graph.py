@@ -80,8 +80,7 @@ def assign_facilities(
     for i in range(size):
         print(f"{location_name[i]} is assigned to {facility_name[assign[i]]}")
         node_labels.append(
-            f"{facility_name[assign[i]]}\nOn {
-                location_name[i]}")
+            f"{facility_name[assign[i]]}\nOn {location_name[i]}")
 
     total_cost = calculate_cost(assign, distance_matrix, interaction_matrix)
 

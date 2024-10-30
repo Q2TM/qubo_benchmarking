@@ -4,6 +4,7 @@ from amplify import DWaveSamplerClient
 from datetime import timedelta
 import os
 from dotenv import load_dotenv
+from pathlib import Path
 
 
 def GetFixstarClient():
@@ -15,9 +16,12 @@ def GetFixstarClient():
     Returns:
         FixstarsClient: Created client
     """
-
+    def load_env():
+        env_path = Path(__file__).resolve().parent / '.env'  # Adjusts to the .env location
+        load_dotenv(dotenv_path=env_path)
+    
     client = FixstarsClient()
-    load_dotenv()
+    load_env()
     FIXSTAR_TOKEN = os.getenv('FIXSTAR_TOKEN')
 
     if FIXSTAR_TOKEN is None:
