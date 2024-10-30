@@ -10,7 +10,7 @@ https://qiskit-community.github.io/qiskit-optimization/tutorials/06_examples_max
 
 TSP benchmarking\
 4 cities: 
-- fixstar: 0.968 s
-- gurobi
-- d-wave: 0.21326 s
+- fixstar: 0:00:00.932049
+- gurobi: 0:00:00.121999
+- d-wave: 0:00:00.190519
 - qiskit:
