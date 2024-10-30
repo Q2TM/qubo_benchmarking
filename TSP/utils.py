@@ -312,8 +312,7 @@ def make_tsp_qp(weights: np.ndarray) -> QuadraticProgram:
         for j in range(size):
             if i != j:
                 for p in range(size):
-                    quadratic_matrix[(f'x_{i}_{p}', f'x_{j}_{
-                                      (p+1) % size}')] = weights[i, j]
+                    quadratic_matrix[(f'x_{i}_{p}', f'x_{j}_{(p+1) % size}')] = weights[i, j]
 
     qp.minimize(quadratic=quadratic_matrix)
 
