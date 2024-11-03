@@ -14,3 +14,9 @@ TSP benchmarking\
 - gurobi: 0:00:00.121999
 - d-wave: 0:00:00.190519
 - qiskit:
+
+5 cities:
+- fixstar: 0:00:00.929671
+- gurobi: 0:00:00.021999
+- d-wave: 0:00:00.221244
+- qiskit:
