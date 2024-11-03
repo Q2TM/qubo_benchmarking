@@ -34,7 +34,7 @@ D-Wave (QPU) cannot solve this problem at 4 facilities with big numbers.
 Where $N$ = Number of Facilities = Number of Locations
 
 - Variables = $N^2$ = $\mathrm{O}(N^2)$
-- Objective Terms = $\frac{N^4 - 2N^3 + n^2}{2}$ = $\mathrm{O}(N^4)$
+- Objective Terms = $\frac{N^4 - 2N^3 + N^2}{2}$ = $\mathrm{O}(N^4)$
 - Constraints = $2N$ = $\mathrm{O}(N)$
 
 ## Update 16 Oct 2024
@@ -45,9 +45,9 @@ The effects on `weight`
 
 Note: Gurobi is used as control for best solution
 
-|                                                                             | Fixstars            | DWave               |
-| --------------------------------------------------------------------------- | ------------------- | ------------------- |
-| Too small (Or default = 1)                                                  | Result not feasible | Result not feasible |
-| Little too small <td colspan="2">Either will give not optimal solution</td> |
-| Good Value                                                                  | Best Solution       | Best Solution       |
-| Too large                                                                   | Best Solution       | Not best Solution   |
+## Effect of Weight on Result
+
+- Too small: Result not feasible
+- Small: Either or Both will give not optimal solution
+- Good: Best Solution
+- Very large: Best Solution

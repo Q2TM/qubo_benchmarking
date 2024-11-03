@@ -7,6 +7,8 @@ from dotenv import load_dotenv
 from pathlib import Path
 from amplify import solve
 
+fixstars_client = None
+
 
 def GetFixstarClient():
     """Create Fixstars client, make sure FIXSTAR_TOKEN is set in .env file
@@ -17,10 +19,16 @@ def GetFixstarClient():
     Returns:
         FixstarsClient: Created client
     """
+    global fixstars_client
+
     def load_env():
-        env_path = Path(__file__).resolve().parent / '.env'  # Adjusts to the .env location
+        env_path = Path(__file__).resolve().parent / \
+            '.env'  # Adjusts to the .env location
         load_dotenv(dotenv_path=env_path)
-    
+
+    if fixstars_client is not None:
+        return fixstars_client
+
     client = FixstarsClient()
     load_env()
     FIXSTAR_TOKEN = os.getenv('FIXSTAR_TOKEN')
@@ -30,7 +38,12 @@ def GetFixstarClient():
 
     client.token = FIXSTAR_TOKEN
     client.parameters.timeout = 1000
+
+    fixstars_client = client
     return client
+
+
+gurobi_client = None
 
 
 def GetGurobiClient(
@@ -44,11 +57,19 @@ def GetGurobiClient(
     Returns:
         GurobiClient: Created client
     """
+    global gurobi_client
+
+    if gurobi_client is not None:
+        return gurobi_client
 
     client = GurobiClient()
     client.library_path = library_path
     client.parameters.time_limit = timedelta(seconds=100)
+    gurobi_client = client
     return client
+
+
+dwave_client = None
 
 
 def GetDWaveClient(solver="Advantage_system4.1"):
@@ -60,6 +81,10 @@ def GetDWaveClient(solver="Advantage_system4.1"):
     Returns:
         DWaveSamplerClient: Created client
     """
+    global dwave_client
+
+    if dwave_client is not None:
+        return dwave_client
 
     client = DWaveSamplerClient()
     load_dotenv()
@@ -71,7 +96,9 @@ def GetDWaveClient(solver="Advantage_system4.1"):
     client.token = DWAVE_TOKEN
     client.solver = solver
     client.parameters.num_reads = 1000
+    dwave_client = client
     return client
+
 
 def RunSimulation(models):
     clientFS = GetFixstarClient()
@@ -79,19 +106,19 @@ def RunSimulation(models):
     clientDWave = GetDWaveClient()
     for i, tsp in enumerate(models):
         print(f'Run {i+1}')
-        
+
         resultFS = solve(tsp, clientFS)
         print('Fixstars Run')
         print(f'Best score: {resultFS.best.objective}')
         print(f'Best values: {resultFS.best.values}')
         print(f'Execution time: {resultFS.execution_time}')
-        
+
         resultG = solve(tsp, clientG)
         print('Gurobi Run')
         print(f'Best score: {resultG.best.objective}')
         print(f'Best values: {resultG.best.values}')
         print(f'Execution time: {resultG.execution_time}')
-        
+
         resultDWave = solve(tsp, clientDWave)
         print('D-Wave Run')
         print(f'Best score: {resultDWave.best.objective}')
