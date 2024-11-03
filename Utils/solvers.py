@@ -5,6 +5,7 @@ from datetime import timedelta
 import os
 from dotenv import load_dotenv
 from pathlib import Path
+from amplify import solve
 
 
 def GetFixstarClient():
@@ -71,3 +72,28 @@ def GetDWaveClient(solver="Advantage_system4.1"):
     client.solver = solver
     client.parameters.num_reads = 1000
     return client
+
+def RunSimulation(models):
+    clientFS = GetFixstarClient()
+    clientG = GetGurobiClient()
+    clientDWave = GetDWaveClient()
+    for i, tsp in enumerate(models):
+        print(f'Run {i+1}')
+        
+        resultFS = solve(tsp, clientFS)
+        print('Fixstars Run')
+        print(f'Best score: {resultFS.best.objective}')
+        print(f'Best values: {resultFS.best.values}')
+        print(f'Execution time: {resultFS.execution_time}')
+        
+        resultG = solve(tsp, clientG)
+        print('Gurobi Run')
+        print(f'Best score: {resultG.best.objective}')
+        print(f'Best values: {resultG.best.values}')
+        print(f'Execution time: {resultG.execution_time}')
+        
+        resultDWave = solve(tsp, clientDWave)
+        print('D-Wave Run')
+        print(f'Best score: {resultDWave.best.objective}')
+        print(f'Best values: {resultDWave.best.values}')
+        print(f'Execution time: {resultDWave.execution_time}')
