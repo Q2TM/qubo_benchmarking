@@ -10,7 +10,7 @@ from amplify import solve
 fixstars_client = None
 
 
-def GetFixstarClient():
+def GetFixstarClient(timeout=1000):
     """Create Fixstars client, make sure FIXSTAR_TOKEN is set in .env file
 
     Raises:
@@ -37,7 +37,7 @@ def GetFixstarClient():
         raise Exception("Please set FIXSTAR_TOKEN in .env file")
 
     client.token = FIXSTAR_TOKEN
-    client.parameters.timeout = 1000
+    client.parameters.timeout = timeout
 
     fixstars_client = client
     return client
@@ -47,7 +47,8 @@ gurobi_client = None
 
 
 def GetGurobiClient(
-        library_path="/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib"
+        library_path="/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib",
+        timeout_sec=100
 ):
     """Create Gurobi Client, Gurobi must be installed with usable license file
 
@@ -64,7 +65,7 @@ def GetGurobiClient(
 
     client = GurobiClient()
     client.library_path = library_path
-    client.parameters.time_limit = timedelta(seconds=100)
+    client.parameters.time_limit = timedelta(seconds=timeout_sec)
     gurobi_client = client
     return client
 
