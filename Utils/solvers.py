@@ -22,8 +22,8 @@ def GetFixstarClient(timeout=1000):
     global fixstars_client
 
     def load_env():
-        env_path = Path(__file__).resolve().parent / \
-            '.env'  # Adjusts to the .env location
+        # Adjusts to the .env location
+        env_path = Path(__file__).resolve().parent / '.env'
         load_dotenv(dotenv_path=env_path)
 
     if fixstars_client is not None:

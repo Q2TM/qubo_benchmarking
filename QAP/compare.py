@@ -1,9 +1,12 @@
 from dataclasses import dataclass
 from amplify import solve
 from model import create_qap_qp_model
+import numpy as np
+
 import time
 import sys
 import os
+from math import ceil
 
 # Add the project root directory to sys.path
 if True:
@@ -22,11 +25,12 @@ class CompareResult:
     """Result of QAP Run"""
 
     nodes: int
-    max_weight: int
+    max_edge_weight: int
+    avg_edge_weight: float
 
     distance_matrix: list[list[int]]
     interaction_matrix: list[list[int]]
-    weight: int
+    qp_weight: int
 
     time_model_formulation: float
 
@@ -42,15 +46,22 @@ class CompareResult:
 
 def run_compare_solvers(
         nodes: int,
-        max_weight: int
+        max_edge_weight: int
 ):
     create_model_start = time.time()
 
-    distance_matrix = generate_random_symmetric_matrix(nodes, 1, max_weight)
-    interaction_matrix = generate_random_symmetric_matrix(nodes, 1, max_weight)
-    weight = 1_000_000
+    distance_matrix = generate_random_symmetric_matrix(
+        nodes, 1, max_edge_weight)
+    interaction_matrix = generate_random_symmetric_matrix(
+        nodes, 1, max_edge_weight)
 
-    qp_model = create_qap_qp_model(distance_matrix, interaction_matrix, weight)
+    avg_edge_weight = float(
+        (np.average(distance_matrix) + np.average(interaction_matrix)) / 2)
+
+    qp_weight = max(1_000_000, ceil(2 * avg_edge_weight * nodes ** 4))
+
+    qp_model = create_qap_qp_model(
+        distance_matrix, interaction_matrix, qp_weight)
     create_model_end = time.time()
 
     time_model_formulation = create_model_end - create_model_start
@@ -93,10 +104,11 @@ def run_compare_solvers(
 
     return CompareResult(
         nodes=nodes,
-        max_weight=max_weight,
+        max_edge_weight=max_edge_weight,
+        avg_edge_weight=avg_edge_weight,
         distance_matrix=distance_matrix,
         interaction_matrix=interaction_matrix,
-        weight=weight,
+        qp_weight=qp_weight,
         time_model_formulation=time_model_formulation,
         gurobi_objective=gurobi_objective,
         gurobi_execution_time=gurobi_execution_time,

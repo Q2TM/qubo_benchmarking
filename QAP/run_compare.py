@@ -3,8 +3,8 @@ from compare import run_compare_solvers
 from dataclasses import asdict
 from tqdm import tqdm
 
-nodes = [4, 5, 6, 7, 8, 10]
-weights = [9, 99, 999, 9999]
+nodes = [4, 5, 6, 7, 8, 10, 12, 15, 20, 69]
+weights = [9, 99, 99999]
 repeat = 3
 
 result = []
