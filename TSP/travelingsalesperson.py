@@ -9,7 +9,7 @@ from itertools import permutations
 from qiskit_optimization import QuadraticProgram
 from qiskit_optimization.converters import QuadraticProgramToQubo
 
-from utils import benchmark, calculate_time, exit_after
+from utils import calculate_time, exit_after
 
 class TSP:
     """
@@ -19,7 +19,15 @@ class TSP:
         self.__solver = "qiskit"
         self.n = num_cities
         self.distance_matrix = randomize_cities(num_cities, plot=initial_plot)
-        
+    
+    @classmethod
+    def from_distance_matrix(cls, distance_matrix: np.ndarray| list) -> 'TSP':
+        tsp = cls()
+        tsp.distance_matrix = np.array(distance_matrix)
+        tsp.n = tsp.distance_matrix.shape[0]
+        return tsp
+    
+    @calculate_time
     def qubo(self, penalty: int = 10, format: Literal['amplify', 'ising'] = "ising"):
         if format == 'amplify':
             self.__solver = "amplify"
@@ -34,7 +42,6 @@ class TSP:
             qubitOp, offset = qubo.to_ising()
             return {"model": qubitOp, "offset":  offset}
 
-    @benchmark()
     def interpret(self, result, solver: Literal['Qiskit', 'D-Wave', "Fixstar", "Gurobi"] = "Gurobi", verbose = False) -> tuple:
         if solver:
             assert solver in ['Qiskit', 'D-Wave', "Fixstar", "Gurobi"], f"Invalid solver, {solver} not in ['Qiskit', 'D-Wave', 'Fixstar', 'Gurobi']"
@@ -46,7 +53,7 @@ class TSP:
             cost = 0
         else:
             reordered = reorder(list(result.best.values.values()), self.n)
-            dur = result.execution_time
+            dur = result.execution_time.total_seconds()
             cost = result.best.objective
 
         if verbose:
@@ -55,7 +62,6 @@ class TSP:
             print(f"Execution time: {dur}")
         return dur, cost, reordered
 
-    @exit_after(10)
     @calculate_time
     def brute_force(self)-> tuple:
         """

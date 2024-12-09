@@ -1,17 +1,17 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-import csv
 import time
 import pandas as pd
 import numpy as np
-import datetime
+import json
+import random
 import threading
 import sys
 import _thread as thread
 
 from dotenv import load_dotenv
-
+from typing import Literal
 
 load_dotenv()
 
@@ -27,46 +27,12 @@ def get_defaults(fn):
     ))
 
 
-def benchmark(path="benchmark.csv"):
-    # Create the file if it does not exist
-    if not os.path.isfile(path) or os.path.getsize(path) == 0:
-        with open(path, mode='w', newline='') as f:
-            writer = csv.writer(f)
-            # Write header only if the file does not exist or is empty
-            writer.writerow(["number_of_cities",
-                             "solve_cost", "execution_time", "tour", "solver"])
-
-    def decoration(func):
-        def wrapper(*args, **kwargs):
-            # Retrieve the argument names to identify `solver` and other arguments
-            func_args = func.__code__.co_varnames
-
-            solver = kwargs.get("solver")
-            if not solver:
-                try:
-                    solver_index = func_args.index("solver")
-                    if solver_index < len(args):
-                        solver = args[solver_index]
-                    else:
-                        solver = func.__defaults__[solver_index - len(args)]
-                except ValueError:
-                    pass
-
-            dur, cost, reordered = func(*args, **kwargs)
-            # Append the results to the file
-            add_data(len(reordered), cost, dur,
-                     reordered, solver or func.__name__)
-
-        return wrapper
-    return decoration
-
-
 def calculate_time(func):
     def inner1(*args, **kwargs):
 
         # storing time before function execution
         begin = time.time()
-        
+
         val = func(*args, **kwargs)
 
         # storing time after function execution
@@ -76,18 +42,14 @@ def calculate_time(func):
 
     return inner1
 
-def add_data(number_of_cities, solve_cost, execution_time, tour, solver, path="benchmark.csv"):
-    with open(path, mode='a', newline='') as f:
-        writer = csv.writer(f)
-        writer.writerow([number_of_cities, solve_cost, execution_time,
-                        tour, solver])
 
 def quit_function(fn_name):
     # print to stderr, unbuffered in Python 2.
     print('{0} took too long'.format(fn_name), file=sys.stderr)
-    sys.stderr.flush() # Python 3 stderr is likely buffered.
-    thread.interrupt_main() # raises KeyboardInterrupt
-    
+    sys.stderr.flush()  # Python 3 stderr is likely buffered.
+    thread.interrupt_main()  # raises KeyboardInterrupt
+
+
 def exit_after(s):
     '''
     use as decorator to exit process if 
@@ -105,53 +67,93 @@ def exit_after(s):
         return inner
     return outer
 
-def clean_data(data):
-    # Function to convert solve_cost to seconds (float) for both formats
-    def convert_solve_cost(value):
-        if isinstance(value, str):
-            if ":" not in value:
-                sec, mili = value.split(".")
-                hour = int(sec) // 3600
-                sec = int(sec) % 3600
-                minute = sec // 60
-                sec = sec % 60
 
-                return f"{hour:01d}:{minute:02d}:{sec:02d}.{mili[:6].ljust(6, '0')}"
-            else:
-                return value
+def dense_distance_matrix(n, max_distance=100):
+    """Create a dense distance matrix where all nodes are connected."""
+    triangle = np.triu(np.random.randint(
+        1, max_distance, size=(n, n)), 1)  # Upper triangle of the matrix
+    sym = triangle + triangle.T  # Make the matrix symmetric
+    # Set diagonal to zero, as distance to itself is zero
+    np.fill_diagonal(sym, 0)
+    return sym.tolist()
+
+
+def sparse_distance_matrix(n, max_distance=100, min_edges=3):
+    """Create a sparse distance matrix with at least one possible tour."""
+    matrix = np.zeros((n, n))  # Initialize with "inf" (no direct path)
+
+    # Create a minimal spanning tree for connectivity
+    for i in range(1, n):
+        distance = random.randint(1, max_distance)
+        matrix[i-1, i] = distance
+        matrix[i, i-1] = distance
+
+    # Add a few more random edges to ensure a feasible TSP path
+    while np.isinf(matrix).sum() > n * (n - 1) - min_edges:
+        i, j = random.sample(range(n), 2)
+        if np.isinf(matrix[i, j]):
+            distance = random.randint(1, max_distance)
+            matrix[i, j] = distance
+            matrix[j, i] = distance
+
+    np.fill_diagonal(matrix, 0)
+    return matrix
+
+
+def __create_dst_mtx():
+    with open("problems.json", mode="w") as f:
+        problems = {
+            "dense": {
+                "low": {},
+                "high": {}
+            },
+            "sparse": {
+                "low": {},
+                "high": {}
+            }
+        }
+        json.dump(problems, f, indent=2)
+    return problems
+
+
+def get_distance_matrices(nodes: list[int] = [4, 5, 6, 7, 8, 10, 11, 12, 15, 20, 69]):
+    if not os.path.exists("problems.json"):
+        problems = __create_dst_mtx()
+
+    with open("problems.json") as f:
+        if os.stat("problems.json").st_size == 0:
+            problems = __create_dst_mtx()
         else:
-            return value  # Already in seconds as float
+            problems = json.load(f)
 
-    # Function to convert tour into a tuple
-    def convert_tour(value):
-        # If the tour is already a string (tuple representation), evaluate it
-        if isinstance(value, str):
-            try:
-                return tuple(map(int, eval(value)))
-            except:
-                return tuple(map(int, eval(value.replace(" ", ","))))  # If evaluation fails, keep the original
-        elif isinstance(value, np.ndarray):
-            # Convert numpy array to tuple
-            return tuple(value)
-        else:
-            return value  # Already in the correct format
+    dense = problems["dense"]
+    changes = False
+    for i in nodes:
+        if str(i) not in dense["low"]:
+            dense["low"][str(i)] = dense_distance_matrix(i, max_distance=10)
+            changes = True
+        if str(i) not in dense["high"]:
+            dense['high'][str(i)] = dense_distance_matrix(i, max_distance=1000)
+            changes = True
+            
+    if changes:
+        with open("problems.json", mode="w") as f:
+            json.dump(problems, f, indent=2)
 
-    # Apply conversion functions to relevant columns
-    data['execution_time'] = data['execution_time'].apply(convert_solve_cost)
-    data['tour'] = data['tour'].apply(convert_tour)
+    return problems
 
-    return data
 
 if __name__ == "__main__":
-    p = r"benchmark.csv"
-    data = pd.read_csv(p)
-    print(clean_data(data))
-    with open(p, "w") as f:
-        data.to_csv(f, index=False)
+    print(dense_distance_matrix(4))
+    # p = r"benchmark.csv"
+    # data = pd.read_csv(p)
+    # print(clean_data(data))
+    # with open(p, "w") as f:
+    #     data.to_csv(f, index=False)
     # @exit_after(5)
     # def hello():
     #     for i in range(10000000000):
     #         if i % 1000000 == 0:
     #             print(i)
-                
+
     # hello()
