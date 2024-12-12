@@ -1,5 +1,8 @@
 import json
-
+import pandas as pd
+from matplotlib import pyplot as plt
+import numpy as np
+import seaborn as sns
 
 class RunData:
     """
@@ -49,4 +52,50 @@ class RunData:
         with open(self.filename) as f:
             data = json.load(f)
         self.results = data
+        
+    def barplot(self):      
+        # Convert data to a pandas DataFrame
+        if not self.results:
+            self.loaddata()
+            if not self.results:
+                print("No data to plot")
+                return
+
+        df = pd.DataFrame(self.results)
+        # Check for non-null objectives and execution times
+        success_conditions = (
+            (df["gurobi_objective"].notnull()) & (df["gurobi_execution_time"].notnull()),
+            (df["fixstars_objective"].notnull()) & (df["fixstars_execution_time"].notnull()),
+            (df["dwave_objective"].notnull()) & (df["dwave_execution_time"].notnull())
+        )
+
+        # Count successes for each solver by nodes
+        success_counts = {
+            "nodes": df["nodes"].unique(),
+            "gurobi_success": [((df["nodes"] == node) & success_conditions[0]).sum() for node in df["nodes"].unique()],
+            "fixstars_success": [((df["nodes"] == node) & success_conditions[1]).sum() for node in df["nodes"].unique()],
+            "dwave_success": [((df["nodes"] == node) & success_conditions[2]).sum() for node in df["nodes"].unique()],
+        }
+
+        # Convert success_counts to DataFrame for plotting
+        success_df = pd.DataFrame(success_counts)
+
+        # Plotting
+        bar_width = 0.25
+        index = np.arange(len(success_df["nodes"]))
+
+        plt.figure(figsize=(10, 6))
+        plt.bar(index, success_df["gurobi_success"], bar_width, label="Gurobi Success", color="skyblue")
+        plt.bar(index + bar_width, success_df["fixstars_success"], bar_width, label="Fixstars Success", color="salmon")
+        plt.bar(index + 2 * bar_width, success_df["dwave_success"], bar_width, label="D-Wave Success", color="lightgreen")
+
+        # Adding labels and title
+        plt.xlabel("Nodes")
+        plt.ylabel("Number of Successful Runs")
+        plt.title("Count of Successful Runs by Solver and Node Count")
+        plt.xticks(index + bar_width, success_df["nodes"])
+        plt.legend(title="Solver")
+
+        plt.grid(axis='y', linestyle='--', linewidth=0.5)
+        plt.show()
 
