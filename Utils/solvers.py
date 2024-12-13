@@ -47,7 +47,7 @@ gurobi_client = None
 
 
 def GetGurobiClient(
-        library_path="/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib",
+        library_path=r"D:\\My programs\\Gurobi\\win64\\bin\\gurobi110.dll",
         timeout_sec=100
 ):
     """Create Gurobi Client, Gurobi must be installed with usable license file
