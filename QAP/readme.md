@@ -21,33 +21,6 @@ https://www.geeksforgeeks.org/quadratic-assignment-problem-qap/
 1. `problem.ipynb` - @Qwenty228 solving problem with Qiskit
 2. `solvers.ipynb` - @leomotors solving problem with Fixstars, Gurobi and D-Wave
 
-## Problem
+## Details
 
-Note: We are assigning 4 facilities on 4 locations, in total there will be
-16 decision variables.
-
-I found that any Annealing solvers : Qiskit (Local Simulation), Fixstars (Cloud GPU),
-D-Wave (QPU) cannot solve this problem at 4 facilities with big numbers.
-
-## Complexity
-
-Where $N$ = Number of Facilities = Number of Locations
-
-- Variables = $N^2$ = $\mathrm{O}(N^2)$
-- Objective Terms = $\frac{N^4 - 2N^3 + N^2}{2}$ = $\mathrm{O}(N^4)$
-- Constraints = $2N$ = $\mathrm{O}(N)$
-
-## Update 16 Oct 2024
-
-The problem likely occured by small penalty weight (λ), this can be modified by `c *= weight` when finalizing constraints
-
-The effects on `weight`
-
-Note: Gurobi is used as control for best solution
-
-## Effect of Weight on Result
-
-- Too small: Result not feasible
-- Small: Either or Both will give not optimal solution
-- Good: Best Solution
-- Very large: Best Solution
+See `report.pdf`
