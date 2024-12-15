@@ -10,8 +10,9 @@ from amplify import solve
 fixstars_client = None
 
 
-def GetFixstarClient(timeout=1000):
-    """Create Fixstars client, make sure FIXSTAR_TOKEN is set in .env file
+def CreateFixstarsClient(timeout=1000):
+    """
+    Create New Fixstars client, make sure FIXSTAR_TOKEN is set in .env file.
 
     Raises:
         Exception: Throws if FIXSTAR_TOKEN is not defined
@@ -19,15 +20,11 @@ def GetFixstarClient(timeout=1000):
     Returns:
         FixstarsClient: Created client
     """
-    global fixstars_client
 
     def load_env():
         # Adjusts to the .env location
         env_path = Path(__file__).resolve().parent / '.env'
         load_dotenv(dotenv_path=env_path)
-
-    if fixstars_client is not None:
-        return fixstars_client
 
     client = FixstarsClient()
     load_env()
@@ -39,6 +36,27 @@ def GetFixstarClient(timeout=1000):
     client.token = FIXSTAR_TOKEN
     client.parameters.timeout = timeout
 
+    return client
+
+
+def GetFixstarsClient(timeout=1000):
+    """
+    Create Fixstars Client if not exists, make sure FIXSTAR_TOKEN is set in .env file.
+    Parameter will not have effect if client already exists.
+
+    Raises:
+        Exception: Throws if FIXSTAR_TOKEN is not defined
+
+    Returns:
+        FixstarsClient: Fixstars client
+    """
+
+    global fixstars_client
+
+    if fixstars_client is not None:
+        return fixstars_client
+
+    client = CreateFixstarsClient(timeout)
     fixstars_client = client
     return client
 
@@ -46,11 +64,11 @@ def GetFixstarClient(timeout=1000):
 gurobi_client = None
 
 
-def GetGurobiClient(
+def CreateGurobiClient(
         library_path="/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib",
         timeout_sec=100
 ):
-    """Create Gurobi Client, Gurobi must be installed with usable license file
+    """Create New Gurobi Client, Gurobi must be installed with usable license file.
 
     Args:
         library_path (str, optional): Library path for Gurobi. Defaults to "/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib" (Recent MacOS at the time of writing)
@@ -58,23 +76,42 @@ def GetGurobiClient(
     Returns:
         GurobiClient: Created client
     """
+
+    client = GurobiClient()
+    client.library_path = library_path
+    client.parameters.time_limit = timedelta(seconds=timeout_sec)
+    return client
+
+
+def GetGurobiClient(
+        library_path="/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib",
+        timeout_sec=100
+):
+    """
+    Create Gurobi Client if not exists, Gurobi must be installed with usable license file.
+    Parameter will not have effect if client already exists.
+
+    Args:
+        library_path (str, optional): Library path for Gurobi. Defaults to "/Library/gurobi1103/macos_universal2/lib/libgurobi110.dylib" (Recent MacOS at the time of writing)
+
+    Returns:
+        GurobiClient: Created client
+    """
+
     global gurobi_client
 
     if gurobi_client is not None:
         return gurobi_client
 
-    client = GurobiClient()
-    client.library_path = library_path
-    client.parameters.time_limit = timedelta(seconds=timeout_sec)
-    gurobi_client = client
+    client = CreateGurobiClient(library_path, timeout_sec)
     return client
 
 
 dwave_client = None
 
 
-def GetDWaveClient(solver="Advantage_system4.1"):
-    """Create DWave Client, make sure DWAVE_TOKEN is set in .env file
+def CreateDWaveClient(solver="Advantage_system4.1", num_reads=1000):
+    """Create New DWave Client, make sure DWAVE_TOKEN is set in .env file.
 
     Raises:
         Exception: Throws if DWAVE_TOKEN is not defined
@@ -82,10 +119,6 @@ def GetDWaveClient(solver="Advantage_system4.1"):
     Returns:
         DWaveSamplerClient: Created client
     """
-    global dwave_client
-
-    if dwave_client is not None:
-        return dwave_client
 
     client = DWaveSamplerClient()
     load_dotenv()
@@ -96,13 +129,33 @@ def GetDWaveClient(solver="Advantage_system4.1"):
 
     client.token = DWAVE_TOKEN
     client.solver = solver
-    client.parameters.num_reads = 1000
-    dwave_client = client
+    client.parameters.num_reads = num_reads
+    return client
+
+
+def GetDWaveClient(solver="Advantage_system4.1", num_reads=1000):
+    """
+    Create DWave Client if not exists, make sure DWAVE_TOKEN is set in .env file.
+    Parameter will not have effect if client already exists.
+
+    Raises:
+        Exception: Throws if DWAVE_TOKEN is not defined
+
+    Returns:
+        DWaveSamplerClient: Created client
+    """
+
+    global dwave_client
+
+    if dwave_client is not None:
+        return dwave_client
+
+    client = CreateDWaveClient(solver, num_reads)
     return client
 
 
 def RunSimulation(models):
-    clientFS = GetFixstarClient()
+    clientFS = GetFixstarsClient()
     clientG = GetGurobiClient()
     clientDWave = GetDWaveClient()
     for i, tsp in enumerate(models):
