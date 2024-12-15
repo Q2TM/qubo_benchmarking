@@ -18,8 +18,17 @@ https://www.geeksforgeeks.org/quadratic-assignment-problem-qap/
 
 ## Files
 
-1. `problem.ipynb` - @Qwenty228 solving problem with Qiskit
-2. `solvers.ipynb` - @leomotors solving problem with Fixstars, Gurobi and D-Wave
+- `old` - Folder of outdated files
+  - `old/problem.ipynb` - @Qwenty228's attempt to solve problem with Qiskit
+  - `old/solvers.ipynb` - Previous version of current `report.ipynb` written by @leomotors
+- `report.ipynb` and `report.pdf` - @leomotors solving problem with Fixstars, Gurobi and D-Wave
+
+- `benchmark.py` - Script to run benchmark (Result used by `report.ipynb`)
+- `compare.py` - Function for running three solvers and output Dataclasses of Result
+- `graph.py` - Utility functions for graph calculaton
+- `model.py` - Utility functions for model creation
+
+- `result_v3.json` - Latest benchmark result (See `report.pdf`)
 
 ## Details
 
