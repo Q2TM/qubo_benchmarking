@@ -1,0 +1,277 @@
+[33mcommit a4942961ff11505de42e2c609858dcf6c8b786c4[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: YeYe <yeyethepooh97169@gmail.com>
+Date:   Fri Dec 13 17:54:02 2024 +0700
+
+    For 3SAT: Added Testsets Formalized solver and verifier
+
+[33mcommit 8593a3ebeff68eeb26ba8fe1a77e74a905cf5b5c[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Thu Dec 12 17:50:20 2024 +0700
+
+    reformat benchmark
+
+[33mcommit e12e9a76523964aa4cfbd355b2ba3d7a45b807fc[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Mon Dec 9 11:13:01 2024 +0700
+
+    reformat result
+
+[33mcommit b5a39b506ee8ab4e03d0899a226c0ae7e02bf85f[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Mon Nov 11 23:02:56 2024 +0700
+
+    TSP: trying sparse distance matrix
+
+[33mcommit d945fe4b3f9c5209951602661f9c381bc85d0c8d[m
+Author: Nutthapat Pongtanyavichai <contact@leomotors.me>
+Date:   Mon Nov 11 02:40:09 2024 +0700
+
+    QAP: more experiment and plotting part 2
+
+[33mcommit ff9545fe3fa0db01cd2f8216b87886496211c9a6[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Mon Nov 4 12:36:50 2024 +0800
+
+    create optional timeout
+
+[33mcommit addfdd00ceb64bf4d97bb6b17aafded7fd889d7e[m
+Author: YeYe <94092285+YeYethePooh@users.noreply.github.com>
+Date:   Mon Nov 4 12:16:05 2024 +0700
+
+    Added 3SAT_to_QUBO ipynb
+
+[33mcommit c0c9e5018c4e56ac3424652e401cad0b160ab413[m
+Author: Nutthapat Pongtanyavichai <contact@leomotors.me>
+Date:   Mon Nov 4 01:36:10 2024 +0700
+
+    QAP: ploting graph part 1
+
+[33mcommit a0c0df637956a457f3c89460d006f2280a9ee713[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Sun Nov 3 09:49:43 2024 +0700
+
+    benchmark tsp
+
+[33mcommit 44c7dfc6a229b7e669ca938e3e4936a9ecfcff2a[m
+Merge: 86bf781 f2184f3
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Sun Nov 3 09:47:57 2024 +0700
+
+    Merge branch 'main' of https://github.com/xjyribro/qubo_benchmarking
+
+[33mcommit 86bf781fcdc2927b95cd1f211f7ffc56d095a6b9[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Sun Nov 3 09:47:53 2024 +0700
+
+    benchmark TSP
+
+[33mcommit f2184f35fa373b6a0ed0b4f863d2aa867cfb47d5[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Sat Nov 2 18:50:29 2024 +0800
+
+    create simple simulation run
+
+[33mcommit 1920d6927a3549551b0855870856c5b2b97d3122[m
+Merge: e72aa4b 4b12eab
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Wed Oct 30 20:40:56 2024 +0700
+
+    Merge branch 'main' of https://github.com/xjyribro/qubo_benchmarking
+
+[33mcommit e72aa4bb347d871612c94967535f4bd1be12af1c[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Wed Oct 30 20:40:51 2024 +0700
+
+    refactor TSP functions
+
+[33mcommit 4b12eab13ae1b4b89ac3004c8059eca95165f98f[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Wed Oct 30 15:30:26 2024 +0800
+
+    Fixed python code. fixed import for env variables
+
+[33mcommit 56b81e1b10979326be3d41f00e15373b117c0963[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Tue Oct 29 23:08:58 2024 +0700
+
+    tsp 4 cities partial benchmark
+
+[33mcommit 8ba7f65056b7f1b63873b51d01387ba07f6d1dbf[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Tue Oct 29 22:51:39 2024 +0700
+
+    remove sample most likely
+
+[33mcommit 16003bd537448c1e227eb469c74365adfc8c0da0[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Tue Oct 29 22:47:26 2024 +0700
+
+    implementing QAOA patterns on local simulator
+
+[33mcommit 165220caec1238f2aaac6802137b5a09db50b9cf[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Tue Oct 29 22:46:56 2024 +0700
+
+    clean up TSP functions
+
+[33mcommit 51bd3e4ed447074e05594aa7e706dd81e6db4cc3[m
+Author: Nutthapat Pongtanyavichai <contact@leomotors.me>
+Date:   Mon Oct 28 00:27:47 2024 +0700
+
+    QAP: solving with three solvers
+
+[33mcommit 8f6cb71f7a6fdaa6a467de8a98e11ad715db3f54[m
+Author: Nutthapat Pongtanyavichai <contact@leomotors.me>
+Date:   Mon Oct 28 00:27:11 2024 +0700
+
+    utils for graph, printing model as latex and creating solvers
+
+[33mcommit c812422cd2f2151f4fc65da2c419b677e187a920[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Sun Oct 27 13:43:19 2024 +0700
+
+    Qiskit patterns framework
+
+[33mcommit 7175be43e412c183f2f487292625d1182010e9ec[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Tue Oct 22 21:44:50 2024 +0700
+
+    Using compute minimum eigenvalue instead of numpy eigen optimizer
+
+[33mcommit 958cd4d52561f9994b53735ec675f797a59a6675[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Mon Oct 21 23:49:14 2024 +0700
+
+    add comments
+
+[33mcommit 6ef841cc3f1ca484cd15394869ee40801c716a72[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Mon Oct 21 23:46:01 2024 +0700
+
+    add comments
+
+[33mcommit e31120681f83efde763575f14a2930501b0b84b5[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Mon Oct 21 23:42:30 2024 +0700
+
+    clean up TSP
+
+[33mcommit cd6bf78b7b9fae2dbef3e6edb005c39972b2ad56[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Mon Oct 21 23:11:23 2024 +0700
+
+    update tsp utilities
+
+[33mcommit a096f9e6ccbcff8eafea775a682050c28a1ade12[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Thu Oct 17 23:17:11 2024 +0700
+
+    tsp with QAOA
+
+[33mcommit 86f97e83e1b6cee461c1287f3b87ca074560c336[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Thu Oct 17 21:42:59 2024 +0700
+
+    completed
+
+[33mcommit 703f62a9992774e08f698b63f5f9911aba37886e[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Thu Oct 17 21:05:06 2024 +0700
+
+    tsp: trying to run on ibm_brisbane
+
+[33mcommit 3fb978d7e301993f27a2b6b44efbf003bc6a4add[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Thu Oct 17 20:01:56 2024 +0700
+
+    3sat: reduction to MIS, manual QUBO
+
+[33mcommit 817a2354395b918219c82236fedcf55aa49177a9[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Tue Oct 15 11:08:20 2024 +0800
+
+    updated readme
+
+[33mcommit 8511d9cdfbe10dcb8f956bca371250b52ae77f0d[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Tue Oct 15 11:07:08 2024 +0800
+
+    updated title cell
+
+[33mcommit 22368852cd37efaddda35f7672e1fc80c9d48c8b[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Tue Oct 15 11:04:48 2024 +0800
+
+    updated solvers and helper methods
+
+[33mcommit d94ecf66b4ede741ef389ce8f2c98fde40eb4ff5[m
+Author: Nutthapat Pongtanyavichai <contact@leomotors.me>
+Date:   Mon Oct 14 22:41:15 2024 +0700
+
+    qap: three solvers
+
+[33mcommit 8b6beefd32ec94d878231d9db578fc52d2ae1a4b[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Fri Oct 11 14:27:07 2024 +0800
+
+    completed dwave solver setup. updated readme
+
+[33mcommit 8b5a38294d908c47c19b75b734fdb95b6bd9a50a[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Fri Oct 11 14:06:23 2024 +0800
+
+    added .env file and updated readme. removed tokens from notebook
+
+[33mcommit 45bec5f0b52781c81977e19ded9290e6c6246ff2[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Fri Oct 11 13:49:46 2024 +0800
+
+    added env file to gitignore
+
+[33mcommit 55b83f2e2fd7d88a20b6c1be9afd3e7f3ed9031a[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Fri Oct 11 11:24:06 2024 +0800
+
+    updated gitignore and renamed solvers file
+
+[33mcommit 0058eb854fbd5ac1952f972fc1ebcb8800d8309b[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Fri Oct 11 11:10:46 2024 +0800
+
+    Created file for solvers
+
+[33mcommit aec68cad6fe4732d8d790b2b047896d906d2479a[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Thu Oct 10 20:51:45 2024 +0700
+
+    minimum eigen optimizer based on sampling VQE
+
+[33mcommit e1e5288eb9aa417329179931208c40e616fb4f4c[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Wed Oct 9 22:50:57 2024 +0700
+
+    tsp: problem solved with L_BFGS_B optim and EfficientSU2 ansatz. However, qiskit_tutorial failed to do so with SPSA and Twolocals.
+
+[33mcommit 9115aa7c49b85a8f62d66ce7446e5b22e4ded1d0[m
+Author: Nathan Kittichaikoonkij <Natsg90@gmail.com>
+Date:   Fri Oct 4 14:18:16 2024 +0700
+
+    encode to QUBO
+
+[33mcommit 4dfe086d14e03ebee64a41278d21a8bf62ca446f[m
+Author: xjyribro <limcheekee.63@gmail.com>
+Date:   Wed Oct 2 18:14:23 2024 +0800
+
+    Added README file
+
+[33mcommit 13a30053b476380ff71a32e473c37fb4d1d6ae4c[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Wed Oct 2 14:37:17 2024 +0800
+
+    removed ds_store
+
+[33mcommit f29be774b85ca9e39db43083bb2d5bfa866a14dc[m
+Author: limcheekeen <limcheekeen.63@gmail.com>
+Date:   Wed Oct 2 14:26:50 2024 +0800
+
+    inital commit
