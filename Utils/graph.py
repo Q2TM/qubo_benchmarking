@@ -36,7 +36,7 @@ def draw_graph(title: str, location_name: list[str], adj_matrix: list[list[list[
     plt.show()
 
 
-def generate_random_symmetric_matrix(size: int = 8, min: int = 0, max: int = 9, seed: int = None):
+def generate_random_symmetric_matrix(size: int = 8, min: int = 0, max: int = 9, seed: int = 0) -> list[list[int]]:
     """Generate a random distance matrix.
 
     Args: 
@@ -59,7 +59,9 @@ def generate_random_symmetric_matrix(size: int = 8, min: int = 0, max: int = 9, 
 
     np.fill_diagonal(sym, 0)
 
-    return sym
+    # Convert to normal list
+    return sym.tolist()  # type: ignore
+
     # # Initialize an empty matrix
     # matrix = [[0 for _ in range(size)] for _ in range(size)]
 
@@ -73,12 +75,13 @@ def generate_random_symmetric_matrix(size: int = 8, min: int = 0, max: int = 9, 
     # return matrix
 
 
-def make_sparse(matrix: list[list[int]], dense_ratio: float):
+def make_sparse(matrix: list[list[int]], dense_ratio: float, seed: int = 0):
     """Make matrix sparse by randomly changing element to zero
 
     Args:
         matrix (list[list[int]]): Input Matrix
         dense_ratio (float): Target Dense Ratio (Including Diagonal)
+        seed (int): Random Seed
 
     Returns:
         list[list[int]]: Output Matrix
@@ -87,6 +90,11 @@ def make_sparse(matrix: list[list[int]], dense_ratio: float):
     n = len(matrix)
 
     u_ratio = dense_ratio * n ** 2 / (n ** 2 - n)
+
+    if u_ratio >= 1:
+        return matrix
+
+    random.seed(seed)
 
     for i in range(n):
         for j in range(i + 1, n):
@@ -97,36 +105,25 @@ def make_sparse(matrix: list[list[int]], dense_ratio: float):
     return matrix
 
 
-def make_sparse_with_seed(matrix: list[list[int]], dense_ratio: float, seed: str):
-    random.seed(seed)
-    return make_sparse(matrix, dense_ratio)
-
-
 def print_matrix(matrix: list[list[int]]):
     for row in matrix:
         print(row)
 
 
-def create_with_seed(seed: str, size: int, min: int, max: int):
-    # Set seed
-    random.seed(seed)
-    return generate_random_symmetric_matrix(size, min, max)
-
-
-def create_sparse_with_seed(seed: str, size: int, min: int, max: int, dense_ratio: float):
-    random.seed(seed)
-    m = generate_random_symmetric_matrix(size, min, max)
-    return make_sparse(m, dense_ratio)
+def create_matrix_with_seed(seed: str, size: int, min: int, max: int, dense_ratio: float = 1):
+    real_seed = hash(seed) + 2 ** 63
+    m = generate_random_symmetric_matrix(size, min, max, real_seed)
+    return make_sparse(m, dense_ratio, real_seed)
 
 
 def create_qap_input(size: int, min: int, max: int, dense_ratio: float, extra_seed="none"):
     base_seed = f"size={size};min={min};max={
         max};dense_ratio={dense_ratio};extra_seed={extra_seed}"
 
-    distance_matrix = create_sparse_with_seed(
+    distance_matrix = create_matrix_with_seed(
         f"problem=qap_distance;{base_seed}", size, min, max, dense_ratio)
 
-    interaction_matrix = create_sparse_with_seed(
+    interaction_matrix = create_matrix_with_seed(
         f"problem=qap_interaction;{base_seed}", size, min, max, dense_ratio)
 
     return distance_matrix, interaction_matrix

@@ -1,8 +1,7 @@
-from typing import List
 from amplify import VariableGenerator, equal_to, one_hot, Poly, ConstraintList
 
 
-def create_qap_qp_model(distance_matrix: List[List[int]], interaction_matrix: List[List[int]], weight=1):
+def create_qap_qp_model(distance_matrix: list[list[int]], interaction_matrix: list[list[int]], weight=1):
     assert (len(distance_matrix) == len(interaction_matrix))
     size = len(distance_matrix)
 

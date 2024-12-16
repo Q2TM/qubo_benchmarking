@@ -33,3 +33,15 @@ https://www.geeksforgeeks.org/quadratic-assignment-problem-qap/
 ## Details
 
 See `report.pdf`
+
+## Running Benchmark
+
+Use this command from root directory
+
+```
+poetry run python3 QAP/benchmark.py > QAP/tmp_stdout.txt
+```
+
+Otherwise Gurobi License Information and Error Log will flush on your screen and you cannot track the progress.
+
+Note: TQDM output as stderr

@@ -1,12 +1,7 @@
 import sys
 import os
 
-# Add the project root directory to sys.path
-sys.path.append(os.path.abspath('..'))
-
-# Prevent autopep8
-if True:
-    from Utils.graph import draw_graph
+from Utils.graph import draw_graph
 
 
 def calculate_cost(

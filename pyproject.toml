@@ -3,7 +3,7 @@ name = "qubo_benchmarking"
 version = "0.1.0"
 description = ""
 authors = []
-packages = [{include = "Utils"}]
+packages = [{ include = "Utils" }, { include = "QAP" }]
 
 [tool.poetry.dependencies]
 python = "^3.12"
