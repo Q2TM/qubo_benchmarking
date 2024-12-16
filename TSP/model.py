@@ -6,7 +6,7 @@ from Utils.graph import draw_graph, generate_random_symmetric_matrix
 
 
 
-class TSP_Qiskit:
+class Tsp_Qiskit:
     def __init__(self):
         self.final_distribution_bin = None
     
@@ -23,7 +23,7 @@ class TSP_Qiskit:
     def plot_distribution(self, n: int = 0):
         pass
 
-class TSP(TSP_Qiskit):
+class Tsp(Tsp_Qiskit):
     def __init__(self, n: int, min: int = 1, max: int = 9, solver: Literal['Qiskit', 'Amplify'] = 'Amplify', seed: int = None, draw: bool = False):
         if solver == 'Qiskit':
             super().__init__(self.matrix)
