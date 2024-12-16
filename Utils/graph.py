@@ -2,6 +2,7 @@ import random
 
 import matplotlib.pyplot as plt
 import networkx as nx
+import numpy as np
 
 
 def draw_graph(title: str, location_name: list[str], adj_matrix: list[list[list[int]]], edge_labels: list[str]):
@@ -35,18 +36,41 @@ def draw_graph(title: str, location_name: list[str], adj_matrix: list[list[list[
     plt.show()
 
 
-def generate_random_symmetric_matrix(size=8, min=0, max=9):
-    # Initialize an empty matrix
-    matrix = [[0 for _ in range(size)] for _ in range(size)]
+def generate_random_symmetric_matrix(size: int = 8, min: int = 0, max: int = 9, seed: int = None):
+    """Generate a random distance matrix.
 
-    # Fill the upper triangle (excluding the diagonal) and reflect it to the lower triangle
-    for i in range(size):
-        for j in range(i+1, size):
-            value = random.randint(min, max)  # Random numbers between 0 and 9
-            matrix[i][j] = value
-            matrix[j][i] = value
+    Args: 
+        size (int): Number of nodes
+        min (int): Minimum distance
+        max (int): Maximum distance
+        seed (int): Random seed
 
-    return matrix
+    Returns:
+        list[list[int]]: Distance matrix
+    """
+
+    if seed:
+        rng = np.random.Generator(np.random.PCG64(seed))
+    else:
+        rng = np.random.default_rng()
+
+    triangle = np.triu(rng.integers(min, max, size=(size, size)), k=1)
+    sym = triangle + triangle.T
+
+    np.fill_diagonal(sym, 0)
+
+    return sym
+    # # Initialize an empty matrix
+    # matrix = [[0 for _ in range(size)] for _ in range(size)]
+
+    # # Fill the upper triangle (excluding the diagonal) and reflect it to the lower triangle
+    # for i in range(size):
+    #     for j in range(i+1, size):
+    #         value = random.randint(min, max)  # Random numbers between 0 and 9
+    #         matrix[i][j] = value
+    #         matrix[j][i] = value
+
+    # return matrix
 
 
 def make_sparse(matrix: list[list[int]], dense_ratio: float):

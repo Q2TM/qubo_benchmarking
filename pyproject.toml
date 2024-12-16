@@ -1,6 +1,9 @@
 [tool.poetry]
 name = "qubo_benchmarking"
-package-mode = false
+version = "0.1.0"
+description = ""
+authors = []
+packages = [{include = "Utils"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
