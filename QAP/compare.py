@@ -137,7 +137,7 @@ def run_compare_solvers(
     try:
         resultFS = solve(qp_model["model"], clientFixstars)
         fixstars_objective = resultFS.best.objective
-        fixstars_execution_time = resultFS.execution_time.total_seconds()
+        fixstars_execution_time = resultFS.solutions[0].time.total_seconds()
     except Exception as err:
         fixstars_error = err
 
