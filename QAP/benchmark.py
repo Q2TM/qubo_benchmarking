@@ -4,9 +4,8 @@ from tqdm import tqdm
 
 from QAP.compare import run_compare_solvers
 
-# TODO Matrix for V4
-nodes = [69]
-repeat = 1
+nodes = [4, 5, 6, 7, 8, 10, 12, 15, 20, 69]
+repeat = 10
 
 results = []
 
