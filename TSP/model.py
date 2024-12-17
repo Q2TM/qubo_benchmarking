@@ -35,8 +35,19 @@ class Tsp(Tsp_Qiskit):
             labels = [str(i) for i in range(n)]
             self.graph = draw_graph("TSP cities", labels, [self.matrix], ["d"])
             
+    @property
+    def max_edge_weight(self):
+        return max(map(max, self.matrix))
+
+    @property
+    def avg_edge_weight(self):
+        return sum(map(sum, self.matrix)) / (self.n ** 2)
+            
     def draw_tour(self, tour):
         draw_tour("TSP Tour", [self.matrix], list(map(str, tour)))
+        
+    def get_cost(self, tour):
+        return sum([self.matrix[tour[i-1]][tour[i]] for i in range(self.n)])
                     
     def qubo(self, penalty = 1000):
         if self.solver == 'Qiskit':
@@ -55,6 +66,6 @@ class Tsp(Tsp_Qiskit):
 
     
 if __name__ == "__main__":
-    tsp = TSP(8, draw=True)
+    tsp = Tsp(8, draw=True)
     print(tsp.qubo())
     print(tsp.matrix)

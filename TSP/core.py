@@ -1,13 +1,17 @@
 import numpy as np
+import sys
+import time
+import threading
+import _thread as thread
 
 from itertools import permutations
 from amplify import VariableGenerator, ConstraintList, one_hot, Poly
 from qiskit_optimization import QuadraticProgram
 
 
-def create_amplify_qubo_model(matrix: np.ndarray, weight: int = 1) -> dict:
-    size = matrix.shape[0]
-
+def create_amplify_qubo_model(matrix: list[list[int]], weight: int = 1) -> dict:
+    size = len(matrix)
+    
     gen = VariableGenerator()
     q = gen.array(type="Binary", shape=(size, size), name="q")
     obj = Poly()
@@ -15,7 +19,7 @@ def create_amplify_qubo_model(matrix: np.ndarray, weight: int = 1) -> dict:
         for j in range(size):
             if i != j:
                 for p in range(size):
-                    obj += q[i, p] * q[j, (p+1) % size] * matrix[i, j]
+                    obj += q[i, p] * q[j, (p+1) % size] * matrix[j][i]
 
     c = ConstraintList()
     for i in range(size):
@@ -52,7 +56,7 @@ def create_qiskit_qubo_model(matrix: np.ndarray) -> QuadraticProgram:
     """
     qp = QuadraticProgram()
 
-    size = matrix.shape[0]
+    size = len(matrix)
 
     cities = {}  # dictionary to store the city and order
     for i in range(size):
@@ -65,8 +69,7 @@ def create_qiskit_qubo_model(matrix: np.ndarray) -> QuadraticProgram:
         for j in range(size):
             if i != j:
                 for p in range(size):
-                    quadratic_matrix[(f'x_{i}_{p}', f'x_{j}_{
-                                      (p+1) % size}')] = matrix[i, j]
+                    quadratic_matrix[(f'x_{i}_{p}', f'x_{j}_{(p+1) % size}')] = matrix[j][j]
 
     qp.minimize(quadratic=quadratic_matrix)
 
@@ -82,9 +85,13 @@ def create_qiskit_qubo_model(matrix: np.ndarray) -> QuadraticProgram:
 
     return qp
 
+def quit_function(fn_name):
+    # print to stderr, unbuffered in Python 2.
+    print('{0} took too long'.format(fn_name), file=sys.stderr)
+    sys.stderr.flush()  # Python 3 stderr is likely buffered.
+    thread.interrupt_main()  # raises KeyboardInterrupt
 
-
-def bruteforce(matrix: np.ndarray):
+def bruteforce(matrix: list[list[int]], timeout: float=-1) -> tuple:
     """
     Brute force solution for the Traveling Salesman Problem (TSP).
 
@@ -94,8 +101,8 @@ def bruteforce(matrix: np.ndarray):
 
     Parameters
     ----------
-    weights : np.ndarray
-        A 2D matrix where `weights[i, j]` represents the distance between city `i`
+    matrix : list[list[int]]
+        A 2D matrix where `weights[j][i]` represents the distance between city `i`
         and city `j`. The matrix should have shape `(n, n)`.
 
     Returns
@@ -107,10 +114,10 @@ def bruteforce(matrix: np.ndarray):
 
     Examples
     --------
-    >>> weights = np.array([[0, 10, 15, 20],
-    ...                     [10, 0, 35, 25],
-    ...                     [15, 35, 0, 30],
-    ...                     [20, 25, 30, 0]])
+    >>> weights = [[0, 10, 15, 20],
+    ...            [10, 0, 35, 25],
+    ...            [15, 35, 0, 30],
+    ...            [20, 25, 30, 0]])
     >>> min_path, min_cost = brute_force_tsp(weights)
     >>> print(min_path, min_cost)
     (0, 1, 3, 2) 80
@@ -120,22 +127,30 @@ def bruteforce(matrix: np.ndarray):
     This method may be computationally expensive for large numbers of cities
     due to the factorial growth of possible routes.
     """
+    if timeout > 0:
+        timer = threading.Timer(timeout, quit_function, args=["bruteforce"])
+        timer.start()
+    
+    try:
+        start_time = time.time()              
+        size = len(matrix)
 
-    size = matrix.shape[0]
+        min_cost = np.inf
+        min_path = None
 
-    min_cost = np.inf
-    min_path = None
+        for path in permutations(range(size)):
+            cost = 0
+            for i in range(size):
+                cost += matrix[path[(i+1) % size]][path[i]]
 
-    for path in permutations(range(size)):
-        cost = 0
-        for i in range(size):
-            cost += matrix[path[i], path[(i+1) % size]]
-
-        if cost < min_cost:
-            min_cost = cost
-            min_path = path
-
-    return min_path, min_cost
+            if cost < min_cost:
+                min_cost = cost
+                min_path = path
+       
+    finally:
+        if timeout > 0:
+            timer.cancel()
+        return min_cost, min_path, time.time() - start_time
 
 
 def reorder(x: list, size: int):

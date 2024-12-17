@@ -44,6 +44,9 @@ def GetFixstarsClient(timeout=1000):
     Create Fixstars Client if not exists, make sure FIXSTAR_TOKEN is set in .env file.
     Parameter will not have effect if client already exists.
 
+    Args:
+        timeout (int, optional): Timeout for Fixstars client. Defaults to 1000 milliseconds.
+
     Raises:
         Exception: Throws if FIXSTAR_TOKEN is not defined
 
