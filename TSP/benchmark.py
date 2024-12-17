@@ -58,9 +58,9 @@ def run(nodes: int, solver: Literal['Qiskit', 'Amplify'], penalty: int = 1_000_0
     # Run with different solvers
     return run_compare_solvers(nodes, qubo, time_model_formulation, bruteforce=bruteforce_result, amplifys=solvers, 
                                max_edge_weight=tsp.max_edge_weight,
-                                avg_edge_weigh=tsp.avg_edge_weight,
+                                avg_edge_weight=tsp.avg_edge_weight,
                                 distance_matrix=tsp.matrix,
-                                qp_weight=penalty,
+                                constraint_weight=penalty,
                                 ) 
 
 
@@ -69,8 +69,6 @@ results = []
 for node in tqdm(nodes, desc="Nodes"):
     for it in tqdm(range(repeat), desc="Repeat"):
         result, errors = run(node, "Amplify", 1_000_000)
-        # result, errors = run_compare_solvers(
-        # node, 9, 1_000_000, extra_seed=f"{it}")
         results.append(result)
 
         for err in errors:

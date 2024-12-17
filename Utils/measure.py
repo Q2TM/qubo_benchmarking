@@ -100,6 +100,7 @@ def run_compare_solvers(
         bruteforce (tuple[int, float], optional): (bruteforce cost, bruteforce time taken). Defaults to None.
         amplifys (list[tuple], optional): List of Amplify solvers. Defaults to [].
         qiskits (list[tuple], optional): List of Qiskit solvers. Defaults to [].
+    Keyword Args are additional parameters to include in the result.
     """
 
     solvers_results = []
