@@ -1,4 +1,7 @@
 from amplify import VariableGenerator, equal_to, one_hot, Poly, ConstraintList
+import time
+from Utils.graph import create_qap_input
+import numpy as np
 
 
 def create_qap_qp_model(distance_matrix: list[list[int]], interaction_matrix: list[list[int]], weight=1):
@@ -43,3 +46,28 @@ def solution_to_map(result, variables, size=4):
                 mapped_solution[i] = j
 
     return mapped_solution
+
+
+def create_model_from_seed(
+        nodes: int,
+        max_edge_weight: int,
+        constraint_weight: int,
+        extra_seed: str = "none"):
+
+    create_model_start = time.time()
+
+    distance_matrix, interaction_matrix = create_qap_input(
+        nodes, 1, max_edge_weight, 1, extra_seed=extra_seed)
+
+    # avg_edge_weight = float(
+    #     (np.average(distance_matrix) + np.average(interaction_matrix)) / 2)
+
+    qp_weight = constraint_weight
+
+    qp_model = create_qap_qp_model(
+        distance_matrix, interaction_matrix, qp_weight)
+    create_model_end = time.time()
+
+    time_model_formulation = create_model_end - create_model_start
+
+    return qp_model, time_model_formulation, distance_matrix, interaction_matrix

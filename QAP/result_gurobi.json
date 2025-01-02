@@ -1,0 +1,1082 @@
+[
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.02633810043334961,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 919,
+        "execution_time": 100.00000524520874,
+        "total_time": 100.00000524520874
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 912.0,
+        "execution_time": 0.117331,
+        "total_time": 10.045268058776855
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 908.0,
+        "execution_time": 11.687376,
+        "total_time": 100.44855499267578
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 898.0,
+        "execution_time": 275.449305,
+        "total_time": 378.2860219478607
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 898.0,
+        "execution_time": 305.40574,
+        "total_time": 382.586923122406
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.0197451114654541,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1169,
+        "execution_time": 100.00001096725464,
+        "total_time": 100.00001096725464
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1192.0,
+        "execution_time": 0.167574,
+        "total_time": 10.025736808776855
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1171.0,
+        "execution_time": 33.327849,
+        "total_time": 100.43413519859314
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1168.0,
+        "execution_time": 236.727884,
+        "total_time": 416.45665311813354
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1168.0,
+        "execution_time": 423.696068,
+        "total_time": 447.2434256076813
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.02002406120300293,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1117,
+        "execution_time": 100.00000500679016,
+        "total_time": 100.00000500679016
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1134.0,
+        "execution_time": 0.121702,
+        "total_time": 10.027265071868896
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1134.0,
+        "execution_time": 0.122829,
+        "total_time": 100.61304497718811
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1117.0,
+        "execution_time": 773.395453,
+        "total_time": 801.6354360580444
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1117.0,
+        "execution_time": 139.482304,
+        "total_time": 805.778480052948
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.01992321014404297,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1003,
+        "execution_time": 100.00000309944153,
+        "total_time": 100.00000309944153
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1013.0,
+        "execution_time": 1.1208,
+        "total_time": 10.028754949569702
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1001.0,
+        "execution_time": 80.443474,
+        "total_time": 100.35918593406677
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1001.0,
+        "execution_time": 94.627847,
+        "total_time": 181.3098850250244
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1001.0,
+        "execution_time": 75.31153,
+        "total_time": 170.9097421169281
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019455909729003906,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1025,
+        "execution_time": 100.0000057220459,
+        "total_time": 100.0000057220459
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1026.0,
+        "execution_time": 1.278569,
+        "total_time": 10.024013996124268
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1007.0,
+        "execution_time": 100.00402,
+        "total_time": 100.37910580635071
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1007.0,
+        "execution_time": 454.760457,
+        "total_time": 454.7716829776764
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1007.0,
+        "execution_time": 481.478312,
+        "total_time": 481.4894199371338
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.01953291893005371,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1361,
+        "execution_time": 100.00000381469727,
+        "total_time": 100.00000381469727
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1351.0,
+        "execution_time": 10.004004,
+        "total_time": 10.029783964157104
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1351.0,
+        "execution_time": 100.002665,
+        "total_time": 100.36924290657043
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1339.0,
+        "execution_time": 1000.007524,
+        "total_time": 1002.3330881595612
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1339.0,
+        "execution_time": 1206.404839,
+        "total_time": 1206.4124448299408
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.04951000213623047,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1868,
+        "execution_time": 100.0000069141388,
+        "total_time": 100.0000069141388
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1818.0,
+        "execution_time": 0.592996,
+        "total_time": 10.023473024368286
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1823.0,
+        "execution_time": 31.241163,
+        "total_time": 100.2276349067688
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1807.0,
+        "execution_time": 42.029157,
+        "total_time": 1003.2346320152283
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1804.0,
+        "execution_time": 1.438109,
+        "total_time": 10505.593612909317
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05556774139404297,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1857,
+        "execution_time": 100.00000810623169,
+        "total_time": 100.00000810623169
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1857.0,
+        "execution_time": 1.505628,
+        "total_time": 10.034149885177612
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1822.0,
+        "execution_time": 93.70747,
+        "total_time": 100.25255107879639
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1834.0,
+        "execution_time": 361.714023,
+        "total_time": 1003.3451271057129
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1806.0,
+        "execution_time": 920.30024,
+        "total_time": 10424.203919172287
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05472683906555176,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 2086,
+        "execution_time": 100.00000810623169,
+        "total_time": 100.00000810623169
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1977.0,
+        "execution_time": 1.21928,
+        "total_time": 10.027572870254517
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1977.0,
+        "execution_time": 20.230698,
+        "total_time": 100.24240374565125
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1975.0,
+        "execution_time": 52.904413,
+        "total_time": 1003.5254557132721
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1939.0,
+        "execution_time": 353.349069,
+        "total_time": 10589.666221857071
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.054219722747802734,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1780,
+        "execution_time": 100.00000596046448,
+        "total_time": 100.00000596046448
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1720.0,
+        "execution_time": 10.019277,
+        "total_time": 10.034504890441895
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1718.0,
+        "execution_time": 100.006198,
+        "total_time": 100.27290487289429
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1694.0,
+        "execution_time": 1000.006882,
+        "total_time": 1004.2362833023071
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1685.0,
+        "execution_time": 10000.07258,
+        "total_time": 10871.194013834
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05374789237976074,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1984,
+        "execution_time": 100.00000309944153,
+        "total_time": 100.00000309944153
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1930.0,
+        "execution_time": 1.391695,
+        "total_time": 10.037923812866211
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1922.0,
+        "execution_time": 69.718942,
+        "total_time": 100.23679900169373
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1923.0,
+        "execution_time": 159.776105,
+        "total_time": 1003.5353229045868
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1908.0,
+        "execution_time": 4073.519684,
+        "total_time": 10605.66822385788
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05652499198913574,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1977,
+        "execution_time": 100.00000786781311,
+        "total_time": 100.00000786781311
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1934.0,
+        "execution_time": 4.467779,
+        "total_time": 10.035979986190796
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1895.0,
+        "execution_time": 58.937244,
+        "total_time": 100.24326395988464
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 1886.0,
+        "execution_time": 395.873478,
+        "total_time": 1003.4793727397919
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 1882.0,
+        "execution_time": 4557.848504,
+        "total_time": 10452.648264884949
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.1682281494140625,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3661,
+        "execution_time": 100.00000786781311,
+        "total_time": 100.00000786781311
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3521.0,
+        "execution_time": 9.146491,
+        "total_time": 10.024776935577393
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3468.0,
+        "execution_time": 69.37049,
+        "total_time": 100.0654149055481
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 3455.0,
+        "execution_time": 4.359171,
+        "total_time": 1002.0334579944611
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 3416.0,
+        "execution_time": 2440.718343,
+        "total_time": 10101.262256860733
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.1674060821533203,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3640,
+        "execution_time": 100.00000405311584,
+        "total_time": 100.00000405311584
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3502.0,
+        "execution_time": 10.007818,
+        "total_time": 10.026491165161133
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3481.0,
+        "execution_time": 100.010433,
+        "total_time": 100.08836913108826
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 3438.0,
+        "execution_time": 1000.006808,
+        "total_time": 1002.2932419776917
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 3402.0,
+        "execution_time": 10000.052446,
+        "total_time": 10141.399980068207
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.17183780670166016,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3366,
+        "execution_time": 100.000009059906,
+        "total_time": 100.000009059906
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3257.0,
+        "execution_time": 10.007128,
+        "total_time": 10.02669382095337
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3180.0,
+        "execution_time": 100.008749,
+        "total_time": 100.07667589187622
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 3180.0,
+        "execution_time": 1.295893,
+        "total_time": 1002.1570181846619
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 3190.0,
+        "execution_time": 10000.018822,
+        "total_time": 10119.434513092041
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16763019561767578,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3839,
+        "execution_time": 100.00000810623169,
+        "total_time": 100.00000810623169
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3650.0,
+        "execution_time": 9.123515,
+        "total_time": 10.026643991470337
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3638.0,
+        "execution_time": 43.728245,
+        "total_time": 100.07105898857117
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 3589.0,
+        "execution_time": 4.443498,
+        "total_time": 1002.1841521263123
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 3620.0,
+        "execution_time": 311.609918,
+        "total_time": 10120.355989933014
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16524171829223633,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3497,
+        "execution_time": 100.00000739097595,
+        "total_time": 100.00000739097595
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3284.0,
+        "execution_time": 10.005831,
+        "total_time": 10.031224727630615
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3237.0,
+        "execution_time": 100.010488,
+        "total_time": 100.07938194274902
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 3262.0,
+        "execution_time": 1000.02389,
+        "total_time": 1002.4685020446777
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 3212.0,
+        "execution_time": 10000.025285,
+        "total_time": 10133.348632097244
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16503190994262695,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3752,
+        "execution_time": 100.00001692771912,
+        "total_time": 100.00001692771912
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3525.0,
+        "execution_time": 4.241815,
+        "total_time": 10.025576114654541
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3466.0,
+        "execution_time": 77.068516,
+        "total_time": 100.05770802497864
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 3493.0,
+        "execution_time": 1000.008514,
+        "total_time": 1002.0021820068359
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 3466.0,
+        "execution_time": 4643.413069,
+        "total_time": 10094.56513786316
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.3762269020080566,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16365,
+        "execution_time": 100.0000319480896,
+        "total_time": 100.0000319480896
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 16801.0,
+        "execution_time": 6.967959,
+        "total_time": 10.52035117149353
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15054.0,
+        "execution_time": 91.281085,
+        "total_time": 100.32583498954773
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 15054.0,
+        "execution_time": 478.600356,
+        "total_time": 1000.3589792251587
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 14857.0,
+        "execution_time": 2969.048862,
+        "total_time": 10001.18298983574
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.316882848739624,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 17422,
+        "execution_time": 100.00003218650818,
+        "total_time": 100.00003218650818
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17789.0,
+        "execution_time": 7.011476,
+        "total_time": 10.21855092048645
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 16285.0,
+        "execution_time": 98.336589,
+        "total_time": 100.31622099876404
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 16220.0,
+        "execution_time": 232.24682,
+        "total_time": 1000.37628698349
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 16110.0,
+        "execution_time": 8041.238851,
+        "total_time": 10001.073052883148
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.282510757446289,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16240,
+        "execution_time": 100.00001788139343,
+        "total_time": 100.00001788139343
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 16661.0,
+        "execution_time": 7.089234,
+        "total_time": 10.265902996063232
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15122.0,
+        "execution_time": 95.73532,
+        "total_time": 100.3073799610138
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 15079.0,
+        "execution_time": 294.194586,
+        "total_time": 1000.3675918579102
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 14897.0,
+        "execution_time": 8639.247964,
+        "total_time": 10001.157045841217
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.3776891231536865,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16773,
+        "execution_time": 100.00001192092896,
+        "total_time": 100.00001192092896
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 16911.0,
+        "execution_time": 7.193942,
+        "total_time": 10.269739151000977
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15630.0,
+        "execution_time": 99.596238,
+        "total_time": 100.33156895637512
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 15523.0,
+        "execution_time": 400.268608,
+        "total_time": 1000.3976910114288
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 15265.0,
+        "execution_time": 3364.291276,
+        "total_time": 10001.08924293518
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.305412769317627,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 17063,
+        "execution_time": 100.00000500679016,
+        "total_time": 100.00000500679016
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17684.0,
+        "execution_time": 7.203816,
+        "total_time": 10.231253862380981
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 16079.0,
+        "execution_time": 100.062895,
+        "total_time": 100.33539891242981
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 15904.0,
+        "execution_time": 1000.112734,
+        "total_time": 1000.3763792514801
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 15974.0,
+        "execution_time": 10000.08866,
+        "total_time": 10001.091895103455
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.3095171451568604,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 15988,
+        "execution_time": 100.00000977516174,
+        "total_time": 100.00000977516174
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 16649.0,
+        "execution_time": 7.21255,
+        "total_time": 10.229801893234253
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 14922.0,
+        "execution_time": 88.66298,
+        "total_time": 100.30840420722961
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 14736.0,
+        "execution_time": 214.113106,
+        "total_time": 1000.3621737957001
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 14551.0,
+        "execution_time": 6001.104142,
+        "total_time": 10001.091938734055
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.99366784095764,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 47819,
+        "execution_time": 100.0000171661377,
+        "total_time": 100.0000171661377
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 48191.0,
+        "execution_time": 10.910793,
+        "total_time": 12.906495094299316
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 48328.0,
+        "execution_time": 58.791868,
+        "total_time": 103.60910272598267
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 44939.0,
+        "execution_time": 1000.679136,
+        "total_time": 1004.1819241046906
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 44335.0,
+        "execution_time": 10000.40394,
+        "total_time": 10004.354406118393
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.51306700706482,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46566,
+        "execution_time": 100.00008487701416,
+        "total_time": 100.00008487701416
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47104.0,
+        "execution_time": 10.797738,
+        "total_time": 12.748057126998901
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47094.0,
+        "execution_time": 56.577255,
+        "total_time": 102.11890983581543
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 43921.0,
+        "execution_time": 262.787564,
+        "total_time": 1004.9305667877197
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 43142.0,
+        "execution_time": 8796.195457,
+        "total_time": 10004.24522304535
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.87179708480835,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46556,
+        "execution_time": 100.0000479221344,
+        "total_time": 100.0000479221344
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47002.0,
+        "execution_time": 10.77383,
+        "total_time": 12.692890167236328
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47636.0,
+        "execution_time": 57.619792,
+        "total_time": 102.72066521644592
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 43865.0,
+        "execution_time": 1000.309762,
+        "total_time": 1003.5753779411316
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 43073.0,
+        "execution_time": 10000.590039,
+        "total_time": 10004.260560274124
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.80106496810913,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 47345,
+        "execution_time": 100.00002717971802,
+        "total_time": 100.00002717971802
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47283.0,
+        "execution_time": 10.877641,
+        "total_time": 12.805678129196167
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 48128.0,
+        "execution_time": 56.885125,
+        "total_time": 102.12249684333801
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 44534.0,
+        "execution_time": 264.081893,
+        "total_time": 1004.1520798206329
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 43858.0,
+        "execution_time": 8997.441023,
+        "total_time": 10004.146872282028
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.727478981018066,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46829,
+        "execution_time": 100.00006985664368,
+        "total_time": 100.00006985664368
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47540.0,
+        "execution_time": 10.931495,
+        "total_time": 12.858613967895508
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 48192.0,
+        "execution_time": 59.27672,
+        "total_time": 102.44177484512329
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 44502.0,
+        "execution_time": 928.987009,
+        "total_time": 1005.443263053894
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 43880.0,
+        "execution_time": 8072.77463,
+        "total_time": 10004.120484828949
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 26.02444076538086,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 45740,
+        "execution_time": 100.00007700920105,
+        "total_time": 100.00007700920105
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 46621.0,
+        "execution_time": 10.93232,
+        "total_time": 12.864084005355835
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 46463.0,
+        "execution_time": 57.901664,
+        "total_time": 102.06351113319397
+      },
+      {
+        "name": "Gurobi 1000s",
+        "objective": 43098.0,
+        "execution_time": 279.934151,
+        "total_time": 1003.8591191768646
+      },
+      {
+        "name": "Gurobi 10000s",
+        "objective": 42333.0,
+        "execution_time": 5324.192706,
+        "total_time": 10004.493685007095
+      }
+    ]
+  }
+]

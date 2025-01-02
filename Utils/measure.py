@@ -1,7 +1,7 @@
 import time
 
-from amplify import solve
-from typing import Any
+from amplify import solve, AmplifyClient
+from typing import Any, Sequence
 from dataclasses import dataclass, asdict, make_dataclass
 
 
@@ -85,14 +85,15 @@ def run_compare_solvers(
         nodes: int,
         qp_model: dict,
         time_model_formulation: float,
-        bruteforce: tuple[int, float] = None,
-        amplifys: list[tuple] = [],
+        bruteforce: tuple[float, float] | None = None,
+        # Sequence for Covariance
+        amplifys: Sequence[tuple[str, AmplifyClient]] = [],
         qiskits: list[tuple] = [],
         **kwargs
 ):
     """
     Benchmarking different solvers solving a Quadratic Program (QP) model.
-    
+
     Args:
         nodes (int): Number of nodes
         qp_model (dict): Quadratic program model. {"model": model, ...}
@@ -130,7 +131,7 @@ def run_compare_solvers(
         solvers_results.append(SolverResult(
             name=name, objective=objective,
             execution_time=execution_time, total_time=real_time),)
-        errors.append(SolverError(name="Gurobi 10s", error=error))
+        errors.append(SolverError(name=name, error=error))
 
     return compare_result(
         nodes=nodes,
@@ -140,15 +141,18 @@ def run_compare_solvers(
 
 
 if __name__ == "__main__":
-    print(asdict(compare_result(nodes=5,
-                                time_model_formulation=0.5,
-                                solvers_results=[SolverResult("Qiskit", 100, 0.1, 0.2),
-                                                 SolverResult("Amplify", 200, 0.2, 0.3)],
-                                qp_weight=5,
-                                add_info={"extra": SolverError(
-                                    "Qiskit", None)},
-                                max_edge_weight=10,
-                                avg_edge_weight=5,
-                                distance_matrix=[
-                                    [1, 2, 3], [4, 5, 6], [7, 8, 9]],
-                                interaction_matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]])))
+    print(
+        asdict(
+            compare_result(
+                nodes=5,
+                time_model_formulation=0.5,
+                solvers_results=[
+                    SolverResult("Qiskit", 100, 0.1, 0.2),
+                    SolverResult("Amplify", 200, 0.2, 0.3)
+                ],
+                qp_weight=5,
+                add_info={"extra": SolverError("Qiskit", None)},
+                max_edge_weight=10,
+                avg_edge_weight=5,
+                distance_matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]],
+                interaction_matrix=[[1, 2, 3], [4, 5, 6], [7, 8, 9]])))
