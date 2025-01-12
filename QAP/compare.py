@@ -71,10 +71,21 @@ def solve_bf(interaction_matrix, distance_matrix, timeout_sec=100):
 
 clientG10s = CreateGurobiClient(timeout_sec=10)
 clientG100s = CreateGurobiClient(timeout_sec=100)
-clientFixstars = CreateFixstarsClient(timeout=10000)
+clientFixstars1s = CreateFixstarsClient(timeout=1000)
+clientFixstars10s = CreateFixstarsClient(timeout=10000)
 clientDWave41 = CreateDWaveClient("Advantage_system4.1")
 clientDWave64 = CreateDWaveClient("Advantage_system6.4")
 clientDWaveV2 = CreateDWaveClient("Advantage2_prototype2.6")
+
+solvers = [
+    ("Gurobi 10s", clientG10s),
+    ("Gurobi 100s", clientG100s),
+    ("Fixstars 1s", clientFixstars1s),
+    ("Fixstars 10s", clientFixstars10s),
+    ("D-Wave AS4.1", clientDWave41),
+    ("D-Wave AS6.4", clientDWave64),
+    ("D-Wave V2p2.6", clientDWaveV2),
+]
 
 
 def run_compare_solvers(
@@ -99,95 +110,42 @@ def run_compare_solvers(
 
     time_model_formulation = create_model_end - create_model_start
 
-    global clientG10s, clientG1000s, clientFixstars, clientDWave41, clientDWave64, clientDWaveV2
+    global solvers
 
     # Brute Force
     best_cost_bf, _, bf_time = solve_bf(
         interaction_matrix, distance_matrix)
 
-    # Gurobi 10s timeout
-    gurobi10s_objective = None
-    gurobi10s_execution_time = None
-    gurobi10s_error = None
-    real_gurobi10s_start = time.time()
-    real_gurobi10s_time = None
-    try:
-        resultG = solve(qp_model["model"], clientG10s)
-        gurobi10s_objective = resultG.best.objective
-        gurobi10s_execution_time = resultG.execution_time.total_seconds()
-        real_gurobi10s_time = time.time() - real_gurobi10s_start
-    except Exception as err:
-        gurobi10s_error = err
+    results = []
+    errors = []
 
-    # Gurobi 100s timeout
-    gurobi100s_objective = None
-    gurobi100s_execution_time = None
-    gurobi100s_error = None
-    real_gurobi100s_start = time.time()
-    real_gurobi100s_time = None
-    try:
-        resultG = solve(qp_model["model"], clientG100s)
-        gurobi100s_objective = resultG.best.objective
-        gurobi100s_execution_time = resultG.execution_time.total_seconds()
-        real_gurobi100s_time = time.time() - real_gurobi100s_start
-    except Exception as err:
-        gurobi100s_error = err
+    for solver in solvers:
+        solver_objective = None
+        solver_execution_time = None
+        solver_error = None
+        solver_total_time = None
 
-    # Fixstars
-    fixstars_objective = None
-    fixstars_execution_time = None
-    fixstars_error = None
-    real_fixstars_start = time.time()
-    real_fixstars_time = None
-    try:
-        resultFS = solve(qp_model["model"], clientFixstars)
-        fixstars_objective = resultFS.best.objective
-        fixstars_execution_time = resultFS.solutions[0].time.total_seconds()
-        real_fixstars_time = time.time() - real_fixstars_start
-    except Exception as err:
-        fixstars_error = err
+        solver_total_time_start = time.time()
 
-    # D-Wave Advantage_system4.1
-    dwave41_objective = None
-    dwave41_execution_time = None
-    dwave41_error = None
-    real_dwave41_start = time.time()
-    real_dwave41_time = None
-    try:
-        resultDWave = solve(qp_model["model"], clientDWave41)
-        dwave41_objective = resultDWave.best.objective
-        dwave41_execution_time = resultDWave.execution_time.total_seconds()
-        real_dwave41_time = time.time() - real_dwave41_start
-    except Exception as err:
-        dwave41_error = err
+        try:
+            result = solve(qp_model["model"], solver[1])
+            solver_objective = result.best.objective
+            solver_execution_time = result.execution_time.total_seconds()
+            solver_total_time = time.time() - solver_total_time_start
+        except Exception as err:
+            solver_error = err
 
-    # D-Wave Advantage_system6.4
-    dwave64_objective = None
-    dwave64_execution_time = None
-    dwave64_error = None
-    real_dwave64_start = time.time()
-    real_dwave64_time = None
-    try:
-        resultDWave = solve(qp_model["model"], clientDWave64)
-        dwave64_objective = resultDWave.best.objective
-        dwave64_execution_time = resultDWave.execution_time.total_seconds()
-        real_dwave64_time = time.time() - real_dwave64_start
-    except Exception as err:
-        dwave64_error = err
+        results.append(SolverResult(
+            name=solver[0],
+            objective=solver_objective,
+            execution_time=solver_execution_time,
+            total_time=solver_total_time,
+        ))
 
-    # D-Wave Advantage2_prototype2.6
-    dwaveV2_objective = None
-    dwaveV2_execution_time = None
-    dwaveV2_error = None
-    real_dwaveV2_start = time.time()
-    real_dwaveV2_time = None
-    try:
-        resultDWave = solve(qp_model["model"], clientDWaveV2)
-        dwaveV2_objective = resultDWave.best.objective
-        dwaveV2_execution_time = resultDWave.execution_time.total_seconds()
-        real_dwaveV2_time = time.time() - real_dwaveV2_start
-    except Exception as err:
-        dwaveV2_error = err
+        errors.append(SolverError(
+            name=solver[0],
+            error=solver_error
+        ))
 
     return CompareResult(
         nodes=nodes,
@@ -197,34 +155,5 @@ def run_compare_solvers(
         interaction_matrix=interaction_matrix,
         qp_weight=qp_weight,
         time_model_formulation=time_model_formulation,
-        solvers_results=[
-            SolverResult(
-                name="Brute Force", objective=best_cost_bf,
-                execution_time=bf_time, total_time=bf_time),
-            SolverResult(
-                name="Gurobi 10s", objective=gurobi10s_objective,
-                execution_time=gurobi10s_execution_time, total_time=real_gurobi10s_time),
-            SolverResult(
-                name="Gurobi 100s", objective=gurobi100s_objective,
-                execution_time=gurobi100s_execution_time, total_time=real_gurobi100s_time),
-            SolverResult(
-                name="Fixstars", objective=fixstars_objective,
-                execution_time=fixstars_execution_time, total_time=real_fixstars_time),
-            SolverResult(
-                name="D-Wave AS4.1", objective=dwave41_objective,
-                execution_time=dwave41_execution_time, total_time=real_dwave41_time),
-            SolverResult(
-                name="D-Wave AS6.4", objective=dwave64_objective,
-                execution_time=dwave64_execution_time, total_time=real_dwave64_time),
-            SolverResult(
-                name="D-Wave V2p2.6", objective=dwave64_objective,
-                execution_time=dwaveV2_execution_time, total_time=real_dwaveV2_time),
-        ],
-    ), [
-        SolverError(name="Gurobi 10s", error=gurobi10s_error),
-        SolverError(name="Gurobi 100s", error=gurobi100s_error),
-        SolverError(name="Fixstars", error=fixstars_error),
-        SolverError(name="D-Wave AS4.1", error=dwave41_error),
-        SolverError(name="D-Wave AS6.4", error=dwave64_error),
-        SolverError(name="D-Wave V2p2.6", error=dwaveV2_error),
-    ]
+        solvers_results=results,
+    ), errors

@@ -1,0 +1,5942 @@
+[
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.01001596450805664,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 148,
+        "execution_time": 1.811981201171875e-5,
+        "total_time": 1.811981201171875e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 148.0,
+        "execution_time": 0.015662,
+        "total_time": 0.03587198257446289
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 148.0,
+        "execution_time": 0.002868,
+        "total_time": 0.006604909896850586
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 148.0,
+        "execution_time": 0.044352,
+        "total_time": 2.625437021255493
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 148.0,
+        "execution_time": 0.038402,
+        "total_time": 11.545310020446777
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 148.0,
+        "execution_time": 0.190522,
+        "total_time": 4.509242057800293
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 148.0,
+        "execution_time": 0.094446,
+        "total_time": 3.8127379417419434
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 148.0,
+        "execution_time": 0.125861,
+        "total_time": 3.5121219158172607
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0009047985076904297,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 147,
+        "execution_time": 3.62396240234375e-5,
+        "total_time": 3.62396240234375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 147.0,
+        "execution_time": 0.009324,
+        "total_time": 0.013545989990234375
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 147.0,
+        "execution_time": 0.006985,
+        "total_time": 0.00837087631225586
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 147.0,
+        "execution_time": 0.044056,
+        "total_time": 2.480573892593384
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 147.0,
+        "execution_time": 0.038608,
+        "total_time": 11.634529113769531
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 147.0,
+        "execution_time": 0.190522,
+        "total_time": 2.571343183517456
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 147.0,
+        "execution_time": 0.094446,
+        "total_time": 2.544341802597046
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 147.0,
+        "execution_time": 0.125861,
+        "total_time": 2.514319896697998
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0009050369262695312,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 129,
+        "execution_time": 3.719329833984375e-5,
+        "total_time": 3.719329833984375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 129.0,
+        "execution_time": 0.006573,
+        "total_time": 0.012644052505493164
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 129.0,
+        "execution_time": 0.00482,
+        "total_time": 0.008688211441040039
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 129.0,
+        "execution_time": 0.038587,
+        "total_time": 2.928879976272583
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 129.0,
+        "execution_time": 0.038406,
+        "total_time": 11.413186073303223
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 129.0,
+        "execution_time": 0.190519,
+        "total_time": 2.5133800506591797
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 129.0,
+        "execution_time": 0.094446,
+        "total_time": 2.7002367973327637
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 129.0,
+        "execution_time": 0.125861,
+        "total_time": 2.521409034729004
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0008318424224853516,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 100,
+        "execution_time": 3.5762786865234375e-5,
+        "total_time": 3.5762786865234375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 100.0,
+        "execution_time": 0.009546,
+        "total_time": 0.012237071990966797
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 100.0,
+        "execution_time": 0.002108,
+        "total_time": 0.008623123168945312
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 100.0,
+        "execution_time": 0.044356,
+        "total_time": 2.618089199066162
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 100.0,
+        "execution_time": 0.038594,
+        "total_time": 11.443221092224121
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 100.0,
+        "execution_time": 0.190519,
+        "total_time": 2.591336965560913
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 100.0,
+        "execution_time": 0.094446,
+        "total_time": 2.5744478702545166
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 100.0,
+        "execution_time": 0.125861,
+        "total_time": 2.525510311126709
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0007648468017578125,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 127,
+        "execution_time": 3.0279159545898438e-5,
+        "total_time": 3.0279159545898438e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 127.0,
+        "execution_time": 0.006534,
+        "total_time": 0.014556884765625
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 127.0,
+        "execution_time": 0.003821,
+        "total_time": 0.007955789566040039
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 127.0,
+        "execution_time": 0.038494,
+        "total_time": 2.479109764099121
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 127.0,
+        "execution_time": 0.038657,
+        "total_time": 11.555302858352661
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 127.0,
+        "execution_time": 0.190522,
+        "total_time": 2.5926830768585205
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 127.0,
+        "execution_time": 0.094446,
+        "total_time": 2.6546859741210938
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 127.0,
+        "execution_time": 0.125861,
+        "total_time": 2.414608955383301
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0007460117340087891,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 158,
+        "execution_time": 3.409385681152344e-5,
+        "total_time": 3.409385681152344e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 158.0,
+        "execution_time": 0.006203,
+        "total_time": 0.013571023941040039
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 158.0,
+        "execution_time": 0.004709,
+        "total_time": 0.009329795837402344
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 158.0,
+        "execution_time": 0.043899,
+        "total_time": 2.3668742179870605
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 158.0,
+        "execution_time": 0.038163,
+        "total_time": 11.399025201797485
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 158.0,
+        "execution_time": 0.190519,
+        "total_time": 2.5396249294281006
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 158.0,
+        "execution_time": 0.094446,
+        "total_time": 2.534452199935913
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 158.0,
+        "execution_time": 0.125861,
+        "total_time": 2.5167667865753174
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0008459091186523438,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 97,
+        "execution_time": 3.790855407714844e-5,
+        "total_time": 3.790855407714844e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 97.0,
+        "execution_time": 0.003157,
+        "total_time": 0.012556791305541992
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 97.0,
+        "execution_time": 0.00214,
+        "total_time": 0.008622169494628906
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 97.0,
+        "execution_time": 0.03851,
+        "total_time": 2.4186863899230957
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 97.0,
+        "execution_time": 0.038628,
+        "total_time": 11.87334394454956
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 97.0,
+        "execution_time": 0.190519,
+        "total_time": 2.5457301139831543
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 97.0,
+        "execution_time": 0.094446,
+        "total_time": 2.5137269496917725
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 97.0,
+        "execution_time": 0.125861,
+        "total_time": 2.4873199462890625
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0010797977447509766,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 124,
+        "execution_time": 4.601478576660156e-5,
+        "total_time": 4.601478576660156e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 124.0,
+        "execution_time": 0.007148,
+        "total_time": 0.015273094177246094
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 124.0,
+        "execution_time": 0.004496,
+        "total_time": 0.008446931838989258
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 124.0,
+        "execution_time": 0.043649,
+        "total_time": 3.249077081680298
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 124.0,
+        "execution_time": 0.038566,
+        "total_time": 11.579750776290894
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 124.0,
+        "execution_time": 0.190519,
+        "total_time": 2.788731098175049
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 124.0,
+        "execution_time": 0.094446,
+        "total_time": 2.596721887588501
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 124.0,
+        "execution_time": 0.125861,
+        "total_time": 2.515411138534546
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0008680820465087891,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 129,
+        "execution_time": 3.4809112548828125e-5,
+        "total_time": 3.4809112548828125e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 129.0,
+        "execution_time": 0.006883,
+        "total_time": 0.013253927230834961
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 129.0,
+        "execution_time": 0.005107,
+        "total_time": 0.009109973907470703
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 129.0,
+        "execution_time": 0.038056,
+        "total_time": 3.4996190071105957
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 129.0,
+        "execution_time": 0.038603,
+        "total_time": 11.466968059539795
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 129.0,
+        "execution_time": 0.190522,
+        "total_time": 2.6134090423583984
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 129.0,
+        "execution_time": 0.094446,
+        "total_time": 2.533614158630371
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 129.0,
+        "execution_time": 0.125861,
+        "total_time": 2.537302017211914
+      }
+    ]
+  },
+  {
+    "nodes": 4,
+    "time_model_formulation": 0.0009038448333740234,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 77,
+        "execution_time": 3.600120544433594e-5,
+        "total_time": 3.600120544433594e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 77.0,
+        "execution_time": 0.009751,
+        "total_time": 0.014970064163208008
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 77.0,
+        "execution_time": 0.003063,
+        "total_time": 0.0065500736236572266
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 77.0,
+        "execution_time": 0.044102,
+        "total_time": 3.997715950012207
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 77.0,
+        "execution_time": 0.038524,
+        "total_time": 11.530160188674927
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 77.0,
+        "execution_time": 0.190522,
+        "total_time": 2.6026599407196045
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 77.0,
+        "execution_time": 0.094446,
+        "total_time": 2.673859119415283
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 77.0,
+        "execution_time": 0.125861,
+        "total_time": 2.4299070835113525
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.001547098159790039,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 97,
+        "execution_time": 0.00019311904907226562,
+        "total_time": 0.00019311904907226562
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 97.0,
+        "execution_time": 0.02098,
+        "total_time": 0.048635005950927734
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 97.0,
+        "execution_time": 0.00945,
+        "total_time": 0.03826189041137695
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 97.0,
+        "execution_time": 0.046429,
+        "total_time": 2.4871511459350586
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 97.0,
+        "execution_time": 0.04666,
+        "total_time": 11.403528928756714
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 104.0,
+        "execution_time": 0.220101,
+        "total_time": 2.5275802612304688
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 97.0,
+        "execution_time": 0.099265,
+        "total_time": 2.5979881286621094
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 97.0,
+        "execution_time": 0.131501,
+        "total_time": 2.52307391166687
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.001194000244140625,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 140,
+        "execution_time": 0.00012493133544921875,
+        "total_time": 0.00012493133544921875
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 140.0,
+        "execution_time": 0.020663,
+        "total_time": 0.06816506385803223
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 140.0,
+        "execution_time": 0.020101,
+        "total_time": 0.04109811782836914
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 140.0,
+        "execution_time": 0.046195,
+        "total_time": 2.4870858192443848
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 140.0,
+        "execution_time": 0.046717,
+        "total_time": 11.454014778137207
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 140.0,
+        "execution_time": 0.220101,
+        "total_time": 2.6202549934387207
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 140.0,
+        "execution_time": 0.099265,
+        "total_time": 2.6099870204925537
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 140.0,
+        "execution_time": 0.131501,
+        "total_time": 2.5301318168640137
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0011532306671142578,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 114,
+        "execution_time": 0.000141143798828125,
+        "total_time": 0.000141143798828125
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 114.0,
+        "execution_time": 0.035844,
+        "total_time": 0.03788495063781738
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 114.0,
+        "execution_time": 0.013581,
+        "total_time": 0.0318598747253418
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 114.0,
+        "execution_time": 0.046494,
+        "total_time": 2.480565071105957
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 114.0,
+        "execution_time": 0.046581,
+        "total_time": 11.438018083572388
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 114.0,
+        "execution_time": 0.220101,
+        "total_time": 2.797952890396118
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 128.0,
+        "execution_time": 0.099265,
+        "total_time": 2.5704500675201416
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 120.0,
+        "execution_time": 0.131501,
+        "total_time": 2.5155227184295654
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0012030601501464844,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 265,
+        "execution_time": 0.00015497207641601562,
+        "total_time": 0.00015497207641601562
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 265.0,
+        "execution_time": 0.020358,
+        "total_time": 0.048972129821777344
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 265.0,
+        "execution_time": 0.039451,
+        "total_time": 0.040554046630859375
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 265.0,
+        "execution_time": 0.053359,
+        "total_time": 2.500763177871704
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 265.0,
+        "execution_time": 0.046469,
+        "total_time": 11.718533039093018
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 275.0,
+        "execution_time": 0.220101,
+        "total_time": 2.6179137229919434
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 275.0,
+        "execution_time": 0.099265,
+        "total_time": 2.55049991607666
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 265.0,
+        "execution_time": 0.131501,
+        "total_time": 2.537689208984375
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0011451244354248047,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 167,
+        "execution_time": 0.00012373924255371094,
+        "total_time": 0.00012373924255371094
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 167.0,
+        "execution_time": 0.019531,
+        "total_time": 0.039566755294799805
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 167.0,
+        "execution_time": 0.01448,
+        "total_time": 0.03530383110046387
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 167.0,
+        "execution_time": 0.05326,
+        "total_time": 2.414433002471924
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 167.0,
+        "execution_time": 0.046204,
+        "total_time": 11.503777980804443
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 167.0,
+        "execution_time": 0.22304,
+        "total_time": 2.7086668014526367
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 176.0,
+        "execution_time": 0.099265,
+        "total_time": 2.7835330963134766
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 167.0,
+        "execution_time": 0.131501,
+        "total_time": 2.4747531414031982
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0014982223510742188,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 135,
+        "execution_time": 0.00020813941955566406,
+        "total_time": 0.00020813941955566406
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 135.0,
+        "execution_time": 0.028378,
+        "total_time": 0.04328799247741699
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 135.0,
+        "execution_time": 0.024072,
+        "total_time": 0.039327144622802734
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 135.0,
+        "execution_time": 0.046778,
+        "total_time": 2.473564863204956
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 135.0,
+        "execution_time": 0.04674,
+        "total_time": 11.496442079544067
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 135.0,
+        "execution_time": 0.220101,
+        "total_time": 2.6354451179504395
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 137.0,
+        "execution_time": 0.099265,
+        "total_time": 2.6214451789855957
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 137.0,
+        "execution_time": 0.131501,
+        "total_time": 2.496072292327881
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.001415252685546875,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 177,
+        "execution_time": 0.00016188621520996094,
+        "total_time": 0.00016188621520996094
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 177.0,
+        "execution_time": 0.011551,
+        "total_time": 0.04496598243713379
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 177.0,
+        "execution_time": 0.022783,
+        "total_time": 0.04161524772644043
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 177.0,
+        "execution_time": 0.053287,
+        "total_time": 2.441488027572632
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 177.0,
+        "execution_time": 0.046101,
+        "total_time": 11.557189226150513
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 177.0,
+        "execution_time": 0.220101,
+        "total_time": 2.67325496673584
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 180.0,
+        "execution_time": 0.099265,
+        "total_time": 2.779803991317749
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 177.0,
+        "execution_time": 0.131501,
+        "total_time": 2.546477794647217
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0013728141784667969,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 111,
+        "execution_time": 0.00016069412231445312,
+        "total_time": 0.00016069412231445312
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 111.0,
+        "execution_time": 0.021423,
+        "total_time": 0.04716300964355469
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 111.0,
+        "execution_time": 0.022378,
+        "total_time": 0.040329933166503906
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 111.0,
+        "execution_time": 0.046335,
+        "total_time": 2.5881690979003906
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 111.0,
+        "execution_time": 0.046364,
+        "total_time": 11.458729982376099
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 116.0,
+        "execution_time": 0.220101,
+        "total_time": 2.610470771789551
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 113.0,
+        "execution_time": 0.099265,
+        "total_time": 2.6237549781799316
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 111.0,
+        "execution_time": 0.131501,
+        "total_time": 2.585294008255005
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0014379024505615234,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 228,
+        "execution_time": 0.0001690387725830078,
+        "total_time": 0.0001690387725830078
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 228.0,
+        "execution_time": 0.030801,
+        "total_time": 0.03689408302307129
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 228.0,
+        "execution_time": 0.021735,
+        "total_time": 0.04535317420959473
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 228.0,
+        "execution_time": 0.046744,
+        "total_time": 2.5143232345581055
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 228.0,
+        "execution_time": 0.04634,
+        "total_time": 11.425826072692871
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 228.0,
+        "execution_time": 0.220101,
+        "total_time": 2.6669979095458984
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 236.0,
+        "execution_time": 0.099265,
+        "total_time": 2.608530044555664
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 228.0,
+        "execution_time": 0.131501,
+        "total_time": 2.529292106628418
+      }
+    ]
+  },
+  {
+    "nodes": 5,
+    "time_model_formulation": 0.0013880729675292969,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 110,
+        "execution_time": 0.00015997886657714844,
+        "total_time": 0.00015997886657714844
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 110.0,
+        "execution_time": 0.046472,
+        "total_time": 0.04995465278625488
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 110.0,
+        "execution_time": 0.00846,
+        "total_time": 0.03425478935241699
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 110.0,
+        "execution_time": 0.053672,
+        "total_time": 4.7091569900512695
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 110.0,
+        "execution_time": 0.046361,
+        "total_time": 11.38601803779602
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 127.0,
+        "execution_time": 0.22304,
+        "total_time": 2.830320119857788
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 130.0,
+        "execution_time": 0.099265,
+        "total_time": 2.7067339420318604
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 110.0,
+        "execution_time": 0.131501,
+        "total_time": 2.505484104156494
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.002492189407348633,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 216,
+        "execution_time": 0.0012850761413574219,
+        "total_time": 0.0012850761413574219
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 216.0,
+        "execution_time": 0.055866,
+        "total_time": 0.10635113716125488
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 216.0,
+        "execution_time": 0.091289,
+        "total_time": 0.10175585746765137
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 216.0,
+        "execution_time": 0.058546,
+        "total_time": 2.499589204788208
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 216.0,
+        "execution_time": 0.058755,
+        "total_time": 11.469584941864014
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 239.0,
+        "execution_time": 0.228922,
+        "total_time": 2.810399055480957
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 262.0,
+        "execution_time": 0.106507,
+        "total_time": 2.753852128982544
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 260.0,
+        "execution_time": 0.132621,
+        "total_time": 2.7610020637512207
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.0017309188842773438,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 277,
+        "execution_time": 0.0009210109710693359,
+        "total_time": 0.0009210109710693359
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 277.0,
+        "execution_time": 0.075909,
+        "total_time": 0.10359811782836914
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 277.0,
+        "execution_time": 0.085561,
+        "total_time": 0.10167384147644043
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 277.0,
+        "execution_time": 0.067352,
+        "total_time": 2.373260974884033
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 277.0,
+        "execution_time": 0.058615,
+        "total_time": 11.476725101470947
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 315.0,
+        "execution_time": 0.228921,
+        "total_time": 2.8271098136901855
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 298.0,
+        "execution_time": 0.106507,
+        "total_time": 3.0089468955993652
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 310.0,
+        "execution_time": 0.132621,
+        "total_time": 2.7492170333862305
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.0019421577453613281,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 223,
+        "execution_time": 0.0009911060333251953,
+        "total_time": 0.0009911060333251953
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 223.0,
+        "execution_time": 0.084008,
+        "total_time": 0.09313011169433594
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 223.0,
+        "execution_time": 0.065365,
+        "total_time": 0.07828998565673828
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 223.0,
+        "execution_time": 0.059072,
+        "total_time": 2.411565065383911
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 223.0,
+        "execution_time": 0.058256,
+        "total_time": 11.505548238754272
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 236.0,
+        "execution_time": 0.228922,
+        "total_time": 2.8247220516204834
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 294.0,
+        "execution_time": 0.106507,
+        "total_time": 2.8498692512512207
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 284.0,
+        "execution_time": 0.132621,
+        "total_time": 2.738903045654297
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.002007007598876953,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 228,
+        "execution_time": 0.00102996826171875,
+        "total_time": 0.00102996826171875
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 228.0,
+        "execution_time": 0.078225,
+        "total_time": 0.09327101707458496
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 228.0,
+        "execution_time": 0.078138,
+        "total_time": 0.08458399772644043
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 228.0,
+        "execution_time": 0.066536,
+        "total_time": 2.4376189708709717
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 228.0,
+        "execution_time": 0.057938,
+        "total_time": 11.471694707870483
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 228.0,
+        "execution_time": 0.228922,
+        "total_time": 2.812380075454712
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 249.0,
+        "execution_time": 0.106507,
+        "total_time": 2.8068487644195557
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 235.0,
+        "execution_time": 0.132621,
+        "total_time": 2.9560351371765137
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.0018601417541503906,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 270,
+        "execution_time": 0.0010280609130859375,
+        "total_time": 0.0010280609130859375
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 270.0,
+        "execution_time": 0.016695,
+        "total_time": 0.08945012092590332
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 270.0,
+        "execution_time": 0.078307,
+        "total_time": 0.08686208724975586
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 270.0,
+        "execution_time": 0.058902,
+        "total_time": 2.413912057876587
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 270.0,
+        "execution_time": 0.058734,
+        "total_time": 11.47254204750061
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 324.0,
+        "execution_time": 0.228922,
+        "total_time": 2.7708139419555664
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 310.0,
+        "execution_time": 0.106507,
+        "total_time": 2.8394112586975098
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 303.0,
+        "execution_time": 0.132621,
+        "total_time": 2.8078501224517822
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.002312898635864258,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 189,
+        "execution_time": 0.0009729862213134766,
+        "total_time": 0.0009729862213134766
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 189.0,
+        "execution_time": 0.043598,
+        "total_time": 0.09302186965942383
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 189.0,
+        "execution_time": 0.097765,
+        "total_time": 0.10535717010498047
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 189.0,
+        "execution_time": 0.066976,
+        "total_time": 2.455834150314331
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 189.0,
+        "execution_time": 0.058108,
+        "total_time": 11.527474164962769
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 225.0,
+        "execution_time": 0.228922,
+        "total_time": 2.917020082473755
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 232.0,
+        "execution_time": 0.106507,
+        "total_time": 2.77290415763855
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 239.0,
+        "execution_time": 0.132621,
+        "total_time": 2.7264442443847656
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.0019402503967285156,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 301,
+        "execution_time": 0.0010132789611816406,
+        "total_time": 0.0010132789611816406
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 301.0,
+        "execution_time": 0.080018,
+        "total_time": 0.09429597854614258
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 301.0,
+        "execution_time": 0.075592,
+        "total_time": 0.07796692848205566
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 301.0,
+        "execution_time": 0.058453,
+        "total_time": 2.9961159229278564
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 301.0,
+        "execution_time": 0.058746,
+        "total_time": 11.619406938552856
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 309.0,
+        "execution_time": 0.228922,
+        "total_time": 3.2410619258880615
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 339.0,
+        "execution_time": 0.106507,
+        "total_time": 2.8324129581451416
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 316.0,
+        "execution_time": 0.132621,
+        "total_time": 2.7513840198516846
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.0018570423126220703,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 252,
+        "execution_time": 0.0009942054748535156,
+        "total_time": 0.0009942054748535156
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 252.0,
+        "execution_time": 0.066592,
+        "total_time": 0.08929586410522461
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 252.0,
+        "execution_time": 0.062799,
+        "total_time": 0.0837099552154541
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 252.0,
+        "execution_time": 0.066737,
+        "total_time": 2.4919087886810303
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 252.0,
+        "execution_time": 0.058735,
+        "total_time": 11.492879867553711
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 266.0,
+        "execution_time": 0.228922,
+        "total_time": 2.906881093978882
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 282.0,
+        "execution_time": 0.106507,
+        "total_time": 2.84993577003479
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 288.0,
+        "execution_time": 0.132621,
+        "total_time": 2.695060968399048
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.0019409656524658203,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 222,
+        "execution_time": 0.0010039806365966797,
+        "total_time": 0.0010039806365966797
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 222.0,
+        "execution_time": 0.015667,
+        "total_time": 0.07911300659179688
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 222.0,
+        "execution_time": 0.057071,
+        "total_time": 0.07823419570922852
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 222.0,
+        "execution_time": 0.058055,
+        "total_time": 2.4472620487213135
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 222.0,
+        "execution_time": 0.058748,
+        "total_time": 11.44089412689209
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 270.0,
+        "execution_time": 0.228921,
+        "total_time": 2.8768088817596436
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 289.0,
+        "execution_time": 0.106507,
+        "total_time": 2.9903910160064697
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 267.0,
+        "execution_time": 0.132621,
+        "total_time": 2.7328948974609375
+      }
+    ]
+  },
+  {
+    "nodes": 6,
+    "time_model_formulation": 0.001961946487426758,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 197,
+        "execution_time": 0.0009801387786865234,
+        "total_time": 0.0009801387786865234
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 197.0,
+        "execution_time": 0.090279,
+        "total_time": 0.09358811378479004
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 197.0,
+        "execution_time": 0.077086,
+        "total_time": 0.08255386352539062
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 197.0,
+        "execution_time": 0.0581,
+        "total_time": 2.3839550018310547
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 197.0,
+        "execution_time": 0.067207,
+        "total_time": 12.279963970184326
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 219.0,
+        "execution_time": 0.228921,
+        "total_time": 2.8095757961273193
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 238.0,
+        "execution_time": 0.106507,
+        "total_time": 2.763274908065796
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": 224.0,
+        "execution_time": 0.132621,
+        "total_time": 2.7209978103637695
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.003365039825439453,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 337,
+        "execution_time": 0.007921934127807617,
+        "total_time": 0.007921934127807617
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 337.0,
+        "execution_time": 0.222849,
+        "total_time": 0.2948789596557617
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 337.0,
+        "execution_time": 0.187228,
+        "total_time": 0.24461579322814941
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 337.0,
+        "execution_time": 0.067522,
+        "total_time": 2.5324547290802
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 337.0,
+        "execution_time": 0.06783,
+        "total_time": 11.399866819381714
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.0030868053436279297,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 411,
+        "execution_time": 0.007543802261352539,
+        "total_time": 0.007543802261352539
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 411.0,
+        "execution_time": 0.29328,
+        "total_time": 0.31067895889282227
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 411.0,
+        "execution_time": 0.205599,
+        "total_time": 0.2827260494232178
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 411.0,
+        "execution_time": 0.067633,
+        "total_time": 2.4659619331359863
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 411.0,
+        "execution_time": 0.068529,
+        "total_time": 11.509352922439575
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.003052234649658203,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 580,
+        "execution_time": 0.007534027099609375,
+        "total_time": 0.007534027099609375
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 580.0,
+        "execution_time": 0.200345,
+        "total_time": 0.38785672187805176
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 580.0,
+        "execution_time": 0.275534,
+        "total_time": 0.3790290355682373
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 580.0,
+        "execution_time": 0.078031,
+        "total_time": 2.519779920578003
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 580.0,
+        "execution_time": 0.067822,
+        "total_time": 11.534094095230103
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 633.0,
+        "execution_time": 0.152683,
+        "total_time": 3.155790090560913
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": 604.0,
+        "execution_time": 0.123527,
+        "total_time": 2.7800559997558594
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.002892017364501953,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 372,
+        "execution_time": 0.007158041000366211,
+        "total_time": 0.007158041000366211
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 372.0,
+        "execution_time": 0.172034,
+        "total_time": 0.2585110664367676
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 372.0,
+        "execution_time": 0.105295,
+        "total_time": 0.2876899242401123
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 372.0,
+        "execution_time": 0.068749,
+        "total_time": 2.339405059814453
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 372.0,
+        "execution_time": 0.06885,
+        "total_time": 11.456315755844116
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 454.0,
+        "execution_time": 0.152681,
+        "total_time": 3.0899252891540527
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.0029120445251464844,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 332,
+        "execution_time": 0.0073871612548828125,
+        "total_time": 0.0073871612548828125
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 332.0,
+        "execution_time": 0.182415,
+        "total_time": 0.24079513549804688
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 332.0,
+        "execution_time": 0.162149,
+        "total_time": 0.20819807052612305
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 332.0,
+        "execution_time": 0.078836,
+        "total_time": 2.5250470638275146
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 332.0,
+        "execution_time": 0.068596,
+        "total_time": 11.554044961929321
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 468.0,
+        "execution_time": 0.152681,
+        "total_time": 2.933289051055908
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.003035306930541992,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 272,
+        "execution_time": 0.007511138916015625,
+        "total_time": 0.007511138916015625
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 272.0,
+        "execution_time": 0.159221,
+        "total_time": 0.25429606437683105
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 272.0,
+        "execution_time": 0.053442,
+        "total_time": 0.2669861316680908
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 272.0,
+        "execution_time": 0.067718,
+        "total_time": 2.4695990085601807
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 272.0,
+        "execution_time": 0.068562,
+        "total_time": 11.36052393913269
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 335.0,
+        "execution_time": 0.152681,
+        "total_time": 2.8673641681671143
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.003119230270385742,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 403,
+        "execution_time": 0.008095026016235352,
+        "total_time": 0.008095026016235352
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 403.0,
+        "execution_time": 0.230099,
+        "total_time": 0.2714040279388428
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 403.0,
+        "execution_time": 0.191817,
+        "total_time": 0.25946521759033203
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 403.0,
+        "execution_time": 0.07857,
+        "total_time": 2.5168440341949463
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 403.0,
+        "execution_time": 0.067998,
+        "total_time": 11.503696918487549
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 441.0,
+        "execution_time": 0.152681,
+        "total_time": 2.8774101734161377
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.0032629966735839844,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 442,
+        "execution_time": 0.008082866668701172,
+        "total_time": 0.008082866668701172
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 442.0,
+        "execution_time": 0.229428,
+        "total_time": 0.29872798919677734
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 442.0,
+        "execution_time": 0.245346,
+        "total_time": 0.412463903427124
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 442.0,
+        "execution_time": 0.078904,
+        "total_time": 2.5143418312072754
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 442.0,
+        "execution_time": 0.06938,
+        "total_time": 11.372294902801514
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 478.0,
+        "execution_time": 0.152681,
+        "total_time": 2.8260931968688965
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.0032389163970947266,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 261,
+        "execution_time": 0.007908105850219727,
+        "total_time": 0.007908105850219727
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 261.0,
+        "execution_time": 0.221418,
+        "total_time": 0.2446730136871338
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 261.0,
+        "execution_time": 0.123787,
+        "total_time": 0.21938204765319824
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 261.0,
+        "execution_time": 0.07759,
+        "total_time": 2.4867119789123535
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 261.0,
+        "execution_time": 0.067215,
+        "total_time": 11.502815961837769
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": 298.0,
+        "execution_time": 0.152681,
+        "total_time": 2.810781955718994
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 7,
+    "time_model_formulation": 0.0029633045196533203,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 343,
+        "execution_time": 0.007475852966308594,
+        "total_time": 0.007475852966308594
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 343.0,
+        "execution_time": 0.250279,
+        "total_time": 0.25670814514160156
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 343.0,
+        "execution_time": 0.272704,
+        "total_time": 0.2808871269226074
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 343.0,
+        "execution_time": 0.078228,
+        "total_time": 2.5145249366760254
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 343.0,
+        "execution_time": 0.068116,
+        "total_time": 11.503535032272339
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.005192995071411133,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 313,
+        "execution_time": 0.06095409393310547,
+        "total_time": 0.06095409393310547
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 313.0,
+        "execution_time": 0.827242,
+        "total_time": 0.8496849536895752
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 313.0,
+        "execution_time": 0.805634,
+        "total_time": 0.9946551322937012
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 313.0,
+        "execution_time": 0.083761,
+        "total_time": 2.381840944290161
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 313.0,
+        "execution_time": 0.072682,
+        "total_time": 11.435955047607422
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004336833953857422,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 457,
+        "execution_time": 0.05995798110961914,
+        "total_time": 0.05995798110961914
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 457.0,
+        "execution_time": 0.994198,
+        "total_time": 1.047684907913208
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 457.0,
+        "execution_time": 0.541569,
+        "total_time": 0.9802026748657227
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 457.0,
+        "execution_time": 0.08461,
+        "total_time": 2.7526092529296875
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 457.0,
+        "execution_time": 0.073194,
+        "total_time": 11.44948935508728
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.0043027400970458984,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 394,
+        "execution_time": 0.06037592887878418,
+        "total_time": 0.06037592887878418
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 394.0,
+        "execution_time": 0.757605,
+        "total_time": 1.0026953220367432
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 394.0,
+        "execution_time": 0.579494,
+        "total_time": 0.7394030094146729
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 394.0,
+        "execution_time": 0.074138,
+        "total_time": 2.3762240409851074
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 394.0,
+        "execution_time": 0.072823,
+        "total_time": 11.438823223114014
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004327058792114258,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 293,
+        "execution_time": 0.05797457695007324,
+        "total_time": 0.05797457695007324
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 293.0,
+        "execution_time": 0.714781,
+        "total_time": 0.7941529750823975
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 293.0,
+        "execution_time": 0.750877,
+        "total_time": 0.9228951930999756
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 293.0,
+        "execution_time": 0.08468,
+        "total_time": 2.737823009490967
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 293.0,
+        "execution_time": 0.074251,
+        "total_time": 11.383529424667358
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.0045282840728759766,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 550,
+        "execution_time": 0.06230497360229492,
+        "total_time": 0.06230497360229492
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 550.0,
+        "execution_time": 0.471632,
+        "total_time": 0.8187844753265381
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 550.0,
+        "execution_time": 0.509695,
+        "total_time": 1.042268991470337
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 550.0,
+        "execution_time": 0.072964,
+        "total_time": 2.332674980163574
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 550.0,
+        "execution_time": 0.073584,
+        "total_time": 11.371401309967041
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004438877105712891,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 454,
+        "execution_time": 0.06189894676208496,
+        "total_time": 0.06189894676208496
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 454.0,
+        "execution_time": 0.851949,
+        "total_time": 1.2306768894195557
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 454.0,
+        "execution_time": 0.739437,
+        "total_time": 1.0594277381896973
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 454.0,
+        "execution_time": 0.084107,
+        "total_time": 2.7426183223724365
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 454.0,
+        "execution_time": 0.073728,
+        "total_time": 11.457660913467407
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004590034484863281,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 444,
+        "execution_time": 0.061643123626708984,
+        "total_time": 0.061643123626708984
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 444.0,
+        "execution_time": 0.688762,
+        "total_time": 0.916111946105957
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 444.0,
+        "execution_time": 0.913756,
+        "total_time": 1.039881944656372
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 444.0,
+        "execution_time": 0.073073,
+        "total_time": 2.4891109466552734
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 444.0,
+        "execution_time": 0.073784,
+        "total_time": 12.133065938949585
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004395008087158203,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 536,
+        "execution_time": 0.06199073791503906,
+        "total_time": 0.06199073791503906
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 536.0,
+        "execution_time": 0.75127,
+        "total_time": 1.1092779636383057
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 536.0,
+        "execution_time": 1.09075,
+        "total_time": 1.3612060546875
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 536.0,
+        "execution_time": 0.073977,
+        "total_time": 2.3390328884124756
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 536.0,
+        "execution_time": 0.074578,
+        "total_time": 11.412283897399902
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004525184631347656,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 377,
+        "execution_time": 0.06251883506774902,
+        "total_time": 0.06251883506774902
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 377.0,
+        "execution_time": 0.966254,
+        "total_time": 1.0301752090454102
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 377.0,
+        "execution_time": 0.401608,
+        "total_time": 0.7351181507110596
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 377.0,
+        "execution_time": 0.073375,
+        "total_time": 2.3816230297088623
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 377.0,
+        "execution_time": 0.073677,
+        "total_time": 11.656975030899048
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 8,
+    "time_model_formulation": 0.004240751266479492,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 506,
+        "execution_time": 0.060547828674316406,
+        "total_time": 0.060547828674316406
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 506.0,
+        "execution_time": 0.59906,
+        "total_time": 1.1008961200714111
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 506.0,
+        "execution_time": 0.762699,
+        "total_time": 1.1514620780944824
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 506.0,
+        "execution_time": 0.073049,
+        "total_time": 2.560197114944458
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 506.0,
+        "execution_time": 0.073435,
+        "total_time": 11.519520998001099
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.010467052459716797,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 753,
+        "execution_time": 7.885266065597534,
+        "total_time": 7.885266065597534
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 753.0,
+        "execution_time": 5.116199,
+        "total_time": 5.593672275543213
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 753.0,
+        "execution_time": 5.500456,
+        "total_time": 5.602292060852051
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 753.0,
+        "execution_time": 0.111609,
+        "total_time": 2.267603874206543
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 753.0,
+        "execution_time": 0.111107,
+        "total_time": 11.265694856643677
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009399175643920898,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 960,
+        "execution_time": 7.952507972717285,
+        "total_time": 7.952507972717285
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 960.0,
+        "execution_time": 7.058255,
+        "total_time": 10.013261079788208
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 960.0,
+        "execution_time": 2.352272,
+        "total_time": 10.84165096282959
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 960.0,
+        "execution_time": 0.109828,
+        "total_time": 2.2813098430633545
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 960.0,
+        "execution_time": 0.057711,
+        "total_time": 11.224494934082031
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009417057037353516,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 721,
+        "execution_time": 7.847704887390137,
+        "total_time": 7.847704887390137
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 721.0,
+        "execution_time": 5.54202,
+        "total_time": 6.133687973022461
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 721.0,
+        "execution_time": 5.642971,
+        "total_time": 6.182469844818115
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 721.0,
+        "execution_time": 0.1271,
+        "total_time": 2.269608974456787
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 721.0,
+        "execution_time": 0.110362,
+        "total_time": 11.545438051223755
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009239912033081055,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 733,
+        "execution_time": 7.795912981033325,
+        "total_time": 7.795912981033325
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 733.0,
+        "execution_time": 4.817933,
+        "total_time": 8.432640075683594
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 733.0,
+        "execution_time": 2.39974,
+        "total_time": 8.617057085037231
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 733.0,
+        "execution_time": 0.11016,
+        "total_time": 2.2837908267974854
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 733.0,
+        "execution_time": 0.124785,
+        "total_time": 11.336042881011963
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009729862213134766,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 911,
+        "execution_time": 7.906534910202026,
+        "total_time": 7.906534910202026
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 911.0,
+        "execution_time": 6.128786,
+        "total_time": 6.131890058517456
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 911.0,
+        "execution_time": 6.591413,
+        "total_time": 6.595165014266968
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 911.0,
+        "execution_time": 0.126888,
+        "total_time": 2.789161205291748
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 911.0,
+        "execution_time": 0.126126,
+        "total_time": 12.061038732528687
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.00943899154663086,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 695,
+        "execution_time": 7.897079944610596,
+        "total_time": 7.897079944610596
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 695.0,
+        "execution_time": 3.725116,
+        "total_time": 3.9339818954467773
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 695.0,
+        "execution_time": 4.151549,
+        "total_time": 4.1543591022491455
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 695.0,
+        "execution_time": 0.109639,
+        "total_time": 2.3484249114990234
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 695.0,
+        "execution_time": 0.10977,
+        "total_time": 11.203779220581055
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009448051452636719,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 822,
+        "execution_time": 7.944483041763306,
+        "total_time": 7.944483041763306
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 822.0,
+        "execution_time": 0.392394,
+        "total_time": 9.117027044296265
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 822.0,
+        "execution_time": 9.872014,
+        "total_time": 9.874884128570557
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 822.0,
+        "execution_time": 0.057438,
+        "total_time": 2.2789671421051025
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 822.0,
+        "execution_time": 0.058394,
+        "total_time": 11.808777093887329
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009414911270141602,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 730,
+        "execution_time": 8.023990869522095,
+        "total_time": 8.023990869522095
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 730.0,
+        "execution_time": 7.401084,
+        "total_time": 7.406141042709351
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 730.0,
+        "execution_time": 8.500987,
+        "total_time": 8.503947019577026
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 730.0,
+        "execution_time": 0.126741,
+        "total_time": 2.3099851608276367
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 730.0,
+        "execution_time": 0.067111,
+        "total_time": 12.047467947006226
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.03636503219604492,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 761,
+        "execution_time": 8.248847961425781,
+        "total_time": 8.248847961425781
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 761.0,
+        "execution_time": 2.683658,
+        "total_time": 5.289047002792358
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 761.0,
+        "execution_time": 3.780411,
+        "total_time": 3.782839775085449
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 761.0,
+        "execution_time": 0.066386,
+        "total_time": 2.2239701747894287
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 761.0,
+        "execution_time": 0.057435,
+        "total_time": 13.579001188278198
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 10,
+    "time_model_formulation": 0.009289979934692383,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 625,
+        "execution_time": 8.201802253723145,
+        "total_time": 8.201802253723145
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 625.0,
+        "execution_time": 5.046811,
+        "total_time": 7.23139500617981
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 625.0,
+        "execution_time": 7.606929,
+        "total_time": 7.995270729064941
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 625.0,
+        "execution_time": 0.111363,
+        "total_time": 2.2710909843444824
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 625.0,
+        "execution_time": 0.05774,
+        "total_time": 11.417155981063843
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019803762435913086,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1071,
+        "execution_time": 100.00000381469727,
+        "total_time": 100.00000381469727
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1057.0,
+        "execution_time": 10.016577,
+        "total_time": 10.021421194076538
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1038.0,
+        "execution_time": 100.001526,
+        "total_time": 100.38281798362732
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1024.0,
+        "execution_time": 0.219043,
+        "total_time": 2.2023370265960693
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1024.0,
+        "execution_time": 0.109863,
+        "total_time": 11.225815057754517
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.01965618133544922,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1193,
+        "execution_time": 100.00000429153442,
+        "total_time": 100.00000429153442
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1200.0,
+        "execution_time": 0.133149,
+        "total_time": 10.027055025100708
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1179.0,
+        "execution_time": 35.321854,
+        "total_time": 100.39012813568115
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1173.0,
+        "execution_time": 0.279336,
+        "total_time": 2.2013471126556396
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1173.0,
+        "execution_time": 0.155627,
+        "total_time": 11.398359060287476
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019551992416381836,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1271,
+        "execution_time": 100.00000834465027,
+        "total_time": 100.00000834465027
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1282.0,
+        "execution_time": 0.697995,
+        "total_time": 10.020262002944946
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1267.0,
+        "execution_time": 91.866537,
+        "total_time": 100.35818076133728
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1262.0,
+        "execution_time": 0.196737,
+        "total_time": 2.2285032272338867
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1262.0,
+        "execution_time": 0.195875,
+        "total_time": 11.496508121490479
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019974708557128906,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1284,
+        "execution_time": 100.00000500679016,
+        "total_time": 100.00000500679016
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1308.0,
+        "execution_time": 10.015709,
+        "total_time": 10.020239114761353
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1275.0,
+        "execution_time": 100.00245,
+        "total_time": 100.57092618942261
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1275.0,
+        "execution_time": 0.885066,
+        "total_time": 2.173431158065796
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1275.0,
+        "execution_time": 0.271825,
+        "total_time": 12.129776000976562
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019948959350585938,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1188,
+        "execution_time": 100.0000069141388,
+        "total_time": 100.0000069141388
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1180.0,
+        "execution_time": 1.293478,
+        "total_time": 10.023710250854492
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1165.0,
+        "execution_time": 85.174351,
+        "total_time": 100.34028601646423
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1165.0,
+        "execution_time": 0.233943,
+        "total_time": 2.8080310821533203
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1165.0,
+        "execution_time": 0.240975,
+        "total_time": 11.272317886352539
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.020026206970214844,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1042,
+        "execution_time": 100.00000596046448,
+        "total_time": 100.00000596046448
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1069.0,
+        "execution_time": 1.519375,
+        "total_time": 10.023709774017334
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1033.0,
+        "execution_time": 11.632456,
+        "total_time": 100.37103986740112
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1021.0,
+        "execution_time": 0.222884,
+        "total_time": 2.4751789569854736
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1021.0,
+        "execution_time": 0.223271,
+        "total_time": 11.231168985366821
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.020168066024780273,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1122,
+        "execution_time": 100.00000286102295,
+        "total_time": 100.00000286102295
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1129.0,
+        "execution_time": 9.438059,
+        "total_time": 10.021886110305786
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1107.0,
+        "execution_time": 5.705789,
+        "total_time": 100.31751227378845
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1099.0,
+        "execution_time": 0.106514,
+        "total_time": 2.273473024368286
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1099.0,
+        "execution_time": 0.199774,
+        "total_time": 11.183544158935547
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019593238830566406,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1126,
+        "execution_time": 100.0000057220459,
+        "total_time": 100.0000057220459
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1131.0,
+        "execution_time": 10.018414,
+        "total_time": 10.023159980773926
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1120.0,
+        "execution_time": 100.001335,
+        "total_time": 100.40152478218079
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1120.0,
+        "execution_time": 0.825155,
+        "total_time": 2.2444729804992676
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1120.0,
+        "execution_time": 0.156372,
+        "total_time": 11.171996355056763
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019929885864257812,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1067,
+        "execution_time": 100.00000476837158,
+        "total_time": 100.00000476837158
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1078.0,
+        "execution_time": 0.122634,
+        "total_time": 10.020004034042358
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1065.0,
+        "execution_time": 70.181678,
+        "total_time": 100.55751299858093
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1053.0,
+        "execution_time": 0.198487,
+        "total_time": 2.257354974746704
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1053.0,
+        "execution_time": 0.263756,
+        "total_time": 11.245635986328125
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "time_model_formulation": 0.019607067108154297,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1021,
+        "execution_time": 100.00000190734863,
+        "total_time": 100.00000190734863
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1012.0,
+        "execution_time": 10.005528,
+        "total_time": 10.042670011520386
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1009.0,
+        "execution_time": 100.003938,
+        "total_time": 100.4926393032074
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 984.0,
+        "execution_time": 0.177665,
+        "total_time": 2.1685218811035156
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 984.0,
+        "execution_time": 0.237223,
+        "total_time": 11.194890975952148
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05268383026123047,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1937,
+        "execution_time": 100.00000715255737,
+        "total_time": 100.00000715255737
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1914.0,
+        "execution_time": 2.471904,
+        "total_time": 10.02531909942627
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1878.0,
+        "execution_time": 47.648567,
+        "total_time": 100.27436184883118
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1841.0,
+        "execution_time": 0.318043,
+        "total_time": 2.1789629459381104
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1841.0,
+        "execution_time": 0.280873,
+        "total_time": 11.34674596786499
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.051798105239868164,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1785,
+        "execution_time": 100.00000619888306,
+        "total_time": 100.00000619888306
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1689.0,
+        "execution_time": 1.266958,
+        "total_time": 10.027225971221924
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1705.0,
+        "execution_time": 33.144108,
+        "total_time": 100.27399969100952
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1693.0,
+        "execution_time": 0.921472,
+        "total_time": 2.3256819248199463
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1663.0,
+        "execution_time": 3.183758,
+        "total_time": 11.230601072311401
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.04996085166931152,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1644,
+        "execution_time": 100.00000596046448,
+        "total_time": 100.00000596046448
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1628.0,
+        "execution_time": 10.020292,
+        "total_time": 10.028598070144653
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1618.0,
+        "execution_time": 100.009021,
+        "total_time": 100.28833484649658
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1579.0,
+        "execution_time": 0.483703,
+        "total_time": 2.2267279624938965
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1564.0,
+        "execution_time": 2.857204,
+        "total_time": 11.276684045791626
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05136704444885254,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 2071,
+        "execution_time": 100.0000069141388,
+        "total_time": 100.0000069141388
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 2014.0,
+        "execution_time": 0.419113,
+        "total_time": 10.030347108840942
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1959.0,
+        "execution_time": 100.005669,
+        "total_time": 100.2283022403717
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1962.0,
+        "execution_time": 0.345054,
+        "total_time": 2.2976503372192383
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1942.0,
+        "execution_time": 5.756549,
+        "total_time": 11.263727903366089
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.049223899841308594,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1693,
+        "execution_time": 100.00000619888306,
+        "total_time": 100.00000619888306
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1707.0,
+        "execution_time": 1.00832,
+        "total_time": 10.030553817749023
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1687.0,
+        "execution_time": 65.670533,
+        "total_time": 100.30107808113098
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1676.0,
+        "execution_time": 0.490391,
+        "total_time": 2.200615882873535
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1670.0,
+        "execution_time": 1.507666,
+        "total_time": 11.274113178253174
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.04970192909240723,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1743,
+        "execution_time": 100.00000405311584,
+        "total_time": 100.00000405311584
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1717.0,
+        "execution_time": 10.021517,
+        "total_time": 10.030894994735718
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1698.0,
+        "execution_time": 100.004838,
+        "total_time": 100.2752161026001
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1661.0,
+        "execution_time": 0.267609,
+        "total_time": 2.294498920440674
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1659.0,
+        "execution_time": 4.815415,
+        "total_time": 11.264782905578613
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.05184626579284668,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 2096,
+        "execution_time": 100.00000596046448,
+        "total_time": 100.00000596046448
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 2031.0,
+        "execution_time": 10.018539,
+        "total_time": 10.02978515625
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 2005.0,
+        "execution_time": 100.004258,
+        "total_time": 100.21509623527527
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1971.0,
+        "execution_time": 0.864481,
+        "total_time": 2.214078903198242
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1969.0,
+        "execution_time": 4.200742,
+        "total_time": 11.257972955703735
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.0492708683013916,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1778,
+        "execution_time": 100.00000524520874,
+        "total_time": 100.00000524520874
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1761.0,
+        "execution_time": 3.502885,
+        "total_time": 10.02414083480835
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1683.0,
+        "execution_time": 67.438889,
+        "total_time": 100.27608895301819
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1690.0,
+        "execution_time": 0.502035,
+        "total_time": 2.19400691986084
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1683.0,
+        "execution_time": 3.073765,
+        "total_time": 11.270137071609497
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.04951119422912598,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1950,
+        "execution_time": 100.0000069141388,
+        "total_time": 100.0000069141388
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1881.0,
+        "execution_time": 10.017618,
+        "total_time": 10.025332927703857
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1889.0,
+        "execution_time": 100.005491,
+        "total_time": 100.24167823791504
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1872.0,
+        "execution_time": 0.634551,
+        "total_time": 2.25215220451355
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1872.0,
+        "execution_time": 7.67907,
+        "total_time": 11.377588987350464
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 15,
+    "time_model_formulation": 0.04893326759338379,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 1757,
+        "execution_time": 100.00000596046448,
+        "total_time": 100.00000596046448
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 1741.0,
+        "execution_time": 1.504157,
+        "total_time": 10.033330202102661
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 1740.0,
+        "execution_time": 76.667841,
+        "total_time": 100.22677969932556
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 1704.0,
+        "execution_time": 0.715633,
+        "total_time": 2.220762014389038
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 1696.0,
+        "execution_time": 4.20461,
+        "total_time": 11.299641847610474
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.15870881080627441,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3831,
+        "execution_time": 100.00001168251038,
+        "total_time": 100.00001168251038
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3595.0,
+        "execution_time": 10.005645,
+        "total_time": 10.023768901824951
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3552.0,
+        "execution_time": 100.008359,
+        "total_time": 100.05837392807007
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3523.0,
+        "execution_time": 0.686953,
+        "total_time": 2.3811399936676025
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3499.0,
+        "execution_time": 2.921994,
+        "total_time": 11.346697092056274
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.1605091094970703,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3625,
+        "execution_time": 100.00000810623169,
+        "total_time": 100.00000810623169
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3384.0,
+        "execution_time": 2.512715,
+        "total_time": 10.020843029022217
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3358.0,
+        "execution_time": 9.186104,
+        "total_time": 100.05736088752747
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3343.0,
+        "execution_time": 0.494968,
+        "total_time": 2.4403820037841797
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3273.0,
+        "execution_time": 3.696558,
+        "total_time": 11.448179960250854
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.1624770164489746,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3227,
+        "execution_time": 100.00001001358032,
+        "total_time": 100.00001001358032
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3040.0,
+        "execution_time": 4.409602,
+        "total_time": 10.020542860031128
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 2975.0,
+        "execution_time": 8.169547,
+        "total_time": 100.08063793182373
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 2950.0,
+        "execution_time": 0.474231,
+        "total_time": 2.393165111541748
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 2908.0,
+        "execution_time": 1.546465,
+        "total_time": 11.43784761428833
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16520285606384277,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3493,
+        "execution_time": 100.00000715255737,
+        "total_time": 100.00000715255737
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3359.0,
+        "execution_time": 4.481465,
+        "total_time": 10.020775318145752
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3339.0,
+        "execution_time": 8.125678,
+        "total_time": 100.08238506317139
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3322.0,
+        "execution_time": 0.463199,
+        "total_time": 2.419490098953247
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3261.0,
+        "execution_time": 0.558033,
+        "total_time": 11.458647966384888
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16136598587036133,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3876,
+        "execution_time": 100.00001096725464,
+        "total_time": 100.00001096725464
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3702.0,
+        "execution_time": 4.19079,
+        "total_time": 10.023862838745117
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3680.0,
+        "execution_time": 11.342441,
+        "total_time": 100.07637619972229
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3586.0,
+        "execution_time": 0.61263,
+        "total_time": 2.4004530906677246
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3593.0,
+        "execution_time": 8.660689,
+        "total_time": 11.448187828063965
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.15799403190612793,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3625,
+        "execution_time": 100.00001001358032,
+        "total_time": 100.00001001358032
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3388.0,
+        "execution_time": 8.858319,
+        "total_time": 10.023102760314941
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3371.0,
+        "execution_time": 13.914122,
+        "total_time": 100.05724287033081
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3307.0,
+        "execution_time": 0.604707,
+        "total_time": 2.395174980163574
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3320.0,
+        "execution_time": 0.612475,
+        "total_time": 11.473708868026733
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16031408309936523,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3467,
+        "execution_time": 100.00000882148743,
+        "total_time": 100.00000882148743
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3265.0,
+        "execution_time": 9.764254,
+        "total_time": 10.021178960800171
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3301.0,
+        "execution_time": 43.021843,
+        "total_time": 100.07680892944336
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3242.0,
+        "execution_time": 0.472558,
+        "total_time": 2.4734489917755127
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3245.0,
+        "execution_time": 9.491606,
+        "total_time": 11.389040231704712
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16354990005493164,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3822,
+        "execution_time": 100.00001096725464,
+        "total_time": 100.00001096725464
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3513.0,
+        "execution_time": 10.00669,
+        "total_time": 10.02480936050415
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3513.0,
+        "execution_time": 100.009692,
+        "total_time": 100.0675699710846
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3508.0,
+        "execution_time": 0.50003,
+        "total_time": 2.3825409412384033
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3441.0,
+        "execution_time": 2.405872,
+        "total_time": 11.443967342376709
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.16060519218444824,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3004,
+        "execution_time": 100.00000596046448,
+        "total_time": 100.00000596046448
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 2906.0,
+        "execution_time": 10.00687,
+        "total_time": 10.024974822998047
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 2852.0,
+        "execution_time": 100.008951,
+        "total_time": 100.07932591438293
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 2852.0,
+        "execution_time": 0.58787,
+        "total_time": 2.4549951553344727
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 2828.0,
+        "execution_time": 3.825094,
+        "total_time": 11.375569343566895
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 20,
+    "time_model_formulation": 0.15961384773254395,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 3765,
+        "execution_time": 100.00001001358032,
+        "total_time": 100.00001001358032
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 3608.0,
+        "execution_time": 10.004678,
+        "total_time": 10.020400762557983
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 3599.0,
+        "execution_time": 100.00891,
+        "total_time": 100.06472873687744
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 3501.0,
+        "execution_time": 0.537781,
+        "total_time": 2.3717260360717773
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 3498.0,
+        "execution_time": 9.359464,
+        "total_time": 11.425649881362915
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.284203052520752,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16832,
+        "execution_time": 100.00003004074097,
+        "total_time": 100.00003004074097
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17483.0,
+        "execution_time": 7.0931,
+        "total_time": 10.253507852554321
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15772.0,
+        "execution_time": 100.073759,
+        "total_time": 100.32068610191345
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 15758.0,
+        "execution_time": 0.990611,
+        "total_time": 4.1408069133758545
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15584.0,
+        "execution_time": 6.010898,
+        "total_time": 13.2326819896698
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.3576481342315674,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16931,
+        "execution_time": 100.00003504753113,
+        "total_time": 100.00003504753113
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17301.0,
+        "execution_time": 6.98545,
+        "total_time": 10.271606922149658
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15776.0,
+        "execution_time": 100.065967,
+        "total_time": 100.32129693031311
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 15905.0,
+        "execution_time": 0.945799,
+        "total_time": 4.095201015472412
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15508.0,
+        "execution_time": 2.750764,
+        "total_time": 13.056409120559692
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.4338808059692383,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16950,
+        "execution_time": 100.00001907348633,
+        "total_time": 100.00001907348633
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17437.0,
+        "execution_time": 7.178604,
+        "total_time": 10.21137022972107
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 16021.0,
+        "execution_time": 100.067795,
+        "total_time": 100.32394790649414
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16158.0,
+        "execution_time": 0.996851,
+        "total_time": 4.278686046600342
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15799.0,
+        "execution_time": 6.131826,
+        "total_time": 13.193870067596436
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.3149051666259766,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16879,
+        "execution_time": 100.00001311302185,
+        "total_time": 100.00001311302185
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17414.0,
+        "execution_time": 6.9646,
+        "total_time": 10.222049951553345
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15783.0,
+        "execution_time": 88.677682,
+        "total_time": 100.31467080116272
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16010.0,
+        "execution_time": 0.97225,
+        "total_time": 4.112467050552368
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15528.0,
+        "execution_time": 2.935719,
+        "total_time": 13.120955228805542
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.348109722137451,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16712,
+        "execution_time": 100.00000286102295,
+        "total_time": 100.00000286102295
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17476.0,
+        "execution_time": 7.12967,
+        "total_time": 10.274043083190918
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15778.0,
+        "execution_time": 100.05706,
+        "total_time": 100.30752301216125
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16065.0,
+        "execution_time": 0.987226,
+        "total_time": 4.146495342254639
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15587.0,
+        "execution_time": 2.853252,
+        "total_time": 12.944423913955688
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.396543025970459,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 17051,
+        "execution_time": 100.00000500679016,
+        "total_time": 100.00000500679016
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17587.0,
+        "execution_time": 7.049779,
+        "total_time": 10.221146821975708
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15897.0,
+        "execution_time": 90.165008,
+        "total_time": 100.31837797164917
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16186.0,
+        "execution_time": 0.997379,
+        "total_time": 4.121079206466675
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15652.0,
+        "execution_time": 7.690976,
+        "total_time": 12.992840051651001
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.337908983230591,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 17967,
+        "execution_time": 100.0000319480896,
+        "total_time": 100.0000319480896
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18063.0,
+        "execution_time": 6.95562,
+        "total_time": 10.268203973770142
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 16841.0,
+        "execution_time": 100.054989,
+        "total_time": 100.30595993995667
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16914.0,
+        "execution_time": 0.98993,
+        "total_time": 4.15294885635376
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 16664.0,
+        "execution_time": 5.947534,
+        "total_time": 13.0193932056427
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.303725004196167,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 16794,
+        "execution_time": 100.00002884864807,
+        "total_time": 100.00002884864807
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17447.0,
+        "execution_time": 7.022502,
+        "total_time": 10.22330379486084
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15993.0,
+        "execution_time": 100.053837,
+        "total_time": 100.2963502407074
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16095.0,
+        "execution_time": 0.978666,
+        "total_time": 4.218837022781372
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15796.0,
+        "execution_time": 2.787591,
+        "total_time": 13.290215253829956
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.274340867996216,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 17661,
+        "execution_time": 100.000009059906,
+        "total_time": 100.000009059906
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17969.0,
+        "execution_time": 6.969816,
+        "total_time": 10.211468935012817
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 16544.0,
+        "execution_time": 92.19324,
+        "total_time": 100.34469389915466
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16670.0,
+        "execution_time": 0.97037,
+        "total_time": 4.090747833251953
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 16310.0,
+        "execution_time": 4.500819,
+        "total_time": 13.065126895904541
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 42,
+    "time_model_formulation": 3.298051118850708,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 17112,
+        "execution_time": 100.00003290176392,
+        "total_time": 100.00003290176392
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 17600.0,
+        "execution_time": 6.948692,
+        "total_time": 10.278776168823242
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 15957.0,
+        "execution_time": 84.406761,
+        "total_time": 100.34214210510254
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 16076.0,
+        "execution_time": 0.991242,
+        "total_time": 4.057563066482544
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 15636.0,
+        "execution_time": 7.902834,
+        "total_time": 13.027941226959229
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 26.14022922515869,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46860,
+        "execution_time": 100.0000262260437,
+        "total_time": 100.0000262260437
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47415.0,
+        "execution_time": 10.920907,
+        "total_time": 12.936025142669678
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47579.0,
+        "execution_time": 60.422118,
+        "total_time": 102.20648002624512
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45790.0,
+        "execution_time": 0.836372,
+        "total_time": 16.33338499069214
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 43862.0,
+        "execution_time": 4.342545,
+        "total_time": 25.450031995773315
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.152740001678467,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46842,
+        "execution_time": 100.00002717971802,
+        "total_time": 100.00002717971802
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47489.0,
+        "execution_time": 10.87261,
+        "total_time": 12.93015432357788
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47239.0,
+        "execution_time": 58.284109,
+        "total_time": 103.43596005439758
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45714.0,
+        "execution_time": 0.852461,
+        "total_time": 17.028541088104248
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 43669.0,
+        "execution_time": 4.689434,
+        "total_time": 25.101621866226196
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.519212007522583,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46223,
+        "execution_time": 100.00001502037048,
+        "total_time": 100.00001502037048
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 46921.0,
+        "execution_time": 10.80968,
+        "total_time": 12.826728105545044
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 46315.0,
+        "execution_time": 58.094201,
+        "total_time": 103.61434483528137
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45093.0,
+        "execution_time": 0.840527,
+        "total_time": 16.774760961532593
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 43133.0,
+        "execution_time": 4.870322,
+        "total_time": 25.482743978500366
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 26.069525003433228,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 47564,
+        "execution_time": 100.00006294250488,
+        "total_time": 100.00006294250488
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47515.0,
+        "execution_time": 10.942388,
+        "total_time": 12.960320949554443
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47680.0,
+        "execution_time": 57.753553,
+        "total_time": 102.52684688568115
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 46165.0,
+        "execution_time": 0.869163,
+        "total_time": 16.372404098510742
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 44048.0,
+        "execution_time": 4.821015,
+        "total_time": 25.302055835723877
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.365535020828247,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 47789,
+        "execution_time": 100.00003099441528,
+        "total_time": 100.00003099441528
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 48576.0,
+        "execution_time": 10.838424,
+        "total_time": 12.834908246994019
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 48866.0,
+        "execution_time": 59.601954,
+        "total_time": 102.3491141796112
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 47062.0,
+        "execution_time": 0.845823,
+        "total_time": 16.364984035491943
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 45094.0,
+        "execution_time": 4.393746,
+        "total_time": 25.40950298309326
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.375051021575928,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46898,
+        "execution_time": 100.00008392333984,
+        "total_time": 100.00008392333984
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47700.0,
+        "execution_time": 10.836394,
+        "total_time": 12.82179880142212
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47430.0,
+        "execution_time": 58.557135,
+        "total_time": 103.47604703903198
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45861.0,
+        "execution_time": 1.002651,
+        "total_time": 16.659119844436646
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 44075.0,
+        "execution_time": 4.449848,
+        "total_time": 26.280842065811157
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.294859886169434,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 47071,
+        "execution_time": 100.00007700920105,
+        "total_time": 100.00007700920105
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47227.0,
+        "execution_time": 10.912786,
+        "total_time": 12.894406080245972
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47102.0,
+        "execution_time": 58.848106,
+        "total_time": 102.1867299079895
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45589.0,
+        "execution_time": 0.839204,
+        "total_time": 17.742258071899414
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 43693.0,
+        "execution_time": 4.551961,
+        "total_time": 25.604663133621216
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.508677005767822,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 47168,
+        "execution_time": 100.00009202957153,
+        "total_time": 100.00009202957153
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 48336.0,
+        "execution_time": 10.881437,
+        "total_time": 12.867969989776611
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47753.0,
+        "execution_time": 59.84897,
+        "total_time": 102.49514698982239
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 46221.0,
+        "execution_time": 0.84192,
+        "total_time": 16.516865015029907
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 44410.0,
+        "execution_time": 4.299436,
+        "total_time": 25.22665309906006
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.67369294166565,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46993,
+        "execution_time": 100.00006198883057,
+        "total_time": 100.00006198883057
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 47107.0,
+        "execution_time": 10.845161,
+        "total_time": 12.870216131210327
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 47334.0,
+        "execution_time": 57.967145,
+        "total_time": 102.72606801986694
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45729.0,
+        "execution_time": 0.863832,
+        "total_time": 16.361306190490723
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 43580.0,
+        "execution_time": 4.442596,
+        "total_time": 25.275636911392212
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 69,
+    "time_model_formulation": 25.15717601776123,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 46454,
+        "execution_time": 100.00000929832458,
+        "total_time": 100.00000929832458
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 46712.0,
+        "execution_time": 11.48312,
+        "total_time": 13.437595129013062
+      },
+      {
+        "name": "Gurobi 100s",
+        "objective": 46758.0,
+        "execution_time": 60.171377,
+        "total_time": 102.09377789497375
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 45357.0,
+        "execution_time": 0.847263,
+        "total_time": 16.452833890914917
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 43265.0,
+        "execution_time": 5.144053,
+        "total_time": 25.518208026885986
+      },
+      {
+        "name": "D-Wave AS4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave AS6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "D-Wave V2p2.6",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  }
+]
