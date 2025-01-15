@@ -3358,5 +3358,1055 @@
         "total_time": null
       }
     ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.024993896484375,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 38.1594443321228,
+        "total_time": 38.1594443321228
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065432,
+        "total_time": 2.403805732727051
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065514,
+        "total_time": 11.694368600845337
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.005167484283447266,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 41.33785629272461,
+        "total_time": 41.33785629272461
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.06546,
+        "total_time": 2.3801634311676025
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.06535,
+        "total_time": 11.415863513946533
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.00557255744934082,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 39.09964108467102,
+        "total_time": 39.09964108467102
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065163,
+        "total_time": 2.8197479248046875
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065371,
+        "total_time": 11.256107330322266
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.004476070404052734,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 39.5719530582428,
+        "total_time": 39.5719530582428
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.068884,
+        "total_time": 2.165550947189331
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065855,
+        "total_time": 11.096437931060791
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.004006147384643555,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 38.333436727523804,
+        "total_time": 38.333436727523804
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065378,
+        "total_time": 2.7644100189208984
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.076451,
+        "total_time": 13.977880477905273
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.008169889450073242,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 39.82571339607239,
+        "total_time": 39.82571339607239
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065375,
+        "total_time": 2.3988828659057617
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065954,
+        "total_time": 11.065548181533813
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.006026029586791992,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 39.24288845062256,
+        "total_time": 39.24288845062256
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065328,
+        "total_time": 2.1600797176361084
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065398,
+        "total_time": 11.310026407241821
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.005008697509765625,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 38.54148888587952,
+        "total_time": 38.54148888587952
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065651,
+        "total_time": 4.165016412734985
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065603,
+        "total_time": 11.338566303253174
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.005226612091064453,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 38.51212978363037,
+        "total_time": 38.51212978363037
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.0656,
+        "total_time": 2.096519947052002
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065096,
+        "total_time": 11.252145051956177
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 11,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 4.049586776859504,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3],
+      [6, 0, 8, 4, 3, 7, 7, 7, 8, 1, 5],
+      [5, 8, 0, 7, 7, 2, 4, 6, 2, 6, 4],
+      [1, 4, 7, 0, 7, 2, 5, 7, 2, 2, 2],
+      [8, 3, 7, 7, 0, 2, 3, 1, 2, 4, 1],
+      [2, 7, 2, 2, 2, 0, 8, 5, 7, 4, 2],
+      [3, 7, 4, 5, 3, 8, 0, 7, 4, 7, 8],
+      [2, 7, 6, 7, 1, 5, 7, 0, 2, 6, 7],
+      [3, 8, 2, 2, 2, 7, 4, 2, 0, 4, 6],
+      [2, 1, 6, 2, 4, 4, 7, 6, 4, 0, 5],
+      [3, 5, 4, 2, 1, 2, 8, 7, 6, 5, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.005398988723754883,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 38.173906326293945,
+        "total_time": 38.173906326293945
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 24.0,
+        "execution_time": 0.065416,
+        "total_time": 2.280935049057007
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 24.0,
+        "execution_time": 0.065364,
+        "total_time": 11.225977182388306
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.007044076919555664,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.04156041145325,
+        "total_time": 100.04156041145325
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.058276,
+        "total_time": 2.09342360496521
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.058012,
+        "total_time": 11.04990553855896
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.006558656692504883,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01712918281555,
+        "total_time": 100.01712918281555
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.058026,
+        "total_time": 2.1176750659942627
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.057753,
+        "total_time": 11.117219924926758
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.0069735050201416016,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.05023717880249,
+        "total_time": 100.05023717880249
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.057918,
+        "total_time": 3.4284050464630127
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.058084,
+        "total_time": 10.909798383712769
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.0057218074798583984,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.03315567970276,
+        "total_time": 100.03315567970276
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.057999,
+        "total_time": 2.0405611991882324
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.057759,
+        "total_time": 11.11106252670288
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.00892782211303711,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.03425908088684,
+        "total_time": 100.03425908088684
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.05785,
+        "total_time": 2.5758190155029297
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.057972,
+        "total_time": 11.384461641311646
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.006079673767089844,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.05653953552246,
+        "total_time": 100.05653953552246
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.058033,
+        "total_time": 2.0294997692108154
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.057948,
+        "total_time": 11.12293028831482
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.006627082824707031,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.03619432449341,
+        "total_time": 100.03619432449341
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.057804,
+        "total_time": 1.9813709259033203
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.058113,
+        "total_time": 11.047163486480713
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.009596824645996094,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.03147912025452,
+        "total_time": 100.03147912025452
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.057914,
+        "total_time": 2.2230641841888428
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.058088,
+        "total_time": 11.020928144454956
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.005092620849609375,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.0343861579895,
+        "total_time": 100.0343861579895
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.058165,
+        "total_time": 2.102189302444458
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.058124,
+        "total_time": 11.152285099029541
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
+  },
+  {
+    "nodes": 12,
+    "max_edge_weight": 8,
+    "avg_edge_weight": 3.611111111111111,
+    "distance_matrix": [
+      [0, 6, 5, 1, 8, 2, 3, 2, 3, 2, 3, 7],
+      [6, 0, 4, 3, 7, 7, 7, 8, 1, 5, 3, 2],
+      [5, 4, 0, 2, 4, 6, 2, 6, 4, 8, 6, 2],
+      [1, 3, 2, 0, 7, 2, 2, 2, 1, 4, 1, 5],
+      [8, 7, 4, 7, 0, 4, 1, 6, 3, 8, 2, 6],
+      [2, 7, 6, 2, 4, 0, 2, 7, 2, 6, 5, 3],
+      [3, 7, 2, 2, 1, 2, 0, 5, 5, 1, 3, 5],
+      [2, 8, 6, 2, 6, 7, 5, 0, 4, 1, 6, 1],
+      [3, 1, 4, 1, 3, 2, 5, 4, 0, 1, 4, 4],
+      [2, 5, 8, 4, 8, 6, 1, 1, 1, 0, 4, 7],
+      [3, 3, 6, 1, 2, 5, 3, 6, 4, 4, 0, 1],
+      [7, 2, 2, 5, 6, 3, 5, 1, 4, 7, 1, 0]
+    ],
+    "constraint_weight": 1000000,
+    "time_model_formulation": 0.007284879684448242,
+    "solvers_results": [
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.0391902923584,
+        "total_time": 100.0391902923584
+      },
+      {
+        "name": "Fixstars 1s",
+        "objective": 19.0,
+        "execution_time": 0.058061,
+        "total_time": 2.9793057441711426
+      },
+      {
+        "name": "Fixstars 10s",
+        "objective": 19.0,
+        "execution_time": 0.057914,
+        "total_time": 10.935939073562622
+      },
+      {
+        "name": "DWave 4.1",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      },
+      {
+        "name": "DWave 6.4",
+        "objective": null,
+        "execution_time": null,
+        "total_time": null
+      }
+    ]
   }
 ]
