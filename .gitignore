@@ -11,3 +11,6 @@ __pycache__/
 *.so
 
 .vscode/
+
+# Bun
+node_modules

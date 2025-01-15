@@ -10,12 +10,12 @@ from QAP.model import create_model_from_seed
 
 solvers = [
     ("Gurobi 10s", CreateGurobiClient(timeout_sec=10)),
-    ("Gurobi 100s", CreateGurobiClient(timeout_sec=100)),
-    ("Fixstars 1s", CreateFixstarsClient(timeout=1000)),
+    # ("Gurobi 100s", CreateGurobiClient(timeout_sec=100)),
+    # ("Fixstars 1s", CreateFixstarsClient(timeout=1000)),
     ("Fixstars 10s", CreateFixstarsClient(timeout=10000)),
     ("D-Wave AS4.1", CreateDWaveClient("Advantage_system4.1")),
     ("D-Wave AS6.4", CreateDWaveClient("Advantage_system6.4")),
-    ("D-Wave V2p2.6", CreateDWaveClient("Advantage2_prototype2.6")),
+    # ("D-Wave V2p2.6", CreateDWaveClient("Advantage2_prototype2.6")),
 ]
 
 # solvers = [
@@ -26,7 +26,7 @@ solvers = [
 # ]
 
 
-nodes_set = [4, 5, 6, 7, 8, 10, 12, 15, 20, 42, 69]
+nodes_set = [4, 5, 6, 7, 8, 9, 10, 11, 12]
 repeat = 10
 
 results = []
@@ -36,7 +36,7 @@ n = len(nodes_set) * repeat
 for nodes in tqdm(nodes_set, desc="Nodes"):
     for it in tqdm(range(repeat), desc="Repeat"):
         qp_model, time_model_formulation, distance_matrix, interaction_matrix = create_model_from_seed(
-            nodes=nodes, max_edge_weight=9, constraint_weight=1_000_000, extra_seed=f"{it}")
+            nodes=nodes, max_edge_weight=9, constraint_weight=1_000_000)
 
         bf_cost, bf_perm, bf_time = solve_bf(
             interaction_matrix, distance_matrix, timeout_sec=100)
@@ -58,5 +58,5 @@ for nodes in tqdm(nodes_set, desc="Nodes"):
 serializable = list(map(lambda x: asdict(x), results))
 
 # Convert result into json
-with open("QAP/result_v5.json", "w") as f:
+with open("QAP/result_v6.json", "w") as f:
     json.dump(serializable, f)
