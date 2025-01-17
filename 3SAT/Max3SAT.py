@@ -1,5 +1,6 @@
 import re
 import numpy as np
+import time
 from numpy.typing import NDArray
 import sympy
 
@@ -19,7 +20,8 @@ class Max3SAT:
         self.num_literals = num_literals
         self.num_clauses = clauses.shape[0]
         self.clauses = clauses
-        self.QUBO_matrix, self.K = self.problem_3SAT_to_QUBO(self.clauses, self.num_literals)
+        self.QUBO_matrix, self.K, self.time_QUBO_formulation = self.problem_3SAT_to_QUBO(self.clauses, self.num_literals)
+        self.nonzero_element_percentage = np.count_nonzero(self.QUBO_matrix) / (self.QUBO_matrix.shape[0] * self.QUBO_matrix.shape[1]) * 100
 
     def problem_3SAT_to_QUBO(self, clauses: NDArray[np.int_] = None, num_literals: int = None) -> tuple[NDArray[np.int_], int]:
         """
@@ -30,7 +32,7 @@ class Max3SAT:
             num_literals (int): The number of literals in the problem. If None, uses self.num_literals.
 
         Returns:
-            tuple[NDArray[np.int_], int]: A tuple containing the QUBO matrix and the constant term K.
+            tuple[NDArray[np.int_], int]: A tuple containing the QUBO matrix and the constant term K and time took to formulate.
         """
 
         # Use instance attributes if arguments are not provided
@@ -38,6 +40,9 @@ class Max3SAT:
             clauses = self.clauses
         if num_literals is None:
             num_literals = self.num_literals
+
+        time_QUBO_formulation = 0
+        create_QUBO_start = time.time()
 
         num_x = num_literals
         x = sympy.symbols(f'x0:{num_x}')  # x0, x1, ... x_num_x-1
@@ -76,7 +81,13 @@ class Max3SAT:
             elif term == '1':  # Constant term
                 K = coefficient
 
-        return QUBO_matrix, K
+        create_QUBO_end = time.time()
+        time_QUBO_formulation = create_QUBO_end - create_QUBO_start
+
+        print(f"Finished QUBO formulation. [{self.num_literals}, {self.num_clauses}]")
+        print("QUBO formulation time:", time_QUBO_formulation)
+
+        return QUBO_matrix, K, time_QUBO_formulation
     
     def verify(self, result_values: NDArray[np.int_], clauses: NDArray[np.int_] = None) -> tuple[bool, int, list]:
         """

@@ -117,8 +117,7 @@ def create_matrix_with_seed(seed: str, size: int, min: int, max: int, dense_rati
 
 
 def create_qap_input(size: int, min: int, max: int, dense_ratio: float, extra_seed="none"):
-    base_seed = f"size={size};min={min};max={
-        max};dense_ratio={dense_ratio};extra_seed={extra_seed}"
+    base_seed = f"size={size};min={min};max={max};dense_ratio={dense_ratio};extra_seed={extra_seed}"
 
     distance_matrix = create_matrix_with_seed(
         f"problem=qap_distance;{base_seed}", size, min, max, dense_ratio)

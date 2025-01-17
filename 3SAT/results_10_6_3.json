@@ -1,0 +1,2752 @@
+[
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.102130651473999",
+                    "model_formulation_time": "0.006027936935424805"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.061111",
+                    "total_time": "10.727158069610596"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.102130651473999",
+                    "model_formulation_time": "0.006027936935424805"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.015419",
+                    "total_time": "0.26669836044311523"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.102130651473999",
+                    "model_formulation_time": "0.006027936935424805"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.264802",
+                    "total_time": "0.2769019603729248"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.102130651473999",
+                    "model_formulation_time": "0.006027936935424805"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "81.0000000000000",
+                    "max_clauses_satisfied_Verified": "84",
+                    "execution_time": "0.256199",
+                    "total_time": "6.684170484542847"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.102130651473999",
+                    "model_formulation_time": "0.006027936935424805"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "78.0000000000000",
+                    "max_clauses_satisfied_Verified": "84",
+                    "execution_time": "0.190227",
+                    "total_time": "4.971324682235718"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.102130651473999",
+                    "model_formulation_time": "0.006027936935424805"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "map does not have a valid mapping for the input polynomial",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "3.9575483798980713",
+                    "model_formulation_time": "0.006437540054321289"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.061078",
+                    "total_time": "10.662294149398804"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "3.9575483798980713",
+                    "model_formulation_time": "0.006437540054321289"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.014792",
+                    "total_time": "0.34146714210510254"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "3.9575483798980713",
+                    "model_formulation_time": "0.006437540054321289"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.301632",
+                    "total_time": "0.31873035430908203"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "3.9575483798980713",
+                    "model_formulation_time": "0.006437540054321289"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "83.0000000000000",
+                    "max_clauses_satisfied_Verified": "87",
+                    "execution_time": "0.256202",
+                    "total_time": "4.067580938339233"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "3.9575483798980713",
+                    "model_formulation_time": "0.006437540054321289"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "82.0000000000000",
+                    "max_clauses_satisfied_Verified": "86",
+                    "execution_time": "0.190226",
+                    "total_time": "3.897320508956909"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "3.9575483798980713",
+                    "model_formulation_time": "0.006437540054321289"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "map does not have a valid mapping for the input polynomial",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.078727960586548",
+                    "model_formulation_time": "0.0060350894927978516"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.061348",
+                    "total_time": "11.360535621643066"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.078727960586548",
+                    "model_formulation_time": "0.0060350894927978516"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.342145",
+                    "total_time": "0.49010300636291504"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.078727960586548",
+                    "model_formulation_time": "0.0060350894927978516"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.013828",
+                    "total_time": "0.2589223384857178"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.078727960586548",
+                    "model_formulation_time": "0.0060350894927978516"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.256885",
+                    "total_time": "4.1171791553497314"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.078727960586548",
+                    "model_formulation_time": "0.0060350894927978516"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "82.0000000000000",
+                    "max_clauses_satisfied_Verified": "89",
+                    "execution_time": "0.190226",
+                    "total_time": "4.0744850635528564"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "20",
+                    "clauses_count": "91",
+                    "qubo_formulation_time": "4.078727960586548",
+                    "model_formulation_time": "0.0060350894927978516"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "map does not have a valid mapping for the input polynomial",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "15.6109299659729",
+                    "model_formulation_time": "0.042540550231933594"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.060366",
+                    "total_time": "10.752441883087158"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "15.6109299659729",
+                    "model_formulation_time": "0.042540550231933594"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "2.270275",
+                    "total_time": "10.024109601974487"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "15.6109299659729",
+                    "model_formulation_time": "0.042540550231933594"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.8741",
+                    "total_time": "19.95846390724182"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "15.6109299659729",
+                    "model_formulation_time": "0.042540550231933594"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "214.000000000000",
+                    "max_clauses_satisfied_Verified": "215",
+                    "execution_time": "0.224365",
+                    "total_time": "16.286149501800537"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "15.6109299659729",
+                    "model_formulation_time": "0.042540550231933594"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "212.000000000000",
+                    "max_clauses_satisfied_Verified": "216",
+                    "execution_time": "0.165744",
+                    "total_time": "16.761220693588257"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "15.6109299659729",
+                    "model_formulation_time": "0.042540550231933594"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "map does not have a valid mapping for the input polynomial",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.155334949493408",
+                    "model_formulation_time": "0.03394627571105957"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.068017",
+                    "total_time": "10.665266513824463"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.155334949493408",
+                    "model_formulation_time": "0.03394627571105957"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.784336",
+                    "total_time": "10.027734279632568"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.155334949493408",
+                    "model_formulation_time": "0.03394627571105957"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.37462",
+                    "total_time": "14.662552833557129"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.155334949493408",
+                    "model_formulation_time": "0.03394627571105957"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "215.000000000000",
+                    "max_clauses_satisfied_Verified": "216",
+                    "execution_time": "0.224204",
+                    "total_time": "16.93292212486267"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.155334949493408",
+                    "model_formulation_time": "0.03394627571105957"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "210.000000000000",
+                    "max_clauses_satisfied_Verified": "213",
+                    "execution_time": "0.168728",
+                    "total_time": "16.797999620437622"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.155334949493408",
+                    "model_formulation_time": "0.03394627571105957"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "map does not have a valid mapping for the input polynomial",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.290086507797241",
+                    "model_formulation_time": "0.03337216377258301"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.059291",
+                    "total_time": "10.595430135726929"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.290086507797241",
+                    "model_formulation_time": "0.03337216377258301"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "4.822939",
+                    "total_time": "10.079356670379639"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.290086507797241",
+                    "model_formulation_time": "0.03337216377258301"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "6.715093",
+                    "total_time": "22.88339352607727"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.290086507797241",
+                    "model_formulation_time": "0.03337216377258301"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "213.000000000000",
+                    "max_clauses_satisfied_Verified": "214",
+                    "execution_time": "0.225682",
+                    "total_time": "17.164059162139893"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.290086507797241",
+                    "model_formulation_time": "0.03337216377258301"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "206.000000000000",
+                    "max_clauses_satisfied_Verified": "212",
+                    "execution_time": "0.18727",
+                    "total_time": "17.123655080795288"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "50",
+                    "clauses_count": "218",
+                    "qubo_formulation_time": "14.290086507797241",
+                    "model_formulation_time": "0.03337216377258301"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "map does not have a valid mapping for the input polynomial",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "24.152531623840332",
+                    "model_formulation_time": "0.07449722290039062"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.061436",
+                    "total_time": "10.788849353790283"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "24.152531623840332",
+                    "model_formulation_time": "0.07449722290039062"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "324.000000000000",
+                    "max_clauses_satisfied_Verified": "324",
+                    "execution_time": "9.750949",
+                    "total_time": "10.048679828643799"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "24.152531623840332",
+                    "model_formulation_time": "0.07449722290039062"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "62.349481",
+                    "total_time": "78.62340712547302"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "24.152531623840332",
+                    "model_formulation_time": "0.07449722290039062"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "313.000000000000",
+                    "max_clauses_satisfied_Verified": "318",
+                    "execution_time": "0.263462",
+                    "total_time": "20.57191491127014"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "24.152531623840332",
+                    "model_formulation_time": "0.07449722290039062"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "298.000000000000",
+                    "max_clauses_satisfied_Verified": "312",
+                    "execution_time": "0.208447",
+                    "total_time": "21.069589376449585"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "24.152531623840332",
+                    "model_formulation_time": "0.07449722290039062"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.9216148853302",
+                    "model_formulation_time": "0.07368659973144531"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.061622",
+                    "total_time": "10.579264163970947"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.9216148853302",
+                    "model_formulation_time": "0.07368659973144531"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "323.000000000000",
+                    "max_clauses_satisfied_Verified": "323",
+                    "execution_time": "5.985148",
+                    "total_time": "10.062520027160645"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.9216148853302",
+                    "model_formulation_time": "0.07368659973144531"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "51.699047",
+                    "total_time": "64.66071701049805"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.9216148853302",
+                    "model_formulation_time": "0.07368659973144531"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "308.000000000000",
+                    "max_clauses_satisfied_Verified": "316",
+                    "execution_time": "0.266478",
+                    "total_time": "19.84200143814087"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.9216148853302",
+                    "model_formulation_time": "0.07368659973144531"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "300.000000000000",
+                    "max_clauses_satisfied_Verified": "308",
+                    "execution_time": "0.202071",
+                    "total_time": "21.443127155303955"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.9216148853302",
+                    "model_formulation_time": "0.07368659973144531"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.52765154838562",
+                    "model_formulation_time": "0.07540559768676758"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.062498",
+                    "total_time": "10.65024733543396"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.52765154838562",
+                    "model_formulation_time": "0.07540559768676758"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "323.000000000000",
+                    "max_clauses_satisfied_Verified": "323",
+                    "execution_time": "7.586366",
+                    "total_time": "10.047497510910034"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.52765154838562",
+                    "model_formulation_time": "0.07540559768676758"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "56.721735",
+                    "total_time": "56.79810905456543"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.52765154838562",
+                    "model_formulation_time": "0.07540559768676758"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "305.000000000000",
+                    "max_clauses_satisfied_Verified": "314",
+                    "execution_time": "0.261461",
+                    "total_time": "20.356891632080078"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.52765154838562",
+                    "model_formulation_time": "0.07540559768676758"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "300.000000000000",
+                    "max_clauses_satisfied_Verified": "318",
+                    "execution_time": "0.207427",
+                    "total_time": "19.99095916748047"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "75",
+                    "clauses_count": "325",
+                    "qubo_formulation_time": "23.52765154838562",
+                    "model_formulation_time": "0.07540559768676758"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.00066089630127",
+                    "model_formulation_time": "0.13377118110656738"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.76512",
+                    "total_time": "10.720199823379517"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.00066089630127",
+                    "model_formulation_time": "0.13377118110656738"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "426.000000000000",
+                    "max_clauses_satisfied_Verified": "426",
+                    "execution_time": "8.731881",
+                    "total_time": "10.08865761756897"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.00066089630127",
+                    "model_formulation_time": "0.13377118110656738"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "429.000000000000",
+                    "max_clauses_satisfied_Verified": "429",
+                    "execution_time": "75.300246",
+                    "total_time": "100.1432113647461"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.00066089630127",
+                    "model_formulation_time": "0.13377118110656738"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "397.000000000000",
+                    "max_clauses_satisfied_Verified": "415",
+                    "execution_time": "0.290605",
+                    "total_time": "23.055774211883545"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.00066089630127",
+                    "model_formulation_time": "0.13377118110656738"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "389.000000000000",
+                    "max_clauses_satisfied_Verified": "409",
+                    "execution_time": "0.227766",
+                    "total_time": "24.24363112449646"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.00066089630127",
+                    "model_formulation_time": "0.13377118110656738"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.39094829559326",
+                    "model_formulation_time": "0.1308455467224121"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "1.978374",
+                    "total_time": "10.54911184310913"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.39094829559326",
+                    "model_formulation_time": "0.1308455467224121"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "423.000000000000",
+                    "max_clauses_satisfied_Verified": "423",
+                    "execution_time": "8.620966",
+                    "total_time": "10.082653522491455"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.39094829559326",
+                    "model_formulation_time": "0.1308455467224121"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "429.000000000000",
+                    "max_clauses_satisfied_Verified": "429",
+                    "execution_time": "67.939041",
+                    "total_time": "100.13466358184814"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.39094829559326",
+                    "model_formulation_time": "0.1308455467224121"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "395.000000000000",
+                    "max_clauses_satisfied_Verified": "411",
+                    "execution_time": "0.286264",
+                    "total_time": "24.578661680221558"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.39094829559326",
+                    "model_formulation_time": "0.1308455467224121"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "381.000000000000",
+                    "max_clauses_satisfied_Verified": "404",
+                    "execution_time": "0.227529",
+                    "total_time": "24.81696128845215"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.39094829559326",
+                    "model_formulation_time": "0.1308455467224121"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.52534103393555",
+                    "model_formulation_time": "0.13908743858337402"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "2.082855",
+                    "total_time": "10.76252555847168"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.52534103393555",
+                    "model_formulation_time": "0.13908743858337402"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "419.000000000000",
+                    "max_clauses_satisfied_Verified": "419",
+                    "execution_time": "9.057378",
+                    "total_time": "10.072022199630737"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.52534103393555",
+                    "model_formulation_time": "0.13908743858337402"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "92.982428",
+                    "total_time": "95.9314501285553"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.52534103393555",
+                    "model_formulation_time": "0.13908743858337402"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.52534103393555",
+                    "model_formulation_time": "0.13908743858337402"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "393.000000000000",
+                    "max_clauses_satisfied_Verified": "410",
+                    "execution_time": "0.227867",
+                    "total_time": "24.17933702468872"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "100",
+                    "clauses_count": "430",
+                    "qubo_formulation_time": "36.52534103393555",
+                    "model_formulation_time": "0.13908743858337402"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.194591760635376",
+                    "model_formulation_time": "0.20638155937194824"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "538.000000000000",
+                    "max_clauses_satisfied_Verified": "538",
+                    "execution_time": "0.323623",
+                    "total_time": "10.537085771560669"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.194591760635376",
+                    "model_formulation_time": "0.20638155937194824"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "530.000000000000",
+                    "max_clauses_satisfied_Verified": "530",
+                    "execution_time": "0.080756",
+                    "total_time": "10.094478130340576"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.194591760635376",
+                    "model_formulation_time": "0.20638155937194824"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "533.000000000000",
+                    "max_clauses_satisfied_Verified": "533",
+                    "execution_time": "24.467236",
+                    "total_time": "100.15707230567932"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.194591760635376",
+                    "model_formulation_time": "0.20638155937194824"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.194591760635376",
+                    "model_formulation_time": "0.20638155937194824"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.194591760635376",
+                    "model_formulation_time": "0.20638155937194824"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.65123677253723",
+                    "model_formulation_time": "0.20437169075012207"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "538.000000000000",
+                    "max_clauses_satisfied_Verified": "538",
+                    "execution_time": "2.368502",
+                    "total_time": "10.708437204360962"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.65123677253723",
+                    "model_formulation_time": "0.20437169075012207"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "523.000000000000",
+                    "max_clauses_satisfied_Verified": "523",
+                    "execution_time": "0.072681",
+                    "total_time": "10.076553106307983"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.65123677253723",
+                    "model_formulation_time": "0.20437169075012207"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "538.000000000000",
+                    "max_clauses_satisfied_Verified": "538",
+                    "execution_time": "90.715113",
+                    "total_time": "100.1949462890625"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.65123677253723",
+                    "model_formulation_time": "0.20437169075012207"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.65123677253723",
+                    "model_formulation_time": "0.20437169075012207"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "49.65123677253723",
+                    "model_formulation_time": "0.20437169075012207"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "48.2546181678772",
+                    "model_formulation_time": "0.21175241470336914"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "538.000000000000",
+                    "max_clauses_satisfied_Verified": "538",
+                    "execution_time": "0.15558",
+                    "total_time": "10.685345888137817"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "48.2546181678772",
+                    "model_formulation_time": "0.21175241470336914"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "521.000000000000",
+                    "max_clauses_satisfied_Verified": "521",
+                    "execution_time": "5.639319",
+                    "total_time": "10.103582382202148"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "48.2546181678772",
+                    "model_formulation_time": "0.21175241470336914"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "97.480026",
+                    "total_time": "100.19212174415588"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "48.2546181678772",
+                    "model_formulation_time": "0.21175241470336914"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "48.2546181678772",
+                    "model_formulation_time": "0.21175241470336914"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "125",
+                    "clauses_count": "538",
+                    "qubo_formulation_time": "48.2546181678772",
+                    "model_formulation_time": "0.21175241470336914"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "64.72454524040222",
+                    "model_formulation_time": "0.299180269241333"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "645.000000000000",
+                    "max_clauses_satisfied_Verified": "645",
+                    "execution_time": "9.413091",
+                    "total_time": "11.165708780288696"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "64.72454524040222",
+                    "model_formulation_time": "0.299180269241333"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "622.000000000000",
+                    "max_clauses_satisfied_Verified": "622",
+                    "execution_time": "0.086754",
+                    "total_time": "10.091293811798096"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "64.72454524040222",
+                    "model_formulation_time": "0.299180269241333"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "640.000000000000",
+                    "max_clauses_satisfied_Verified": "640",
+                    "execution_time": "34.586529",
+                    "total_time": "100.23153495788574"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "64.72454524040222",
+                    "model_formulation_time": "0.299180269241333"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "64.72454524040222",
+                    "model_formulation_time": "0.299180269241333"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "64.72454524040222",
+                    "model_formulation_time": "0.299180269241333"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.712119817733765",
+                    "model_formulation_time": "0.29442620277404785"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "644.000000000000",
+                    "max_clauses_satisfied_Verified": "644",
+                    "execution_time": "0.219353",
+                    "total_time": "10.85784125328064"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.712119817733765",
+                    "model_formulation_time": "0.29442620277404785"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "632.000000000000",
+                    "max_clauses_satisfied_Verified": "632",
+                    "execution_time": "0.084001",
+                    "total_time": "10.092254161834717"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.712119817733765",
+                    "model_formulation_time": "0.29442620277404785"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "640.000000000000",
+                    "max_clauses_satisfied_Verified": "640",
+                    "execution_time": "36.787591",
+                    "total_time": "100.27192163467407"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.712119817733765",
+                    "model_formulation_time": "0.29442620277404785"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.712119817733765",
+                    "model_formulation_time": "0.29442620277404785"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.712119817733765",
+                    "model_formulation_time": "0.29442620277404785"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.627358198165894",
+                    "model_formulation_time": "0.2986435890197754"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "644.000000000000",
+                    "max_clauses_satisfied_Verified": "644",
+                    "execution_time": "0.405034",
+                    "total_time": "10.707374572753906"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.627358198165894",
+                    "model_formulation_time": "0.2986435890197754"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "628.000000000000",
+                    "max_clauses_satisfied_Verified": "628",
+                    "execution_time": "6.787764",
+                    "total_time": "10.132380723953247"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.627358198165894",
+                    "model_formulation_time": "0.2986435890197754"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "639.000000000000",
+                    "max_clauses_satisfied_Verified": "639",
+                    "execution_time": "26.423918",
+                    "total_time": "100.25640034675598"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.627358198165894",
+                    "model_formulation_time": "0.2986435890197754"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.627358198165894",
+                    "model_formulation_time": "0.2986435890197754"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "150",
+                    "clauses_count": "645",
+                    "qubo_formulation_time": "63.627358198165894",
+                    "model_formulation_time": "0.2986435890197754"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "80.61951112747192",
+                    "model_formulation_time": "0.41861867904663086"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "752.000000000000",
+                    "max_clauses_satisfied_Verified": "752",
+                    "execution_time": "1.807122",
+                    "total_time": "10.905056715011597"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "80.61951112747192",
+                    "model_formulation_time": "0.41861867904663086"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "735.000000000000",
+                    "max_clauses_satisfied_Verified": "735",
+                    "execution_time": "1.00238",
+                    "total_time": "10.205042839050293"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "80.61951112747192",
+                    "model_formulation_time": "0.41861867904663086"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "740.000000000000",
+                    "max_clauses_satisfied_Verified": "740",
+                    "execution_time": "29.217981",
+                    "total_time": "100.37311315536499"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "80.61951112747192",
+                    "model_formulation_time": "0.41861867904663086"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "80.61951112747192",
+                    "model_formulation_time": "0.41861867904663086"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "80.61951112747192",
+                    "model_formulation_time": "0.41861867904663086"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.79569387435913",
+                    "model_formulation_time": "0.41485023498535156"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "753.000000000000",
+                    "max_clauses_satisfied_Verified": "753",
+                    "execution_time": "5.828858",
+                    "total_time": "11.000568389892578"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.79569387435913",
+                    "model_formulation_time": "0.41485023498535156"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "730.000000000000",
+                    "max_clauses_satisfied_Verified": "730",
+                    "execution_time": "2.892207",
+                    "total_time": "10.241943597793579"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.79569387435913",
+                    "model_formulation_time": "0.41485023498535156"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "747.000000000000",
+                    "max_clauses_satisfied_Verified": "747",
+                    "execution_time": "38.544424",
+                    "total_time": "100.34117913246155"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.79569387435913",
+                    "model_formulation_time": "0.41485023498535156"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.79569387435913",
+                    "model_formulation_time": "0.41485023498535156"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.79569387435913",
+                    "model_formulation_time": "0.41485023498535156"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.65297555923462",
+                    "model_formulation_time": "0.4169938564300537"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "752.000000000000",
+                    "max_clauses_satisfied_Verified": "752",
+                    "execution_time": "1.260535",
+                    "total_time": "10.913840770721436"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.65297555923462",
+                    "model_formulation_time": "0.4169938564300537"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "728.000000000000",
+                    "max_clauses_satisfied_Verified": "728",
+                    "execution_time": "0.115743",
+                    "total_time": "10.201467990875244"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.65297555923462",
+                    "model_formulation_time": "0.4169938564300537"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "744.000000000000",
+                    "max_clauses_satisfied_Verified": "744",
+                    "execution_time": "37.247978",
+                    "total_time": "100.33192706108093"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.65297555923462",
+                    "model_formulation_time": "0.4169938564300537"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.65297555923462",
+                    "model_formulation_time": "0.4169938564300537"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "175",
+                    "clauses_count": "753",
+                    "qubo_formulation_time": "79.65297555923462",
+                    "model_formulation_time": "0.4169938564300537"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "99.85454893112183",
+                    "model_formulation_time": "0.5219709873199463"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "858.000000000000",
+                    "max_clauses_satisfied_Verified": "858",
+                    "execution_time": "1.176939",
+                    "total_time": "10.816524028778076"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "99.85454893112183",
+                    "model_formulation_time": "0.5219709873199463"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "827.000000000000",
+                    "max_clauses_satisfied_Verified": "827",
+                    "execution_time": "10.048627",
+                    "total_time": "10.346903562545776"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "99.85454893112183",
+                    "model_formulation_time": "0.5219709873199463"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "851.000000000000",
+                    "max_clauses_satisfied_Verified": "851",
+                    "execution_time": "50.642204",
+                    "total_time": "100.41825413703918"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "99.85454893112183",
+                    "model_formulation_time": "0.5219709873199463"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "99.85454893112183",
+                    "model_formulation_time": "0.5219709873199463"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "99.85454893112183",
+                    "model_formulation_time": "0.5219709873199463"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.61794829368591",
+                    "model_formulation_time": "0.5428106784820557"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "859.000000000000",
+                    "max_clauses_satisfied_Verified": "859",
+                    "execution_time": "2.927325",
+                    "total_time": "10.86787462234497"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.61794829368591",
+                    "model_formulation_time": "0.5428106784820557"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "833.000000000000",
+                    "max_clauses_satisfied_Verified": "833",
+                    "execution_time": "0.132523",
+                    "total_time": "10.32751178741455"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.61794829368591",
+                    "model_formulation_time": "0.5428106784820557"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "850.000000000000",
+                    "max_clauses_satisfied_Verified": "850",
+                    "execution_time": "45.734034",
+                    "total_time": "100.43608689308167"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.61794829368591",
+                    "model_formulation_time": "0.5428106784820557"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.61794829368591",
+                    "model_formulation_time": "0.5428106784820557"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.61794829368591",
+                    "model_formulation_time": "0.5428106784820557"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.5239806175232",
+                    "model_formulation_time": "0.5388896465301514"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "859.000000000000",
+                    "max_clauses_satisfied_Verified": "859",
+                    "execution_time": "2.055954",
+                    "total_time": "10.948270797729492"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.5239806175232",
+                    "model_formulation_time": "0.5388896465301514"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "828.000000000000",
+                    "max_clauses_satisfied_Verified": "828",
+                    "execution_time": "0.127896",
+                    "total_time": "10.269572257995605"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.5239806175232",
+                    "model_formulation_time": "0.5388896465301514"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "848.000000000000",
+                    "max_clauses_satisfied_Verified": "848",
+                    "execution_time": "40.189125",
+                    "total_time": "100.40964150428772"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.5239806175232",
+                    "model_formulation_time": "0.5388896465301514"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.5239806175232",
+                    "model_formulation_time": "0.5388896465301514"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "200",
+                    "clauses_count": "860",
+                    "qubo_formulation_time": "100.5239806175232",
+                    "model_formulation_time": "0.5388896465301514"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "119.65112519264221",
+                    "model_formulation_time": "0.6795635223388672"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "959.000000000000",
+                    "max_clauses_satisfied_Verified": "959",
+                    "execution_time": "2.939353",
+                    "total_time": "10.827565908432007"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "119.65112519264221",
+                    "model_formulation_time": "0.6795635223388672"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "932.000000000000",
+                    "max_clauses_satisfied_Verified": "932",
+                    "execution_time": "0.125264",
+                    "total_time": "10.218302965164185"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "119.65112519264221",
+                    "model_formulation_time": "0.6795635223388672"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "949.000000000000",
+                    "max_clauses_satisfied_Verified": "949",
+                    "execution_time": "56.181921",
+                    "total_time": "100.59043526649475"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "119.65112519264221",
+                    "model_formulation_time": "0.6795635223388672"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "119.65112519264221",
+                    "model_formulation_time": "0.6795635223388672"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "119.65112519264221",
+                    "model_formulation_time": "0.6795635223388672"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "118.87749338150024",
+                    "model_formulation_time": "0.6521351337432861"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "959.000000000000",
+                    "max_clauses_satisfied_Verified": "959",
+                    "execution_time": "0.780745",
+                    "total_time": "10.8673734664917"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "118.87749338150024",
+                    "model_formulation_time": "0.6521351337432861"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "933.000000000000",
+                    "max_clauses_satisfied_Verified": "933",
+                    "execution_time": "6.630194",
+                    "total_time": "10.311006307601929"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "118.87749338150024",
+                    "model_formulation_time": "0.6521351337432861"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "945.000000000000",
+                    "max_clauses_satisfied_Verified": "945",
+                    "execution_time": "47.846146",
+                    "total_time": "100.47935605049133"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "118.87749338150024",
+                    "model_formulation_time": "0.6521351337432861"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "118.87749338150024",
+                    "model_formulation_time": "0.6521351337432861"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "118.87749338150024",
+                    "model_formulation_time": "0.6521351337432861"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "144.36032629013062",
+                    "model_formulation_time": "0.7901821136474609"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "960.000000000000",
+                    "max_clauses_satisfied_Verified": "960",
+                    "execution_time": "3.934002",
+                    "total_time": "11.035528659820557"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "144.36032629013062",
+                    "model_formulation_time": "0.7901821136474609"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "930.000000000000",
+                    "max_clauses_satisfied_Verified": "930",
+                    "execution_time": "0.130484",
+                    "total_time": "10.22204041481018"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "144.36032629013062",
+                    "model_formulation_time": "0.7901821136474609"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "949.000000000000",
+                    "max_clauses_satisfied_Verified": "949",
+                    "execution_time": "67.218658",
+                    "total_time": "100.52783727645874"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "144.36032629013062",
+                    "model_formulation_time": "0.7901821136474609"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "144.36032629013062",
+                    "model_formulation_time": "0.7901821136474609"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "225",
+                    "clauses_count": "960",
+                    "qubo_formulation_time": "144.36032629013062",
+                    "model_formulation_time": "0.7901821136474609"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "iteration": "2",
+        "iteration_results": [
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "146.67819666862488",
+                    "model_formulation_time": "0.8202636241912842"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1064.00000000000",
+                    "max_clauses_satisfied_Verified": "1064",
+                    "execution_time": "1.608869",
+                    "total_time": "10.786155462265015"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "146.67819666862488",
+                    "model_formulation_time": "0.8202636241912842"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1029.00000000000",
+                    "max_clauses_satisfied_Verified": "1029",
+                    "execution_time": "0.141108",
+                    "total_time": "10.248523950576782"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "146.67819666862488",
+                    "model_formulation_time": "0.8202636241912842"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1056.00000000000",
+                    "max_clauses_satisfied_Verified": "1056",
+                    "execution_time": "72.37359",
+                    "total_time": "100.59911894798279"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "146.67819666862488",
+                    "model_formulation_time": "0.8202636241912842"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "146.67819666862488",
+                    "model_formulation_time": "0.8202636241912842"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "146.67819666862488",
+                    "model_formulation_time": "0.8202636241912842"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "147.47854447364807",
+                    "model_formulation_time": "0.8152313232421875"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1063.00000000000",
+                    "max_clauses_satisfied_Verified": "1063",
+                    "execution_time": "1.418536",
+                    "total_time": "10.970494747161865"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "147.47854447364807",
+                    "model_formulation_time": "0.8152313232421875"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1028.00000000000",
+                    "max_clauses_satisfied_Verified": "1028",
+                    "execution_time": "0.14084",
+                    "total_time": "10.274343252182007"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "147.47854447364807",
+                    "model_formulation_time": "0.8152313232421875"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1051.00000000000",
+                    "max_clauses_satisfied_Verified": "1051",
+                    "execution_time": "62.743691",
+                    "total_time": "100.61582350730896"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "147.47854447364807",
+                    "model_formulation_time": "0.8152313232421875"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "147.47854447364807",
+                    "model_formulation_time": "0.8152313232421875"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "147.47854447364807",
+                    "model_formulation_time": "0.8152313232421875"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "145.84289455413818",
+                    "model_formulation_time": "0.8363425731658936"
+                },
+                "solver": "FixStars",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1065.00000000000",
+                    "max_clauses_satisfied_Verified": "1065",
+                    "execution_time": "6.226498",
+                    "total_time": "10.871569871902466"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "145.84289455413818",
+                    "model_formulation_time": "0.8363425731658936"
+                },
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1033.00000000000",
+                    "max_clauses_satisfied_Verified": "1033",
+                    "execution_time": "0.162124",
+                    "total_time": "10.329668283462524"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "145.84289455413818",
+                    "model_formulation_time": "0.8363425731658936"
+                },
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "1050.00000000000",
+                    "max_clauses_satisfied_Verified": "1050",
+                    "execution_time": "72.250721",
+                    "total_time": "100.69411587715149"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "145.84289455413818",
+                    "model_formulation_time": "0.8363425731658936"
+                },
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "145.84289455413818",
+                    "model_formulation_time": "0.8363425731658936"
+                },
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            },
+            {
+                "parameters": {
+                    "literals_count": "250",
+                    "clauses_count": "1065",
+                    "qubo_formulation_time": "145.84289455413818",
+                    "model_formulation_time": "0.8363425731658936"
+                },
+                "solver": "DWaveV2",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    }
+]

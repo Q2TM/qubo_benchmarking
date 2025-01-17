@@ -1,0 +1,92 @@
+[
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "qubo_formulation_time": "4.446556806564331",
+            "model_formulation_time": "0.01803278923034668"
+        },
+        "iteration_results": [
+            {
+                "iteration": "1",
+                "solver": "FixStars1s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.889304",
+                    "total_time": "1.974069595336914"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060199",
+                    "total_time": "10.952943086624146"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "FixStars100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.069215",
+                    "total_time": "100.81349492073059"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.233999",
+                    "total_time": "0.7008683681488037"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "Gurobi100s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.224",
+                    "total_time": "0.2305290699005127"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "Gurobi200s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.190999",
+                    "total_time": "0.19628334045410156"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "DWave4.1",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "89",
+                    "execution_time": "0.258005",
+                    "total_time": "9.127585887908936"
+                }
+            },
+            {
+                "iteration": "1",
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "84.0000000000000",
+                    "max_clauses_satisfied_Verified": "86",
+                    "execution_time": "0.190227",
+                    "total_time": "6.999826908111572"
+                }
+            }
+        ]
+    }
+]
