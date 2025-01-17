@@ -13,12 +13,6 @@
     "time_model_formulation": 0.0203249454498291,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 11.0,
         "execution_time": 0.038015,
@@ -41,6 +35,18 @@
         "objective": 11.0,
         "execution_time": 0.094442,
         "total_time": 3.6663107872009277
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.5020370483398438e-5,
+        "total_time": 1.5020370483398438e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.013116,
+        "total_time": 0.03666090965270996
       }
     ]
   },
@@ -57,12 +63,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -86,6 +86,18 @@
         "objective": 11.0,
         "execution_time": 0.094445,
         "total_time": 3.4923527240753174
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.2874603271484375e-5,
+        "total_time": 1.2874603271484375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.002529,
+        "total_time": 0.0046460628509521484
       }
     ]
   },
@@ -102,12 +114,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010919570922851562,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -131,6 +137,18 @@
         "objective": 11.0,
         "execution_time": 0.094442,
         "total_time": 4.818252086639404
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.0013580322265625e-5,
+        "total_time": 1.0013580322265625e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.001018,
+        "total_time": 0.004366636276245117
       }
     ]
   },
@@ -147,12 +165,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -176,6 +188,18 @@
         "objective": 11.0,
         "execution_time": 0.094442,
         "total_time": 4.643897771835327
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 9.775161743164062e-6,
+        "total_time": 9.775161743164062e-6
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.002489,
+        "total_time": 0.0045740604400634766
       }
     ]
   },
@@ -192,12 +216,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -221,6 +239,18 @@
         "objective": 11.0,
         "execution_time": 0.094445,
         "total_time": 2.890993118286133
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.1682510375976562e-5,
+        "total_time": 1.1682510375976562e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.002224,
+        "total_time": 0.004313945770263672
       }
     ]
   },
@@ -237,12 +267,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0005297660827636719,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -266,6 +290,18 @@
         "objective": 11.0,
         "execution_time": 0.094442,
         "total_time": 2.832561731338501
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.1920928955078125e-5,
+        "total_time": 1.1920928955078125e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.003166,
+        "total_time": 0.005232810974121094
       }
     ]
   },
@@ -282,12 +318,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -311,6 +341,18 @@
         "objective": 11.0,
         "execution_time": 0.094442,
         "total_time": 2.4908080101013184
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.3113021850585938e-5,
+        "total_time": 1.3113021850585938e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.002258,
+        "total_time": 0.004422903060913086
       }
     ]
   },
@@ -327,12 +369,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -356,6 +392,18 @@
         "objective": 11.0,
         "execution_time": 0.094445,
         "total_time": 2.4630637168884277
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.0013580322265625e-5,
+        "total_time": 1.0013580322265625e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.003224,
+        "total_time": 0.005431175231933594
       }
     ]
   },
@@ -372,12 +420,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -401,6 +443,18 @@
         "objective": 11.0,
         "execution_time": 0.094445,
         "total_time": 2.902711868286133
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.2159347534179688e-5,
+        "total_time": 1.2159347534179688e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.002608,
+        "total_time": 0.0047893524169921875
       }
     ]
   },
@@ -417,12 +471,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0009989738464355469,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 11,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 11.0,
@@ -446,6 +494,18 @@
         "objective": 11.0,
         "execution_time": 0.094442,
         "total_time": 3.1131861209869385
+      },
+      {
+        "name": "Brute Force",
+        "objective": 11,
+        "execution_time": 1.0013580322265625e-5,
+        "total_time": 1.0013580322265625e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 11.0,
+        "execution_time": 0.002316,
+        "total_time": 0.004320859909057617
       }
     ]
   },
@@ -463,12 +523,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -492,6 +546,18 @@
         "objective": 15.0,
         "execution_time": 0.099605,
         "total_time": 2.8910651206970215
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 4.00543212890625e-5,
+        "total_time": 4.00543212890625e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004473,
+        "total_time": 0.008623838424682617
       }
     ]
   },
@@ -509,12 +575,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.001035928726196289,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -538,6 +598,18 @@
         "objective": 15.0,
         "execution_time": 0.099605,
         "total_time": 2.5741631984710693
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.5762786865234375e-5,
+        "total_time": 3.5762786865234375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004366,
+        "total_time": 0.00790095329284668
       }
     ]
   },
@@ -555,12 +627,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0012924671173095703,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -584,6 +650,18 @@
         "objective": 15.0,
         "execution_time": 0.099605,
         "total_time": 2.5095555782318115
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.409385681152344e-5,
+        "total_time": 3.409385681152344e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004274,
+        "total_time": 0.007938861846923828
       }
     ]
   },
@@ -601,12 +679,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -630,6 +702,18 @@
         "objective": 15.0,
         "execution_time": 0.099601,
         "total_time": 2.815763235092163
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.1948089599609375e-5,
+        "total_time": 3.1948089599609375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.003945,
+        "total_time": 0.009539127349853516
       }
     ]
   },
@@ -647,12 +731,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -676,6 +754,18 @@
         "objective": 15.0,
         "execution_time": 0.099605,
         "total_time": 2.519486427307129
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.1948089599609375e-5,
+        "total_time": 3.1948089599609375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.006585,
+        "total_time": 0.008475065231323242
       }
     ]
   },
@@ -693,12 +783,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0011677742004394531,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -722,6 +806,18 @@
         "objective": 15.0,
         "execution_time": 0.099601,
         "total_time": 2.6062662601470947
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.2901763916015625e-5,
+        "total_time": 3.2901763916015625e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004864,
+        "total_time": 0.008467912673950195
       }
     ]
   },
@@ -739,12 +835,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0014390945434570312,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0011641979217529297,
-        "total_time": 0.0011641979217529297
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -768,6 +858,18 @@
         "objective": 15.0,
         "execution_time": 0.099601,
         "total_time": 2.882746934890747
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.504753112792969e-5,
+        "total_time": 3.504753112792969e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.003923,
+        "total_time": 0.0074520111083984375
       }
     ]
   },
@@ -785,12 +887,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.001055002212524414,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -814,6 +910,18 @@
         "objective": 15.0,
         "execution_time": 0.099605,
         "total_time": 2.5741477012634277
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 4.100799560546875e-5,
+        "total_time": 4.100799560546875e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004549,
+        "total_time": 0.008553028106689453
       }
     ]
   },
@@ -831,12 +939,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010526180267333984,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -860,6 +962,18 @@
         "objective": 15.0,
         "execution_time": 0.099601,
         "total_time": 3.7637298107147217
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.600120544433594e-5,
+        "total_time": 3.600120544433594e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004922,
+        "total_time": 0.00803685188293457
       }
     ]
   },
@@ -877,12 +991,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 15,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 15.0,
@@ -906,6 +1014,18 @@
         "objective": 15.0,
         "execution_time": 0.099605,
         "total_time": 3.274090528488159
+      },
+      {
+        "name": "Brute Force",
+        "objective": 15,
+        "execution_time": 3.5762786865234375e-5,
+        "total_time": 3.5762786865234375e-5
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 15.0,
+        "execution_time": 0.004044,
+        "total_time": 0.007417917251586914
       }
     ]
   },
@@ -924,12 +1044,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010116100311279297,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -953,6 +1067,18 @@
         "objective": 18.0,
         "execution_time": 0.106163,
         "total_time": 3.1292407512664795
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00020313262939453125,
+        "total_time": 0.00020313262939453125
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004379,
+        "total_time": 0.014348030090332031
       }
     ]
   },
@@ -971,12 +1097,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0018382072448730469,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1000,6 +1120,18 @@
         "objective": 19.0,
         "execution_time": 0.106163,
         "total_time": 3.190931797027588
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00019478797912597656,
+        "total_time": 0.00019478797912597656
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004652,
+        "total_time": 0.014676094055175781
       }
     ]
   },
@@ -1018,12 +1150,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010004043579101562,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1047,6 +1173,18 @@
         "objective": 18.0,
         "execution_time": 0.106166,
         "total_time": 2.960875988006592
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00019407272338867188,
+        "total_time": 0.00019407272338867188
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004343,
+        "total_time": 0.012511968612670898
       }
     ]
   },
@@ -1065,12 +1203,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0019254684448242188,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1094,6 +1226,18 @@
         "objective": 25.0,
         "execution_time": 0.106163,
         "total_time": 3.1495487689971924
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.0001957416534423828,
+        "total_time": 0.0001957416534423828
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.001785,
+        "total_time": 0.014126062393188477
       }
     ]
   },
@@ -1112,12 +1256,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010514259338378906,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1141,6 +1279,18 @@
         "objective": 22.0,
         "execution_time": 0.106163,
         "total_time": 2.735870838165283
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00019502639770507812,
+        "total_time": 0.00019502639770507812
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004387,
+        "total_time": 0.014682769775390625
       }
     ]
   },
@@ -1159,12 +1309,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010006427764892578,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0005049705505371094,
-        "total_time": 0.0005049705505371094
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1188,6 +1332,18 @@
         "objective": 28.0,
         "execution_time": 0.106166,
         "total_time": 2.7297632694244385
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.0001957416534423828,
+        "total_time": 0.0001957416534423828
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004205,
+        "total_time": 0.018571138381958008
       }
     ]
   },
@@ -1206,12 +1362,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0013680458068847656,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.00135040283203125,
-        "total_time": 0.00135040283203125
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1235,6 +1385,18 @@
         "objective": 22.0,
         "execution_time": 0.106163,
         "total_time": 2.726238489151001
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.0002009868621826172,
+        "total_time": 0.0002009868621826172
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004469,
+        "total_time": 0.017795801162719727
       }
     ]
   },
@@ -1253,12 +1415,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0005049705505371094,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0010068416595458984,
-        "total_time": 0.0010068416595458984
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1282,6 +1438,18 @@
         "objective": 26.0,
         "execution_time": 0.106166,
         "total_time": 2.761806011199951
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00021505355834960938,
+        "total_time": 0.00021505355834960938
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004668,
+        "total_time": 0.012989044189453125
       }
     ]
   },
@@ -1300,12 +1468,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002013683319091797,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0009980201721191406,
-        "total_time": 0.0009980201721191406
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1329,6 +1491,18 @@
         "objective": 30.0,
         "execution_time": 0.106163,
         "total_time": 2.7237603664398193
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00019669532775878906,
+        "total_time": 0.00019669532775878906
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004464,
+        "total_time": 0.013642072677612305
       }
     ]
   },
@@ -1347,12 +1521,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010080337524414062,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0,
-        "total_time": 0.0
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1376,6 +1544,18 @@
         "objective": 26.0,
         "execution_time": 0.106163,
         "total_time": 3.830714702606201
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.00020122528076171875,
+        "total_time": 0.00020122528076171875
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.004558,
+        "total_time": 0.014143943786621094
       }
     ]
   },
@@ -1395,12 +1575,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.001996755599975586,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.002014636993408203,
-        "total_time": 0.002014636993408203
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1424,6 +1598,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015223026275634766,
+        "total_time": 0.0015223026275634766
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.019413,
+        "total_time": 0.025322914123535156
       }
     ]
   },
@@ -1443,12 +1629,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0020074844360351562,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.0022580623626708984,
-        "total_time": 0.0022580623626708984
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1472,6 +1652,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015339851379394531,
+        "total_time": 0.0015339851379394531
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.021618,
+        "total_time": 0.0308530330657959
       }
     ]
   },
@@ -1491,12 +1683,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002332448959350586,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.003101348876953125,
-        "total_time": 0.003101348876953125
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1520,6 +1706,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0016078948974609375,
+        "total_time": 0.0016078948974609375
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.027631,
+        "total_time": 0.030767202377319336
       }
     ]
   },
@@ -1539,12 +1737,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0020017623901367188,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.0033228397369384766,
-        "total_time": 0.0033228397369384766
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1568,6 +1760,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0016791820526123047,
+        "total_time": 0.0016791820526123047
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.013499,
+        "total_time": 0.03213095664978027
       }
     ]
   },
@@ -1587,12 +1791,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.001001596450805664,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.002157449722290039,
-        "total_time": 0.002157449722290039
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1616,6 +1814,18 @@
         "objective": 31.0,
         "execution_time": 0.124323,
         "total_time": 3.0150928497314453
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0016040802001953125,
+        "total_time": 0.0016040802001953125
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.032159,
+        "total_time": 0.0341031551361084
       }
     ]
   },
@@ -1635,12 +1845,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0009989738464355469,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.002997875213623047,
-        "total_time": 0.002997875213623047
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1664,6 +1868,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015442371368408203,
+        "total_time": 0.0015442371368408203
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.01983,
+        "total_time": 0.028111934661865234
       }
     ]
   },
@@ -1683,12 +1899,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0020008087158203125,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.003393888473510742,
-        "total_time": 0.003393888473510742
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1712,6 +1922,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015420913696289062,
+        "total_time": 0.0015420913696289062
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.024815,
+        "total_time": 0.02678203582763672
       }
     ]
   },
@@ -1731,12 +1953,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002118349075317383,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.0030133724212646484,
-        "total_time": 0.0030133724212646484
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1760,6 +1976,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015361309051513672,
+        "total_time": 0.0015361309051513672
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.023638,
+        "total_time": 0.024799108505249023
       }
     ]
   },
@@ -1779,12 +2007,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0010063648223876953,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.0028657913208007812,
-        "total_time": 0.0028657913208007812
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1808,6 +2030,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015230178833007812,
+        "total_time": 0.0015230178833007812
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.022071,
+        "total_time": 0.026452064514160156
       }
     ]
   },
@@ -1827,12 +2061,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0020308494567871094,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 0.0032744407653808594,
-        "total_time": 0.0032744407653808594
-      },
       {
         "name": "Fixstars 1s",
         "objective": 22.0,
@@ -1856,6 +2084,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 0.0015277862548828125,
+        "total_time": 0.0015277862548828125
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.010619,
+        "total_time": 0.026330947875976562
       }
     ]
   },
@@ -1876,12 +2116,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002015352249145508,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.035747528076171875,
-        "total_time": 0.035747528076171875
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1905,6 +2139,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013730049133300781,
+        "total_time": 0.013730049133300781
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.024363,
+        "total_time": 0.042170047760009766
       }
     ]
   },
@@ -1925,12 +2171,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002850055694580078,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.029600143432617188,
-        "total_time": 0.029600143432617188
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -1954,6 +2194,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013565778732299805,
+        "total_time": 0.013565778732299805
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.02937,
+        "total_time": 0.03813982009887695
       }
     ]
   },
@@ -1974,12 +2226,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002154827117919922,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.030718326568603516,
-        "total_time": 0.030718326568603516
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2003,6 +2249,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013571023941040039,
+        "total_time": 0.013571023941040039
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.032739,
+        "total_time": 0.03650617599487305
       }
     ]
   },
@@ -2023,12 +2281,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0023818016052246094,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.0286104679107666,
-        "total_time": 0.0286104679107666
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2052,6 +2304,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013556957244873047,
+        "total_time": 0.013556957244873047
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.025672,
+        "total_time": 0.043055057525634766
       }
     ]
   },
@@ -2072,12 +2336,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0021026134490966797,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.030211210250854492,
-        "total_time": 0.030211210250854492
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2101,6 +2359,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013820171356201172,
+        "total_time": 0.013820171356201172
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.044474,
+        "total_time": 0.04974198341369629
       }
     ]
   },
@@ -2121,12 +2391,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0017132759094238281,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.028966665267944336,
-        "total_time": 0.028966665267944336
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2150,6 +2414,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013789892196655273,
+        "total_time": 0.013789892196655273
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.036065,
+        "total_time": 0.040242910385131836
       }
     ]
   },
@@ -2170,12 +2446,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.003009796142578125,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.030336380004882812,
-        "total_time": 0.030336380004882812
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2199,6 +2469,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013815879821777344,
+        "total_time": 0.013815879821777344
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.045137,
+        "total_time": 0.05388903617858887
       }
     ]
   },
@@ -2219,12 +2501,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002652883529663086,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.030474424362182617,
-        "total_time": 0.030474424362182617
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2248,6 +2524,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.013707876205444336,
+        "total_time": 0.013707876205444336
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.043528,
+        "total_time": 0.04849672317504883
       }
     ]
   },
@@ -2268,12 +2556,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002002239227294922,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.02962660789489746,
-        "total_time": 0.02962660789489746
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2297,6 +2579,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.014873027801513672,
+        "total_time": 0.014873027801513672
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.046617,
+        "total_time": 0.05153179168701172
       }
     ]
   },
@@ -2317,12 +2611,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0015063285827636719,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 18,
-        "execution_time": 0.03705191612243652,
-        "total_time": 0.03705191612243652
-      },
       {
         "name": "Fixstars 1s",
         "objective": 18.0,
@@ -2346,6 +2634,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 18,
+        "execution_time": 0.014341115951538086,
+        "total_time": 0.014341115951538086
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 18.0,
+        "execution_time": 0.047847,
+        "total_time": 0.05706429481506348
       }
     ]
   },
@@ -2367,12 +2667,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.003387451171875,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.2906479835510254,
-        "total_time": 0.2906479835510254
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2396,6 +2690,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13637399673461914,
+        "total_time": 0.13637399673461914
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.061126,
+        "total_time": 0.07043290138244629
       }
     ]
   },
@@ -2417,12 +2723,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0032320022583007812,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.27652692794799805,
-        "total_time": 0.27652692794799805
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2446,6 +2746,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13573479652404785,
+        "total_time": 0.13573479652404785
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.070208,
+        "total_time": 0.08572983741760254
       }
     ]
   },
@@ -2467,12 +2779,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.003535032272338867,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.3278219699859619,
-        "total_time": 0.3278219699859619
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2496,6 +2802,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13532304763793945,
+        "total_time": 0.13532304763793945
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.076644,
+        "total_time": 0.08899998664855957
       }
     ]
   },
@@ -2517,12 +2835,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.002712249755859375,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.2721867561340332,
-        "total_time": 0.2721867561340332
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2546,6 +2858,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13759779930114746,
+        "total_time": 0.13759779930114746
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.07012,
+        "total_time": 0.08244085311889648
       }
     ]
   },
@@ -2567,12 +2891,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0034232139587402344,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.271625280380249,
-        "total_time": 0.271625280380249
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2596,6 +2914,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.1372671127319336,
+        "total_time": 0.1372671127319336
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.057642,
+        "total_time": 0.07573509216308594
       }
     ]
   },
@@ -2617,12 +2947,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0034508705139160156,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.27862024307250977,
-        "total_time": 0.27862024307250977
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2646,6 +2970,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13680696487426758,
+        "total_time": 0.13680696487426758
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.060513,
+        "total_time": 0.07779812812805176
       }
     ]
   },
@@ -2667,12 +3003,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.0021181106567382812,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.28768420219421387,
-        "total_time": 0.28768420219421387
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2696,6 +3026,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.1370849609375,
+        "total_time": 0.1370849609375
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.125087,
+        "total_time": 0.13241815567016602
       }
     ]
   },
@@ -2717,12 +3059,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.003518342971801758,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.298842191696167,
-        "total_time": 0.298842191696167
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2746,6 +3082,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13691210746765137,
+        "total_time": 0.13691210746765137
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.055343,
+        "total_time": 0.07910799980163574
       }
     ]
   },
@@ -2767,12 +3115,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.004008054733276367,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.33121347427368164,
-        "total_time": 0.33121347427368164
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2796,6 +3138,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13585805892944336,
+        "total_time": 0.13585805892944336
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.079253,
+        "total_time": 0.08947515487670898
       }
     ]
   },
@@ -2817,12 +3171,6 @@
     "constraint_weight": 1000000,
     "time_model_formulation": 0.005179405212402344,
     "solvers_results": [
-      {
-        "name": "Brute Force",
-        "objective": 20,
-        "execution_time": 0.33531641960144043,
-        "total_time": 0.33531641960144043
-      },
       {
         "name": "Fixstars 1s",
         "objective": 20.0,
@@ -2846,6 +3194,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 20,
+        "execution_time": 0.13689398765563965,
+        "total_time": 0.13689398765563965
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 20.0,
+        "execution_time": 0.099198,
+        "total_time": 0.11522293090820312
       }
     ]
   },
@@ -2869,12 +3229,6 @@
     "time_model_formulation": 0.005004167556762695,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.648286819458008,
-        "total_time": 3.648286819458008
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.058069,
@@ -2897,6 +3251,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4918169975280762,
+        "total_time": 1.4918169975280762
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.114911,
+        "total_time": 0.1240236759185791
       }
     ]
   },
@@ -2920,12 +3286,6 @@
     "time_model_formulation": 0.0030384063720703125,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.347196340560913,
-        "total_time": 3.347196340560913
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.06696,
@@ -2948,6 +3308,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.5243079662322998,
+        "total_time": 1.5243079662322998
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.123303,
+        "total_time": 0.161851167678833
       }
     ]
   },
@@ -2971,12 +3343,6 @@
     "time_model_formulation": 0.003523111343383789,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.5236339569091797,
-        "total_time": 3.5236339569091797
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.058443,
@@ -2999,6 +3365,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.497865915298462,
+        "total_time": 1.497865915298462
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.056913,
+        "total_time": 0.08646583557128906
       }
     ]
   },
@@ -3022,12 +3400,6 @@
     "time_model_formulation": 0.0030841827392578125,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.415822982788086,
-        "total_time": 3.415822982788086
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.058269,
@@ -3050,6 +3422,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.5013880729675293,
+        "total_time": 1.5013880729675293
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.106745,
+        "total_time": 0.11562323570251465
       }
     ]
   },
@@ -3073,12 +3457,6 @@
     "time_model_formulation": 0.004181861877441406,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.6331639289855957,
-        "total_time": 3.6331639289855957
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.059021,
@@ -3101,6 +3479,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4965741634368896,
+        "total_time": 1.4965741634368896
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.106533,
+        "total_time": 0.12143898010253906
       }
     ]
   },
@@ -3124,12 +3514,6 @@
     "time_model_formulation": 0.004502058029174805,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.3486998081207275,
-        "total_time": 3.3486998081207275
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.058117,
@@ -3152,6 +3536,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4928197860717773,
+        "total_time": 1.4928197860717773
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.173293,
+        "total_time": 0.18542933464050293
       }
     ]
   },
@@ -3175,12 +3571,6 @@
     "time_model_formulation": 0.0043599605560302734,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.0969059467315674,
-        "total_time": 3.0969059467315674
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.058083,
@@ -3203,6 +3593,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4840099811553955,
+        "total_time": 1.4840099811553955
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.156963,
+        "total_time": 0.16611814498901367
       }
     ]
   },
@@ -3226,12 +3628,6 @@
     "time_model_formulation": 0.007520198822021484,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.248779058456421,
-        "total_time": 3.248779058456421
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.066888,
@@ -3254,6 +3650,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4861469268798828,
+        "total_time": 1.4861469268798828
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.109509,
+        "total_time": 0.11628913879394531
       }
     ]
   },
@@ -3277,12 +3685,6 @@
     "time_model_formulation": 0.004502534866333008,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.155620813369751,
-        "total_time": 3.155620813369751
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.057872,
@@ -3305,6 +3707,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4914538860321045,
+        "total_time": 1.4914538860321045
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.19677,
+        "total_time": 0.20409607887268066
       }
     ]
   },
@@ -3328,12 +3742,6 @@
     "time_model_formulation": 0.0055239200592041016,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 22,
-        "execution_time": 3.103823661804199,
-        "total_time": 3.103823661804199
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 22.0,
         "execution_time": 0.058114,
@@ -3356,6 +3764,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 22,
+        "execution_time": 1.4948790073394775,
+        "total_time": 1.4948790073394775
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 22.0,
+        "execution_time": 0.176882,
+        "total_time": 0.18064093589782715
       }
     ]
   },
@@ -3380,12 +3800,6 @@
     "time_model_formulation": 0.024993896484375,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 38.1594443321228,
-        "total_time": 38.1594443321228
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065432,
@@ -3408,6 +3822,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.09586787223816,
+        "total_time": 18.09586787223816
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.139724,
+        "total_time": 0.2890653610229492
       }
     ]
   },
@@ -3432,12 +3858,6 @@
     "time_model_formulation": 0.005167484283447266,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 41.33785629272461,
-        "total_time": 41.33785629272461
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.06546,
@@ -3460,6 +3880,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.229932069778442,
+        "total_time": 18.229932069778442
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.242261,
+        "total_time": 0.2959859371185303
       }
     ]
   },
@@ -3484,12 +3916,6 @@
     "time_model_formulation": 0.00557255744934082,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 39.09964108467102,
-        "total_time": 39.09964108467102
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065163,
@@ -3512,6 +3938,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.038672924041748,
+        "total_time": 18.038672924041748
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.204069,
+        "total_time": 0.24526691436767578
       }
     ]
   },
@@ -3536,12 +3974,6 @@
     "time_model_formulation": 0.004476070404052734,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 39.5719530582428,
-        "total_time": 39.5719530582428
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.068884,
@@ -3564,6 +3996,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.421557903289795,
+        "total_time": 18.421557903289795
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.231635,
+        "total_time": 0.2801859378814697
       }
     ]
   },
@@ -3588,12 +4032,6 @@
     "time_model_formulation": 0.004006147384643555,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 38.333436727523804,
-        "total_time": 38.333436727523804
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065378,
@@ -3616,6 +4054,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.029460906982422,
+        "total_time": 18.029460906982422
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.218107,
+        "total_time": 0.2492508888244629
       }
     ]
   },
@@ -3640,12 +4090,6 @@
     "time_model_formulation": 0.008169889450073242,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 39.82571339607239,
-        "total_time": 39.82571339607239
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065375,
@@ -3668,6 +4112,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.252835035324097,
+        "total_time": 18.252835035324097
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.200892,
+        "total_time": 0.21058201789855957
       }
     ]
   },
@@ -3692,12 +4148,6 @@
     "time_model_formulation": 0.006026029586791992,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 39.24288845062256,
-        "total_time": 39.24288845062256
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065328,
@@ -3720,6 +4170,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.355783939361572,
+        "total_time": 18.355783939361572
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.444474,
+        "total_time": 0.4756808280944824
       }
     ]
   },
@@ -3744,12 +4206,6 @@
     "time_model_formulation": 0.005008697509765625,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 38.54148888587952,
-        "total_time": 38.54148888587952
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065651,
@@ -3772,6 +4228,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.976476192474365,
+        "total_time": 18.976476192474365
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.195588,
+        "total_time": 0.2686328887939453
       }
     ]
   },
@@ -3796,12 +4264,6 @@
     "time_model_formulation": 0.005226612091064453,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 38.51212978363037,
-        "total_time": 38.51212978363037
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.0656,
@@ -3824,6 +4286,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.471505880355835,
+        "total_time": 18.471505880355835
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.196541,
+        "total_time": 0.4706559181213379
       }
     ]
   },
@@ -3848,12 +4322,6 @@
     "time_model_formulation": 0.005398988723754883,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 24,
-        "execution_time": 38.173906326293945,
-        "total_time": 38.173906326293945
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 24.0,
         "execution_time": 0.065416,
@@ -3876,6 +4344,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 24,
+        "execution_time": 18.628133058547974,
+        "total_time": 18.628133058547974
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 24.0,
+        "execution_time": 0.196329,
+        "total_time": 0.20458078384399414
       }
     ]
   },
@@ -3901,12 +4381,6 @@
     "time_model_formulation": 0.007044076919555664,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.04156041145325,
-        "total_time": 100.04156041145325
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.058276,
@@ -3929,6 +4403,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01602506637573,
+        "total_time": 100.01602506637573
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.256601,
+        "total_time": 0.27310991287231445
       }
     ]
   },
@@ -3954,12 +4440,6 @@
     "time_model_formulation": 0.006558656692504883,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.01712918281555,
-        "total_time": 100.01712918281555
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.058026,
@@ -3982,6 +4462,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01698613166809,
+        "total_time": 100.01698613166809
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.206965,
+        "total_time": 0.22247910499572754
       }
     ]
   },
@@ -4007,12 +4499,6 @@
     "time_model_formulation": 0.0069735050201416016,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.05023717880249,
-        "total_time": 100.05023717880249
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.057918,
@@ -4035,6 +4521,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01701617240906,
+        "total_time": 100.01701617240906
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.267483,
+        "total_time": 0.29436612129211426
       }
     ]
   },
@@ -4060,12 +4558,6 @@
     "time_model_formulation": 0.0057218074798583984,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.03315567970276,
-        "total_time": 100.03315567970276
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.057999,
@@ -4088,6 +4580,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01511192321777,
+        "total_time": 100.01511192321777
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.255367,
+        "total_time": 0.2727348804473877
       }
     ]
   },
@@ -4113,12 +4617,6 @@
     "time_model_formulation": 0.00892782211303711,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.03425908088684,
-        "total_time": 100.03425908088684
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.05785,
@@ -4141,6 +4639,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 99.99102902412415,
+        "total_time": 99.99102902412415
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.201014,
+        "total_time": 0.24063420295715332
       }
     ]
   },
@@ -4166,12 +4676,6 @@
     "time_model_formulation": 0.006079673767089844,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.05653953552246,
-        "total_time": 100.05653953552246
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.058033,
@@ -4194,6 +4698,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01636528968811,
+        "total_time": 100.01636528968811
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.233497,
+        "total_time": 0.261005163192749
       }
     ]
   },
@@ -4219,12 +4735,6 @@
     "time_model_formulation": 0.006627082824707031,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.03619432449341,
-        "total_time": 100.03619432449341
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.057804,
@@ -4247,6 +4757,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01317691802979,
+        "total_time": 100.01317691802979
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.414508,
+        "total_time": 0.43845415115356445
       }
     ]
   },
@@ -4272,12 +4794,6 @@
     "time_model_formulation": 0.009596824645996094,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.03147912025452,
-        "total_time": 100.03147912025452
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.057914,
@@ -4300,6 +4816,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01643514633179,
+        "total_time": 100.01643514633179
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.231118,
+        "total_time": 0.2450869083404541
       }
     ]
   },
@@ -4325,12 +4853,6 @@
     "time_model_formulation": 0.005092620849609375,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.0343861579895,
-        "total_time": 100.0343861579895
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.058165,
@@ -4353,6 +4875,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.0164361000061,
+        "total_time": 100.0164361000061
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.346987,
+        "total_time": 0.3805539608001709
       }
     ]
   },
@@ -4378,12 +4912,6 @@
     "time_model_formulation": 0.007284879684448242,
     "solvers_results": [
       {
-        "name": "Brute Force",
-        "objective": 19,
-        "execution_time": 100.0391902923584,
-        "total_time": 100.0391902923584
-      },
-      {
         "name": "Fixstars 1s",
         "objective": 19.0,
         "execution_time": 0.058061,
@@ -4406,6 +4934,18 @@
         "objective": null,
         "execution_time": null,
         "total_time": null
+      },
+      {
+        "name": "Brute Force",
+        "objective": 19,
+        "execution_time": 100.01182413101196,
+        "total_time": 100.01182413101196
+      },
+      {
+        "name": "Gurobi 10s",
+        "objective": 19.0,
+        "execution_time": 0.335759,
+        "total_time": 0.35524821281433105
       }
     ]
   }

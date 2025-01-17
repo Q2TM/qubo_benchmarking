@@ -21,16 +21,15 @@ clientDWave41 = CreateDWaveClient("Advantage_system4.1")
 clientDWave64 = CreateDWaveClient("Advantage_system6.4")
 clientDWaveV2 = CreateDWaveClient("Advantage2_prototype2.6")
 
-solvers = [ ("Gurobi 10s", clientG10s),
-           ("Gurobi 100s", clientG100s),
-           ("Fixstars 1s", clientFixstars),
+solvers = [ ("Fixstars 1s", clientFixstars),
            ("Fixstars 10s", clientFixstars10s),
     ("DWave 4.1", clientDWave41),
     ("DWave 6.4", clientDWave64),
    ]
+# solvers = []
 # Set up problems
-nodes = [4, 5, 6, 7, 8, 10, 12, 15, 20, 42, 69]
-repeat = 7
+nodes = [11, 12]
+repeat = 10
 
 
 def run(nodes: int, solver: Literal['Qiskit', 'Amplify'], penalty: int = 1_000_000) -> tuple[Any, list]:
@@ -69,7 +68,7 @@ def run(nodes: int, solver: Literal['Qiskit', 'Amplify'], penalty: int = 1_000_0
 results = []
 for node in tqdm(nodes, desc="Nodes"):
     for it in tqdm(range(repeat), desc="Repeat"):
-        result, errors = run(node, "Amplify", 15_000_000)
+        result, errors = run(node, "Amplify", 1_000_000)
         results.append(result)
 
 for err in errors:
