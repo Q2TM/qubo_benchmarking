@@ -1,0 +1,3122 @@
+[
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "1",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.8230276107788086",
+            "model_formulation_time": "0.0009887218475341797"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039405",
+                    "total_time": "10.799092054367065"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.005409",
+                    "total_time": "0.014002561569213867"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095805",
+                    "total_time": "4.43706750869751"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "2",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.380448579788208",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.03972",
+                    "total_time": "10.863237380981445"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.005047",
+                    "total_time": "0.01601409912109375"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.351423501968384"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "3",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.458965539932251",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039729",
+                    "total_time": "10.856259822845459"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.005559",
+                    "total_time": "0.016002655029296875"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095805",
+                    "total_time": "3.454871654510498"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "4",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.4535038471221924",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039603",
+                    "total_time": "10.817335367202759"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.0047",
+                    "total_time": "0.01396799087524414"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.3426308631896973"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "5",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.45810699462890625",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.03971",
+                    "total_time": "11.009028196334839"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.00508",
+                    "total_time": "0.015997886657714844"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.218496561050415"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "6",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.3623342514038086",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039269",
+                    "total_time": "10.868840217590332"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.005567",
+                    "total_time": "0.014998435974121094"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.3484179973602295"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "7",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.4029994010925293",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039608",
+                    "total_time": "10.817176342010498"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.00451",
+                    "total_time": "0.013997793197631836"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.0920794010162354"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "8",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.382936954498291",
+            "model_formulation_time": "0.0"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039715",
+                    "total_time": "10.855359554290771"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.004723",
+                    "total_time": "0.012995243072509766"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.2873129844665527"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "9",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.44802212715148926",
+            "model_formulation_time": "0.0010006427764892578"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039446",
+                    "total_time": "10.825252771377563"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.024073",
+                    "total_time": "0.03800034523010254"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.128488540649414"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "5",
+            "clauses_count": "15",
+            "iteration": "10",
+            "problem_num": "077",
+            "qubo_formulation_time": "0.3877718448638916",
+            "model_formulation_time": "0.0010008811950683594"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.039359",
+                    "total_time": "11.067015409469604"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.005151",
+                    "total_time": "0.014958858489990234"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "14.0000000000000",
+                    "max_clauses_satisfied_Verified": "15",
+                    "execution_time": "0.095802",
+                    "total_time": "3.5016677379608154"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "1",
+            "problem_num": "099",
+            "qubo_formulation_time": "1.05574369430542",
+            "model_formulation_time": "0.0010075569152832031"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.058076",
+                    "total_time": "10.80752158164978"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.009088",
+                    "total_time": "0.026808977127075195"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106502",
+                    "total_time": "3.415408134460449"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "2",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.858964204788208",
+            "model_formulation_time": "0.0009984970092773438"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.058271",
+                    "total_time": "10.846143245697021"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.020484",
+                    "total_time": "0.04199957847595215"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106502",
+                    "total_time": "3.8619797229766846"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "3",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.9619975090026855",
+            "model_formulation_time": "0.0010001659393310547"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.058084",
+                    "total_time": "10.810721397399902"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.006967",
+                    "total_time": "0.019681215286254883"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.106502",
+                    "total_time": "3.461667537689209"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "4",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.9349942207336426",
+            "model_formulation_time": "0.0010006427764892578"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.057627",
+                    "total_time": "10.879879236221313"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.006585",
+                    "total_time": "0.02096080780029297"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106505",
+                    "total_time": "3.4752514362335205"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "5",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.9629895687103271",
+            "model_formulation_time": "0.0009763240814208984"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.067169",
+                    "total_time": "10.784162044525146"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.00651",
+                    "total_time": "0.020711421966552734"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.106502",
+                    "total_time": "3.3776612281799316"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "6",
+            "problem_num": "099",
+            "qubo_formulation_time": "1.6281185150146484",
+            "model_formulation_time": "0.0009992122650146484"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.058237",
+                    "total_time": "10.87665867805481"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.006877",
+                    "total_time": "0.022034883499145508"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106502",
+                    "total_time": "3.468714475631714"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "7",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.8648128509521484",
+            "model_formulation_time": "0.0010004043579101562"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.05827",
+                    "total_time": "10.908785581588745"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.00704",
+                    "total_time": "0.021990537643432617"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106502",
+                    "total_time": "3.3866498470306396"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "8",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.8628981113433838",
+            "model_formulation_time": "0.001039743423461914"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.058212",
+                    "total_time": "10.838061094284058"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.006668",
+                    "total_time": "0.021872997283935547"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106502",
+                    "total_time": "3.417280912399292"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "9",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.8587534427642822",
+            "model_formulation_time": "0.0009968280792236328"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.058215",
+                    "total_time": "10.932880640029907"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.006823",
+                    "total_time": "0.022012948989868164"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.106505",
+                    "total_time": "4.085377216339111"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "10",
+            "clauses_count": "30",
+            "iteration": "10",
+            "problem_num": "099",
+            "qubo_formulation_time": "0.8520660400390625",
+            "model_formulation_time": "0.00099945068359375"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.057971",
+                    "total_time": "10.790152311325073"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "30",
+                    "execution_time": "0.006638",
+                    "total_time": "0.02100062370300293"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "29.0000000000000",
+                    "max_clauses_satisfied_Verified": "29",
+                    "execution_time": "0.106505",
+                    "total_time": "3.4396653175354004"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "1",
+            "problem_num": "010",
+            "qubo_formulation_time": "2.019200563430786",
+            "model_formulation_time": "0.001994609832763672"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.057235",
+                    "total_time": "10.693105459213257"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010376",
+                    "total_time": "0.11703372001647949"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "52.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.126204",
+                    "total_time": "3.8502705097198486"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "2",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.971696138381958",
+            "model_formulation_time": "0.002996683120727539"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.05723",
+                    "total_time": "10.655051231384277"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010293",
+                    "total_time": "0.11198997497558594"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "52.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.126206",
+                    "total_time": "3.733848810195923"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "3",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.825011968612671",
+            "model_formulation_time": "0.0030002593994140625"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.057565",
+                    "total_time": "10.676079273223877"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010081",
+                    "total_time": "0.10799813270568848"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "51.0000000000000",
+                    "max_clauses_satisfied_Verified": "52",
+                    "execution_time": "0.126206",
+                    "total_time": "4.525051593780518"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "4",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.8050355911254883",
+            "model_formulation_time": "0.0019998550415039062"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.056815",
+                    "total_time": "10.998313903808594"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010304",
+                    "total_time": "0.11500191688537598"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "51.0000000000000",
+                    "max_clauses_satisfied_Verified": "53",
+                    "execution_time": "0.126204",
+                    "total_time": "3.6969704627990723"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "5",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.8122093677520752",
+            "model_formulation_time": "0.0029993057250976562"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.057561",
+                    "total_time": "10.78144907951355"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.012571",
+                    "total_time": "0.10902643203735352"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "52.0000000000000",
+                    "max_clauses_satisfied_Verified": "52",
+                    "execution_time": "0.126206",
+                    "total_time": "3.7215757369995117"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "6",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.806490421295166",
+            "model_formulation_time": "0.002000093460083008"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.057798",
+                    "total_time": "10.801107406616211"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010847",
+                    "total_time": "0.10702705383300781"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "50.0000000000000",
+                    "max_clauses_satisfied_Verified": "53",
+                    "execution_time": "0.126204",
+                    "total_time": "3.8300020694732666"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "7",
+            "problem_num": "010",
+            "qubo_formulation_time": "2.7645440101623535",
+            "model_formulation_time": "0.002033710479736328"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.05789",
+                    "total_time": "11.000775814056396"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.009761",
+                    "total_time": "0.12103080749511719"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "52.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.126206",
+                    "total_time": "3.8846356868743896"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "8",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.838618278503418",
+            "model_formulation_time": "0.002000570297241211"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.057347",
+                    "total_time": "10.669015407562256"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010269",
+                    "total_time": "0.10498189926147461"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "51.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.126206",
+                    "total_time": "3.827970027923584"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "9",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.8695709705352783",
+            "model_formulation_time": "0.003002643585205078"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.066603",
+                    "total_time": "10.750348806381226"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.010381",
+                    "total_time": "0.10699939727783203"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "51.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.126206",
+                    "total_time": "3.822798013687134"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "15",
+            "clauses_count": "55",
+            "iteration": "10",
+            "problem_num": "010",
+            "qubo_formulation_time": "1.8210058212280273",
+            "model_formulation_time": "0.0029921531677246094"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.057369",
+                    "total_time": "10.790344953536987"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "54.0000000000000",
+                    "max_clauses_satisfied_Verified": "55",
+                    "execution_time": "0.010894",
+                    "total_time": "0.11297798156738281"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "51.0000000000000",
+                    "max_clauses_satisfied_Verified": "54",
+                    "execution_time": "0.126206",
+                    "total_time": "3.8570215702056885"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "1",
+            "problem_num": "039",
+            "qubo_formulation_time": "4.944221258163452",
+            "model_formulation_time": "0.005991458892822266"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060479",
+                    "total_time": "10.876420497894287"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.273945",
+                    "total_time": "0.2889981269836426"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "88",
+                    "execution_time": "0.190223",
+                    "total_time": "4.460563659667969"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "2",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.539034605026245",
+            "model_formulation_time": "0.006000518798828125"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.06054",
+                    "total_time": "10.702255725860596"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.314706",
+                    "total_time": "0.32400012016296387"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "84.0000000000000",
+                    "max_clauses_satisfied_Verified": "89",
+                    "execution_time": "0.190227",
+                    "total_time": "4.506816148757935"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "3",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.3917596340179443",
+            "model_formulation_time": "0.0060007572174072266"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060543",
+                    "total_time": "10.662270545959473"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.299293",
+                    "total_time": "0.3119978904724121"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "84.0000000000000",
+                    "max_clauses_satisfied_Verified": "88",
+                    "execution_time": "0.190223",
+                    "total_time": "4.238356828689575"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "4",
+            "problem_num": "039",
+            "qubo_formulation_time": "4.659093618392944",
+            "model_formulation_time": "0.005000591278076172"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060645",
+                    "total_time": "10.767316579818726"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.278981",
+                    "total_time": "0.29259824752807617"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "86.0000000000000",
+                    "max_clauses_satisfied_Verified": "89",
+                    "execution_time": "0.190227",
+                    "total_time": "4.185291051864624"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "5",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.471355438232422",
+            "model_formulation_time": "0.006003141403198242"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.06037",
+                    "total_time": "11.057949304580688"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.270672",
+                    "total_time": "0.27997827529907227"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "87",
+                    "execution_time": "0.190227",
+                    "total_time": "4.200093030929565"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "6",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.6089284420013428",
+            "model_formulation_time": "0.00599980354309082"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060584",
+                    "total_time": "10.749204397201538"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.264383",
+                    "total_time": "0.2949974536895752"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "89",
+                    "execution_time": "0.190227",
+                    "total_time": "4.166787624359131"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "7",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.5967819690704346",
+            "model_formulation_time": "0.006007194519042969"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060412",
+                    "total_time": "10.741912364959717"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.421749",
+                    "total_time": "0.4434375762939453"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "88",
+                    "execution_time": "0.190227",
+                    "total_time": "5.423945903778076"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "8",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.5047500133514404",
+            "model_formulation_time": "0.005964994430541992"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060705",
+                    "total_time": "10.623506546020508"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.324303",
+                    "total_time": "0.3562345504760742"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "86.0000000000000",
+                    "max_clauses_satisfied_Verified": "88",
+                    "execution_time": "0.190227",
+                    "total_time": "4.147193670272827"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "9",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.455170154571533",
+            "model_formulation_time": "0.005999565124511719"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060465",
+                    "total_time": "10.670365571975708"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.297912",
+                    "total_time": "0.3066742420196533"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "89",
+                    "execution_time": "0.190227",
+                    "total_time": "4.250856637954712"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "20",
+            "clauses_count": "91",
+            "iteration": "10",
+            "problem_num": "039",
+            "qubo_formulation_time": "3.4337854385375977",
+            "model_formulation_time": "0.006003141403198242"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.060594",
+                    "total_time": "10.678595542907715"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "91.0000000000000",
+                    "max_clauses_satisfied_Verified": "91",
+                    "execution_time": "0.266801",
+                    "total_time": "0.29199934005737305"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "85.0000000000000",
+                    "max_clauses_satisfied_Verified": "88",
+                    "execution_time": "0.190227",
+                    "total_time": "4.041822195053101"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "1",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.522947072982788",
+            "model_formulation_time": "0.03399968147277832"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.059414",
+                    "total_time": "10.678526639938354"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.688768",
+                    "total_time": "10.031588792800903"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "210.000000000000",
+                    "max_clauses_satisfied_Verified": "215",
+                    "execution_time": "0.193467",
+                    "total_time": "17.087881803512573"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "2",
+            "problem_num": "052",
+            "qubo_formulation_time": "13.859046697616577",
+            "model_formulation_time": "0.03603529930114746"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.059468",
+                    "total_time": "10.607081174850464"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.310884",
+                    "total_time": "10.032968521118164"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "208.000000000000",
+                    "max_clauses_satisfied_Verified": "209",
+                    "execution_time": "0.193467",
+                    "total_time": "17.25463318824768"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "3",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.196358680725098",
+            "model_formulation_time": "0.0350031852722168"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.0594",
+                    "total_time": "10.7058584690094"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "2.973713",
+                    "total_time": "10.027050256729126"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "210.000000000000",
+                    "max_clauses_satisfied_Verified": "212",
+                    "execution_time": "0.193467",
+                    "total_time": "16.98013973236084"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "4",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.46282434463501",
+            "model_formulation_time": "0.035036563873291016"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.059539",
+                    "total_time": "11.873944759368896"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "217.000000000000",
+                    "max_clauses_satisfied_Verified": "217",
+                    "execution_time": "6.559836",
+                    "total_time": "10.039133310317993"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "209.000000000000",
+                    "max_clauses_satisfied_Verified": "213",
+                    "execution_time": "0.193467",
+                    "total_time": "17.71284556388855"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "5",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.266936540603638",
+            "model_formulation_time": "0.03599977493286133"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.059645",
+                    "total_time": "10.598275899887085"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "2.359069",
+                    "total_time": "10.03064227104187"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "212.000000000000",
+                    "max_clauses_satisfied_Verified": "212",
+                    "execution_time": "0.193467",
+                    "total_time": "17.155898571014404"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "6",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.63361144065857",
+            "model_formulation_time": "0.03799581527709961"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.068681",
+                    "total_time": "10.744404077529907"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "9.019565",
+                    "total_time": "10.033166885375977"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "209.000000000000",
+                    "max_clauses_satisfied_Verified": "214",
+                    "execution_time": "0.193467",
+                    "total_time": "17.607625007629395"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "7",
+            "problem_num": "052",
+            "qubo_formulation_time": "12.688462257385254",
+            "model_formulation_time": "0.03501009941101074"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.06848",
+                    "total_time": "10.681822538375854"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "2.522015",
+                    "total_time": "10.034029960632324"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "209.000000000000",
+                    "max_clauses_satisfied_Verified": "212",
+                    "execution_time": "0.193467",
+                    "total_time": "19.222784996032715"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "8",
+            "problem_num": "052",
+            "qubo_formulation_time": "12.746905088424683",
+            "model_formulation_time": "0.0350346565246582"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.146773",
+                    "total_time": "10.687851428985596"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.62002",
+                    "total_time": "10.03266167640686"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "210.000000000000",
+                    "max_clauses_satisfied_Verified": "212",
+                    "execution_time": "0.193467",
+                    "total_time": "17.83232283592224"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "9",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.626550197601318",
+            "model_formulation_time": "0.03400158882141113"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.128516",
+                    "total_time": "10.797903776168823"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.190945",
+                    "total_time": "10.031600713729858"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "210.000000000000",
+                    "max_clauses_satisfied_Verified": "212",
+                    "execution_time": "0.193467",
+                    "total_time": "17.259536027908325"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "50",
+            "clauses_count": "218",
+            "iteration": "10",
+            "problem_num": "052",
+            "qubo_formulation_time": "14.873700618743896",
+            "model_formulation_time": "0.03300285339355469"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "0.128599",
+                    "total_time": "12.680684804916382"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "218.000000000000",
+                    "max_clauses_satisfied_Verified": "218",
+                    "execution_time": "3.693343",
+                    "total_time": "10.044946908950806"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "212.000000000000",
+                    "max_clauses_satisfied_Verified": "215",
+                    "execution_time": "0.193467",
+                    "total_time": "17.316855430603027"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "1",
+            "problem_num": "038",
+            "qubo_formulation_time": "24.737107276916504",
+            "model_formulation_time": "0.07886075973510742"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "1.578434",
+                    "total_time": "10.57672905921936"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "322.000000000000",
+                    "max_clauses_satisfied_Verified": "322",
+                    "execution_time": "6.576729",
+                    "total_time": "10.078177213668823"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "300.000000000000",
+                    "max_clauses_satisfied_Verified": "311",
+                    "execution_time": "0.211569",
+                    "total_time": "23.12093734741211"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "2",
+            "problem_num": "038",
+            "qubo_formulation_time": "22.720635414123535",
+            "model_formulation_time": "0.08300018310546875"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "1.584986",
+                    "total_time": "10.589583158493042"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "320.000000000000",
+                    "max_clauses_satisfied_Verified": "320",
+                    "execution_time": "5.689437",
+                    "total_time": "10.072475910186768"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "304.000000000000",
+                    "max_clauses_satisfied_Verified": "314",
+                    "execution_time": "0.211569",
+                    "total_time": "21.37829327583313"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "3",
+            "problem_num": "038",
+            "qubo_formulation_time": "23.38158416748047",
+            "model_formulation_time": "0.08203291893005371"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "1.419563",
+                    "total_time": "10.740426063537598"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "322.000000000000",
+                    "max_clauses_satisfied_Verified": "322",
+                    "execution_time": "8.841034",
+                    "total_time": "10.086140871047974"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "300.000000000000",
+                    "max_clauses_satisfied_Verified": "312",
+                    "execution_time": "0.211565",
+                    "total_time": "23.1505708694458"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "4",
+            "problem_num": "038",
+            "qubo_formulation_time": "23.079944610595703",
+            "model_formulation_time": "0.07996511459350586"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.190975",
+                    "total_time": "10.585852861404419"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "320.000000000000",
+                    "max_clauses_satisfied_Verified": "320",
+                    "execution_time": "10.015",
+                    "total_time": "10.05906891822815"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "302.000000000000",
+                    "max_clauses_satisfied_Verified": "310",
+                    "execution_time": "0.211565",
+                    "total_time": "20.737342357635498"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "5",
+            "problem_num": "038",
+            "qubo_formulation_time": "22.949007749557495",
+            "model_formulation_time": "0.08100080490112305"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "1.440215",
+                    "total_time": "10.654105186462402"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "320.000000000000",
+                    "max_clauses_satisfied_Verified": "320",
+                    "execution_time": "9.768636",
+                    "total_time": "10.08105731010437"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "302.000000000000",
+                    "max_clauses_satisfied_Verified": "308",
+                    "execution_time": "0.211569",
+                    "total_time": "21.130369901657104"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "6",
+            "problem_num": "038",
+            "qubo_formulation_time": "25.461934804916382",
+            "model_formulation_time": "0.07899785041809082"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.191424",
+                    "total_time": "10.797202348709106"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "321.000000000000",
+                    "max_clauses_satisfied_Verified": "321",
+                    "execution_time": "9.119583",
+                    "total_time": "10.08883285522461"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "299.000000000000",
+                    "max_clauses_satisfied_Verified": "308",
+                    "execution_time": "0.211569",
+                    "total_time": "21.057926416397095"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "7",
+            "problem_num": "038",
+            "qubo_formulation_time": "23.08278226852417",
+            "model_formulation_time": "0.07899928092956543"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.19116",
+                    "total_time": "10.964247226715088"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "321.000000000000",
+                    "max_clauses_satisfied_Verified": "321",
+                    "execution_time": "9.815923",
+                    "total_time": "10.061254262924194"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "297.000000000000",
+                    "max_clauses_satisfied_Verified": "312",
+                    "execution_time": "0.211569",
+                    "total_time": "20.796621084213257"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "8",
+            "problem_num": "038",
+            "qubo_formulation_time": "22.959192752838135",
+            "model_formulation_time": "0.07999897003173828"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.217891",
+                    "total_time": "10.60287880897522"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "322.000000000000",
+                    "max_clauses_satisfied_Verified": "322",
+                    "execution_time": "6.60208",
+                    "total_time": "10.08180046081543"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "298.000000000000",
+                    "max_clauses_satisfied_Verified": "311",
+                    "execution_time": "0.211565",
+                    "total_time": "21.323240995407104"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "9",
+            "problem_num": "038",
+            "qubo_formulation_time": "23.72957992553711",
+            "model_formulation_time": "0.07403373718261719"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.272657",
+                    "total_time": "10.856045484542847"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "321.000000000000",
+                    "max_clauses_satisfied_Verified": "321",
+                    "execution_time": "6.619449",
+                    "total_time": "10.0725417137146"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "297.000000000000",
+                    "max_clauses_satisfied_Verified": "312",
+                    "execution_time": "0.211565",
+                    "total_time": "24.44778323173523"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "75",
+            "clauses_count": "325",
+            "iteration": "10",
+            "problem_num": "038",
+            "qubo_formulation_time": "23.193514585494995",
+            "model_formulation_time": "0.08099889755249023"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "325.000000000000",
+                    "max_clauses_satisfied_Verified": "325",
+                    "execution_time": "0.307338",
+                    "total_time": "10.734410047531128"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "321.000000000000",
+                    "max_clauses_satisfied_Verified": "321",
+                    "execution_time": "6.597877",
+                    "total_time": "10.070607900619507"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "300.000000000000",
+                    "max_clauses_satisfied_Verified": "311",
+                    "execution_time": "0.211569",
+                    "total_time": "21.362794876098633"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "1",
+            "problem_num": "075",
+            "qubo_formulation_time": "38.531331300735474",
+            "model_formulation_time": "0.13699960708618164"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.36976",
+                    "total_time": "10.97484278678894"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "421.000000000000",
+                    "max_clauses_satisfied_Verified": "421",
+                    "execution_time": "9.092916",
+                    "total_time": "10.09224557876587"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "387.000000000000",
+                    "max_clauses_satisfied_Verified": "410",
+                    "execution_time": "0.22798",
+                    "total_time": "26.31222891807556"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "2",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.205766677856445",
+            "model_formulation_time": "0.14403152465820312"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.371502",
+                    "total_time": "10.70969271659851"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "425.000000000000",
+                    "max_clauses_satisfied_Verified": "425",
+                    "execution_time": "0.083115",
+                    "total_time": "10.074304819107056"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "391.000000000000",
+                    "max_clauses_satisfied_Verified": "417",
+                    "execution_time": "0.22798",
+                    "total_time": "26.181365966796875"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "3",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.507463455200195",
+            "model_formulation_time": "0.14403319358825684"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.191817",
+                    "total_time": "10.635125637054443"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "422.000000000000",
+                    "max_clauses_satisfied_Verified": "422",
+                    "execution_time": "0.077461",
+                    "total_time": "10.080432653427124"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "388.000000000000",
+                    "max_clauses_satisfied_Verified": "413",
+                    "execution_time": "0.227981",
+                    "total_time": "26.996497869491577"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "4",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.152525424957275",
+            "model_formulation_time": "0.13503742218017578"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.1898",
+                    "total_time": "10.627660989761353"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "418.000000000000",
+                    "max_clauses_satisfied_Verified": "418",
+                    "execution_time": "0.082992",
+                    "total_time": "10.076128005981445"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "391.000000000000",
+                    "max_clauses_satisfied_Verified": "416",
+                    "execution_time": "0.227981",
+                    "total_time": "26.353108406066895"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "5",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.0829861164093",
+            "model_formulation_time": "0.14403319358825684"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.190039",
+                    "total_time": "10.743863105773926"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "418.000000000000",
+                    "max_clauses_satisfied_Verified": "418",
+                    "execution_time": "0.094035",
+                    "total_time": "10.098649740219116"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "387.000000000000",
+                    "max_clauses_satisfied_Verified": "410",
+                    "execution_time": "0.227981",
+                    "total_time": "26.828389883041382"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "6",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.03500723838806",
+            "model_formulation_time": "0.1459648609161377"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.191598",
+                    "total_time": "10.696567058563232"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "417.000000000000",
+                    "max_clauses_satisfied_Verified": "417",
+                    "execution_time": "0.0823",
+                    "total_time": "10.075792074203491"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "383.000000000000",
+                    "max_clauses_satisfied_Verified": "408",
+                    "execution_time": "0.22798",
+                    "total_time": "26.093528032302856"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "7",
+            "problem_num": "075",
+            "qubo_formulation_time": "35.501793384552",
+            "model_formulation_time": "0.1360311508178711"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.277379",
+                    "total_time": "10.73744249343872"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "418.000000000000",
+                    "max_clauses_satisfied_Verified": "418",
+                    "execution_time": "0.080199",
+                    "total_time": "10.0874342918396"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "387.000000000000",
+                    "max_clauses_satisfied_Verified": "414",
+                    "execution_time": "0.227981",
+                    "total_time": "26.19267201423645"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "8",
+            "problem_num": "075",
+            "qubo_formulation_time": "33.70139694213867",
+            "model_formulation_time": "0.13403558731079102"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.18928",
+                    "total_time": "10.73689866065979"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "417.000000000000",
+                    "max_clauses_satisfied_Verified": "417",
+                    "execution_time": "0.084397",
+                    "total_time": "10.074902772903442"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "382.000000000000",
+                    "max_clauses_satisfied_Verified": "401",
+                    "execution_time": "0.227981",
+                    "total_time": "26.351255416870117"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "9",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.01574993133545",
+            "model_formulation_time": "0.1466808319091797"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.190244",
+                    "total_time": "10.840087175369263"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "421.000000000000",
+                    "max_clauses_satisfied_Verified": "421",
+                    "execution_time": "0.08632",
+                    "total_time": "10.075146675109863"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "387.000000000000",
+                    "max_clauses_satisfied_Verified": "414",
+                    "execution_time": "0.22798",
+                    "total_time": "26.495980501174927"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "100",
+            "clauses_count": "430",
+            "iteration": "10",
+            "problem_num": "075",
+            "qubo_formulation_time": "36.66179180145264",
+            "model_formulation_time": "0.14603376388549805"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "430.000000000000",
+                    "max_clauses_satisfied_Verified": "430",
+                    "execution_time": "0.117999",
+                    "total_time": "10.692697525024414"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "419.000000000000",
+                    "max_clauses_satisfied_Verified": "419",
+                    "execution_time": "1.104483",
+                    "total_time": "10.135165452957153"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "384.000000000000",
+                    "max_clauses_satisfied_Verified": "413",
+                    "execution_time": "0.22798",
+                    "total_time": "26.832240104675293"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "1",
+            "problem_num": "081",
+            "qubo_formulation_time": "52.36442184448242",
+            "model_formulation_time": "0.2089686393737793"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.572941",
+                    "total_time": "10.650336980819702"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "522.000000000000",
+                    "max_clauses_satisfied_Verified": "522",
+                    "execution_time": "0.120876",
+                    "total_time": "10.20519495010376"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "2",
+            "problem_num": "081",
+            "qubo_formulation_time": "49.46039271354675",
+            "model_formulation_time": "0.23003435134887695"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "538.000000000000",
+                    "max_clauses_satisfied_Verified": "538",
+                    "execution_time": "3.958605",
+                    "total_time": "10.716307640075684"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "517.000000000000",
+                    "max_clauses_satisfied_Verified": "517",
+                    "execution_time": "0.121695",
+                    "total_time": "10.188222169876099"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "3",
+            "problem_num": "081",
+            "qubo_formulation_time": "51.619518995285034",
+            "model_formulation_time": "0.2240006923675537"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.228166",
+                    "total_time": "10.594273567199707"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "522.000000000000",
+                    "max_clauses_satisfied_Verified": "522",
+                    "execution_time": "0.158887",
+                    "total_time": "10.210910558700562"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "4",
+            "problem_num": "081",
+            "qubo_formulation_time": "51.70701050758362",
+            "model_formulation_time": "0.23203277587890625"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.139804",
+                    "total_time": "10.663086414337158"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "523.000000000000",
+                    "max_clauses_satisfied_Verified": "523",
+                    "execution_time": "0.123577",
+                    "total_time": "10.196773290634155"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "5",
+            "problem_num": "081",
+            "qubo_formulation_time": "53.82509446144104",
+            "model_formulation_time": "0.2250199317932129"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.161815",
+                    "total_time": "11.650044441223145"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "523.000000000000",
+                    "max_clauses_satisfied_Verified": "523",
+                    "execution_time": "10.036367",
+                    "total_time": "10.19736647605896"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "6",
+            "problem_num": "081",
+            "qubo_formulation_time": "49.552162885665894",
+            "model_formulation_time": "0.22812223434448242"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.230055",
+                    "total_time": "10.851839542388916"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "522.000000000000",
+                    "max_clauses_satisfied_Verified": "522",
+                    "execution_time": "0.120486",
+                    "total_time": "10.2332124710083"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "7",
+            "problem_num": "081",
+            "qubo_formulation_time": "52.28087401390076",
+            "model_formulation_time": "0.22303485870361328"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.33207",
+                    "total_time": "11.250078916549683"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "521.000000000000",
+                    "max_clauses_satisfied_Verified": "521",
+                    "execution_time": "0.117254",
+                    "total_time": "10.174318075180054"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "8",
+            "problem_num": "081",
+            "qubo_formulation_time": "48.20148038864136",
+            "model_formulation_time": "0.22507715225219727"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.445957",
+                    "total_time": "10.783647537231445"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "528.000000000000",
+                    "max_clauses_satisfied_Verified": "528",
+                    "execution_time": "10.026585",
+                    "total_time": "10.21745252609253"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "9",
+            "problem_num": "081",
+            "qubo_formulation_time": "54.248244285583496",
+            "model_formulation_time": "0.230637788772583"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.324826",
+                    "total_time": "10.722777605056763"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "525.000000000000",
+                    "max_clauses_satisfied_Verified": "525",
+                    "execution_time": "0.107786",
+                    "total_time": "10.213571786880493"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    },
+    {
+        "parameters": {
+            "literals_count": "125",
+            "clauses_count": "538",
+            "iteration": "10",
+            "problem_num": "081",
+            "qubo_formulation_time": "52.52937912940979",
+            "model_formulation_time": "0.22598719596862793"
+        },
+        "iteration_results": [
+            {
+                "solver": "FixStars10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "537.000000000000",
+                    "max_clauses_satisfied_Verified": "537",
+                    "execution_time": "0.442204",
+                    "total_time": "10.860414743423462"
+                }
+            },
+            {
+                "solver": "Gurobi10s",
+                "results": {
+                    "max_clauses_satisfied_Obj": "525.000000000000",
+                    "max_clauses_satisfied_Verified": "525",
+                    "execution_time": "10.030118",
+                    "total_time": "10.221550464630127"
+                }
+            },
+            {
+                "solver": "DWave6.4",
+                "results": {
+                    "max_clauses_satisfied_Obj": "both clique and minor embeddings failed: the problem size may be too large to embed in the target graph",
+                    "max_clauses_satisfied_Verified": "None",
+                    "execution_time": "None",
+                    "total_time": "None"
+                }
+            }
+        ]
+    }
+]

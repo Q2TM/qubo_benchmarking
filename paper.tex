@@ -1,0 +1,312 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+%Template version as of 6/27/2024
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+
+\title{Benchmarking Quantum Computing for Combinatorial Optimization\\
+	% {\footnotesize \textsuperscript{*}Note: Sub-titles are not captured for https://ieeexplore.ieee.org  and
+	% should not be used}
+	% \thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{
+\IEEEauthorblockN{1\textsuperscript{st} Name Surname}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Nathan Kittichaikoonkij}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Nutthapat Pongtanyavichai}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{4\textsuperscript{th} Poopha Suwananek}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+}
+
+\maketitle
+
+\begin{abstract}
+Quantum computing, unlike classical computers, has the theoretical potential to outperform even supercomputers in solving specific tasks. Among these tasks, combinatorial optimization problems present significant challenges due to their nature. By encoding these problems into the Quadratic Unconstrained Binary Optimization (QUBO) format, they can be solved using quantum solvers. In this study, we compare the performance of D-Wave's quantum annealing system, which is designed specifically for optimization tasks, with classical solvers: Gurobi and Fixstars. Our findings highlight the strengths and limitations of these approaches, demonstrating the current capabilities of quantum computing while establishing benchmarks for future advancements in the field.
+\end{abstract}
+
+\begin{IEEEkeywords}
+quantum optimization, quantum annealing, combinatorial optimization.
+\end{IEEEkeywords}
+
+\section{Introduction}
+Combinatorial optimization problems lie at the heart of many real-world applications, including logistics, scheduling, and network design. 
+These problems often involve finding the best solution from a finite set of possibilities, which grows exponentially with problem size. 
+Classical solvers have achieved remarkable success in tackling these challenges, leveraging advanced techniques such as linear programming, branch-and-bound, dynamic programming, and heuristic algorithms. 
+State-of-the-art solvers like Gurobi and Fixstars offer robust solutions to problems like the 3-Satisfiability (3SAT), the Quadratic Assignment Problem (QAP), and the Traveling Salesman Problem (TSP). 
+However, as the size and complexity of these problems scale, even the most sophisticated classical approaches face limitations in computational resources and runtime.
+
+Quantum computing has emerged as a transformative approach for addressing the challenges of combinatorial optimization, leveraging quantum mechanical phenomena to potentially outperform classical methods in specific cases. 
+Techniques such as quantum annealing and gate-based quantum algorithms provide novel paradigms for solving optimization problems. 
+Quantum annealing, implemented in systems like D-Wave, formulates optimization problems as a Hamiltonian and evolves the system to find its ground state, utilizing quantum tunneling to overcome local minima \cite{pelofske2024comparinggenerationsdwavequantum}. 
+Gate-based approaches, such as the Quantum Approximate Optimization Algorithm (QAOA), employ parameterized quantum circuits to approximate solutions for Quadratic Unconstrained Binary Optimization (QUBO) problems, offering a flexible framework that is actively explored in the Noisy Intermediate-Scale Quantum (NISQ) era \cite{farhi2014quantumapproximateoptimizationalgorithm}. 
+These methods are being benchmarked to assess their potential in solving real-world optimization problems.
+
+In the current Noisy Intermediate-Scale Quantum (NISQ) era, where quantum systems are characterized by limited coherence times, noise, and susceptibility to errors, quantum annealing (QA) has emerged as a practical approach for solving combinatorial optimization problems. 
+Unlike the gate-based quantum computing model, QA demonstrates resilience by leveraging the quantum tunneling effect to traverse energy barriers, thus avoiding local extrema. 
+This feature makes QA particularly suitable for the NISQ era \cite{9860117}.
+
+QA is rooted in simulated annealing, but employs quantum phenomena for optimization. It is closely linked to the Quadratic Unconstrained Binary Optimization (QUBO) formalism, which has been a standard representation in combinatorial optimization for decades. 
+QUBO serves as the input language for quantum machines like D-Wave Systems and other quantum-inspired technologies such as Fujitsu’s Digital Annealer and NTT's Coherent Ising Machine \cite{9860117}.
+
+This study focuses on benchmarking quantum computing's capabilities for combinatorial optimization problems, examining the strengths and limitations of quantum annealing and gate-based methods. 
+By comparing quantum approaches with classical solvers, we aim to provide insights into the practical potential of quantum computing in optimization and identify the challenges that must be addressed to unlock its full capabilities.
+\section{Preliminaries}
+\subsection{Quadratic Unconstrained Binary Optimization (QUBO)}
+QUBO is a mathematical formulation used to represent optimization problems. 
+It encodes the objective function as a quadratic polynomial in binary variables. 
+The goal is to find a binary vector that minimizes the quadratic cost function\cite{glover2019tutorialformulatingusingqubo}. 
+QUBO problems can be expressed as:
+\begin{equation}
+E(\mathbf{x}) = \mathbf{x}^T Q \mathbf{x},
+\end{equation}
+where $Q$ is a symmetric matrix of weights, and $\mathbf{x}$ is a binary vector \{0, 1\}. 
+QUBO is widely used due to its flexibility in representing problems such as 3SAT, TSP, and QAP.
+
+\subsection{The Ising Model}
+The Ising model is a widely used representation of optimization problems in quantum annealing, formulated to find the ground state of the Hamiltonian:
+
+\begin{equation}
+H = \sum_i h_i \sigma_i^z + \sum_{i < j} J_{ij} \sigma_i^z \sigma_j^z,
+\end{equation}
+
+where \( h_i \) represents local fields, \( J_{ij} \) denotes spin coupling, and \( \sigma_i^z \) are Pauli-Z operators. 
+The Ising model and QUBO are equivalent and can be inter converted using the linear transformation \cite{mandal2020compressedquadratizationhigherorder}:
+
+\begin{equation}
+x_i = \frac{1 + s_i}{2},
+\end{equation}
+
+where \( x_i \) is a binary variable and \( s_i \) is a spin variable \{-1, 1\}.
+
+\subsection{Wave Functions, Observables, and Ansatzes}
+Recent advancements in gate-based quantum computing have demonstrated the application of the Quantum Approximate Optimization Algorithm (QAOA) to solve utility-scale optimization problems. 
+Notably, IBM's Qiskit framework has been instrumental in implementing QAOA for complex tasks such as the Max-Cut problem, scaling computations to over 100 qubits. \cite{qiskit_maxcut_tutorial}
+
+Furthermore, studies have explored the scalability of QAOA on superconducting qubit-based hardware, identifying challenges related to gate fidelity, execution time, and the necessity for numerous measurements. 
+These insights are crucial for enhancing QAOA's performance on large-scale optimization problems \cite{Weidenfeller2022scalingofquantum}.
+
+\section{Methods for Solving QUBO Problems}
+
+\subsection{Classical Methods}
+Classical optimization techniques often utilize Mixed Integer Programming (MIP) solvers to address QUBO problems. 
+These solvers handle quadratic problems involving integer and real variables, including QUBO formulations. 
+For example, the Gurobi Optimizer is a widely used MIP solver that can process QUBO problems by defining the objective function in quadratic form and applying standard optimization algorithms to find the optimal solution \cite{gurobi_amplify}.
+
+\subsection{Quantum Annealing with D-Wave}
+D-Wave systems employ quantum annealing to solve optimization problems by leveraging quantum mechanical effects. 
+The process begins with the initialization of qubits in a superposition of states, representing all possible solutions. 
+The system then evolves toward the ground state of a problem-specific Hamiltonian, which encodes the optimization objective. 
+This evolution is governed by the adiabatic theorem, the system remains in ground state throughout the annealing process, provided the evolution is slow enough to avoid excitations to higher-energy states. The D-Wave quantum annealer implements this process by gradually transforming the initial Hamiltonian into the problem Hamiltonian, allowing the system to settle into the ground state that corresponds to the optimal solution of the QUBO problem. 
+
+\subsection{Gate-Based Quantum Computing}
+Gate-based quantum computing employs quantum circuits to perform computations. For QUBO problems, the Quantum Approximate Optimization Algorithm (QAOA) is commonly used. 
+QAOA applies a series of parameterized quantum gates to prepare a quantum state that encodes the solution to the optimization problem. 
+The algorithm alternates between applying problem-specific and mixing Hamiltonians, with the goal of finding the optimal solution through quantum interference. 
+This method is implemented using quantum programming frameworks such as Qiskit, which provides tools to design and execute quantum circuits on various quantum processors.
+
+
+\section{Methodology}
+
+\subsection{Solvers}
+
+\textbf{Gurobi Optimizer:} A classical solver employing advanced mathematical programming techniques. Runs on CPU with multiple threads. In this study, gurobi was executed on a MacBook Pro 2023 (M2 Max) with a 12-core CPU.
+
+\textbf{Fixstars Amplify QUBO Solver:} A quantum-inspired GPU-accelerated solver optimized for QUBO problems. Our experiments were conducted on the cloud platform using their API.
+
+\textbf{D-Wave Quantum Annealing:} A quantum annealing system designed for optimization tasks. Using API and run on dwave platform. Our experiments were conducted on the cloud platform using their API.
+
+\textbf{Quantum Approximate Optimization Algorithm (QAOA):} A gate-based quantum algorithm for solving QUBO problems. Implemented using Qiskit and executed on IBM's quantum processors. 
+
+\subsection{Datasets}
+The guidelines for selecting benchmark datasets are as follows:
+
+\subsubsection{3SAT} uses a benchmark dataset from... 
+\subsubsection{QAP and TSP} uses fixed seed to randomly generated weight matrices. The size of the matrices ranges from 4 to 10 nodes.
+
+\subsection{Evaluation Metrics}
+We used 2 metrices to evaluate the solvers performance:
+
+%TODO say its gurobi and why we pick this
+\subsubsection{Accuracy} Percentage of the global minima answer given. QAP and TSP, from fig. D-Wave could only solve up to 7 nodes In Fig.~\ref{fig_qap_success},  
+which could be easily solved by bruteforce method. So, we verify the answer with bruteforce. 3SAT can be verified by doing a straight forward boolean algebra.
+%TODO elaborate more on this?
+\subsubsection{Computation Time:} Measure time it takes for the solver to first find the best solution. 
+
+\section{Benchmarking QUBO Solvers}
+
+\subsection{Experimental Results}
+Results from solving 3SAT, QAP, and TSP instances revealed:
+
+\subsubsection{3SAT}
+% TODO: Add 3SAT results
+
+
+\subsubsection{QAP}
+
+\paragraph{Running Benchmark}
+
+Brute Force and Gurobi for QAP results are ran on Macbook Pro 2023 (M2 Max) with 12 Cores CPU. Brute Force runs on single-threaded while Gurobi consumes all available cores. Brute Force timeout was set to 100 seconds.
+
+\paragraph{Success Rate}
+
+According to Fig.~\ref{fig_qap_success}. For Brute Force, Gurobi and Fixstars, these solvers are able to find a feasible solution for all problems. However, for D-Wave, it starts struggling finding feasible solution at $n = 7$ where V2 (Advantage2\_prototype2.6) fails completely, $10\%$ for Advantage\_system6.4 and $70\%$ for Advantage\_system4.1
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{qap-success.png}}
+\caption{Success Count of all solvers in each node size.}
+\label{fig_qap_success}
+\end{figure}
+
+\paragraph{Accuracy Results}
+The accuracy results for solving QAP instances is shown in Fig.~\ref{fig_qap_accuracy}. For small problem size ($n \le 10$), all solvers except D-Wave perform the same (giving same solution) and able to find the optimal solution. As discussed in previous section, we know it is optimal solution as Brute Force successfully iterate all permutations before hitting time limit. For D-Wave, it starts to not perform well starting as low as $n = 5$.
+
+For medium and large problem size ($n \ge 12$), we starts to see increasing Gap between Brute Force and other solvers. Fixstars always perform a little bit better than Gurobi with more significant gap as nodes count increases. Gurobi performs better than Brute Force most of the time but sometimes perform worse than Brute Force especially at large problem size.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{qap-objective-vs-node.png}}
+\caption{Accuracy of all solvers for QAP instances with varying node counts.}
+\label{fig_qap_accuracy}
+\end{figure}
+
+\paragraph{Execution Time}
+
+The execution time shown in this graph is time solvers took to find latest solution. This does not include QP/QUBO model preparation, upload and queue time.
+
+In Fig.~\ref{fig_qap_time_offline}, we can see that Brute Force execution time grows exponentially as the number of nodes increases. Brute Force hit its time limit of 100 seconds at $n = 12$ (Note: $n = 11$ is not tested.) Therefore, we can imply that for $n \le 10$, Brute Force is able to find the optimal solution.
+
+In the same figure, it is also shown that Gurobi execution time grows exponentially and hit its time limit at $n = 12$.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{qap-time-offline-solvers.png}}
+\caption{Execution Time for all Offline Solvers (Brute Force, Gurobi)}
+\label{fig_qap_time_offline}
+\end{figure}
+
+In Fig.~\ref{fig_qap_time_online} and Fig.~\ref{fig_qap_time_dwave}, we can see (TODO)
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{qap-time-online-solvers.png}}
+\caption{Execution Time for all Online Solvers (Fixstars, D-Wave)}
+\label{fig_qap_time_online}
+\end{figure}
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{qap-time-dwave.png}}
+\caption{Execution Time for D-Wave}
+\label{fig_qap_time_dwave}
+\end{figure}
+
+\paragraph{Summary}
+
+\begin{itemize}
+\item Quantum annealers (D-Wave) performs well at smallest problem sizes but face scalability challenges as it perform worse as the problem size increases. Until the size is too big for it to able to solve.
+\item Classical solvers like Gurobi maintain high accuracy and computational efficiency for medium sized problems.
+\item Classical solvers that utilize annealing concept like Fixstars is able to perform fast and well on larger problems.
+\end{itemize}
+
+
+\subsubsection{TSP}
+
+\paragraph{Success Rate}
+Not sure if we should put all our success rate together as one figure and discuss it at methodolgy about the current dwave capability to solve.
+It is from the stress-test period, push dwave to limit before benchmark, and then we design the problem sizes from this information.
+
+\paragraph{Accuracy Results} 
+The accuracy results for solving TSP instances using D-Wave solvers are shown in Fig.~\ref{fig_tsp_accuracy}. 
+For instances with 4 nodes, both D-Wave 4.1 and D-Wave 6.4 achieved 100\% accuracy, matching the performance of classical solvers. 
+However, the accuracy drops significantly as the problem size increases. At 6 nodes, both solvers exhibit a sharp decline in accuracy, and for instances with 7 nodes, the accuracy drops to 0\%, indicating a failure to identify the global minimum.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{tsp_accuracy.png}}
+\caption{Accuracy of D-Wave solvers for TSP instances with varying node counts.}
+\label{fig_tsp_accuracy}
+\end{figure}
+
+\paragraph{Execution Time} 
+The execution time for TSP solvers as a function of the number of nodes is presented in Fig.~\ref{fig_tsp_time}. 
+Classical solvers, including brute force, exhibit an exponential growth in computation time as the number of nodes increases. 
+Although brute force appears faster for smaller problem sizes, its growth rate surpasses other classical solvers starting at \(n=7\). 
+In contrast, quantum solvers maintain a relatively stable execution time regardless of the problem size. 
+
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=0.5\textwidth]{tsp_time_nodes.png}}
+\caption{Execution time of solvers for TSP instances with varying node counts.}
+\label{fig_tsp_time}
+\end{figure}
+
+\paragraph{Summary}
+TBA
+
+\subsection{Discussion}
+
+The experimental results highlight distinct behaviors and limitations of quantum and classical solvers when applied to TSP instances. 
+Below, we delve into the key observations and underlying reasons behind these phenomena.
+\subsubsection{Quantum Solver Scalability and Limitations}
+D-Wave's inability to handle instances beyond \(n = 7\) nodes stems from hardware constraints, specifically the quantum annealer's topology and the process of minor embedding \cite{Lidar2021}. Quantum annealers like D-Wave rely on embedding logical problem graphs into the physical qubit topology, such as the Chimera or Pegasus structures. As the number of nodes increases, the embedding process requires more physical qubits to represent logical nodes and connections. This rapidly exhausts available hardware resources, limiting scalability.
+
+\subsubsection{Accuracy Degradation}
+The accuracy of D-Wave solvers declines significantly as the problem size increases. At \(n=4\), both D-Wave 4.1 and 6.4 achieve perfect accuracy. 
+However, accuracy drops markedly at \(n=6\) and becomes zero at \(n=7\). This behavior can be attributed to increasing problem complexity, analog control errors, and noise in the quantum annealing process. 
+Larger problem sizes lead to more intricate energy landscapes, where quantum annealers may struggle to find the global minima within the limited annealing time.
+
+\subsubsection{Execution Time Trends}
+One striking observation is the relatively stable execution time of D-Wave solvers, contrasting with the exponential growth observed in classical solvers. Notably, D-Wave 4.1 demonstrates a slight decrease in execution time at \(n=7\). 
+This phenomenon is attributed to the quantum annealer's fixed minimum annealing duration, which imposes a lower bound on execution times for small problems. 
+As problem sizes approach the quantum annealer's optimal performance range, the relative impact of this overhead diminishes, potentially leading to reduced execution times for specific problem instances. 
+
+In contrast, classical solvers like Gurobi and Fixstars exhibit exponential time growth due to the combinatorial nature of TSP. 
+This highlights a key potential advantage of quantum solvers: their ability to maintain stable execution times within the limits of their hardware capabilities. 
+While this does not yet constitute \textbf{quantum speed-up} in the strictest sense, it underscores the promise of quantum annealing for solving optimization problems.
+
+
+\section{Conclusion}
+Quantum computing holds promise for solving combinatorial optimization problems, with quantum annealing showing potential in this area. 
+In our experiments, D-Wave demonstrated slower computation times compared to classical solvers such as Gurobi and Fixstars in most cases. 
+However, the growth in computation time for D-Wave was minimal as problem size increased, while Gurobi and Fixstars exhibited noticeable growth rates. 
+
+This paper presents benchmarks focused on the performance of D-Wave's quantum annealer, strictly within a quantum computing framework, without the use of parameter tuning and hybrid methods. 
+A better performance could be achieved by adjusting parameters like \textbf{num reads, annealing time and chain strengths} \cite{villarrodriguez2022analyzingbehaviourdwavequantum}. 
+
+The results highlight both the potential and the current limitations of quantum annealing. Key challenges include improving embedding techniques, mitigating errors, and scaling hardware capabilities. 
+Overcoming these obstacles will be crucial for realizing the full potential of quantum solvers. 
+Meanwhile, classical solvers continue to dominate for large problem instances, especially when high accuracy is required. Nevertheless, quantum annealers exhibit promise for specific applications and smaller problem sizes, suggesting that further research and exploration are needed.
+
+\section*{Acknowledgment}
+
+The authors thank Lim Chee Keen for helpful discussions. 
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\vspace{12pt}
+
+\end{document}
